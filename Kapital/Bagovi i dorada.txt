@@ -1,0 +1,6 @@
+-	Pri kupovini deonica od drugog igrača, kad više igrača imaju najmanje, pa se aktivira dugme uzmi, ne oduzme se deonica igraču od koga se izabere da se kupi.
+-	Naći način da se piše za koju industriju je kupljen kontinent.
+-	Kad se oduzme korporacija, ne vidi se status kontinenata, iako igrač ima još 1 korporaciju.
+-	Kad se oduzme korporacija, treba prodati sve kontinente.
+-	Kad se proda deonica, ne treba pozvati Cancel(), nego pustiti igrača da proda još istih deonica.
+-	Kad se izabere nova igra, prvo postaviti prozor na najveću širinu, pa onda smanjivati.

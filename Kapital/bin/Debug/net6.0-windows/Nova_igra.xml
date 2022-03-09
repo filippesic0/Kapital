@@ -1,0 +1,1443 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ChildForm>
+  <Control Type="System.Windows.Forms.Button" Name="nova_igra">
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="kontinent1">
+    <Visible>False</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="kontinent2">
+    <Visible>False</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="kontinent3">
+    <Visible>False</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="kontinent4">
+    <Visible>False</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="kontinent5">
+    <Visible>False</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="kontinent6">
+    <Visible>False</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="oduzminovac">
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="dodajnovac">
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="cancel">
+    <Visible>False</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="brani">
+    <Visible>False</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="nebrani">
+    <Visible>False</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="deonice1">
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="deonice2">
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="deonice3">
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="deonice4">
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="deonice5">
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="deonice6">
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="deonice7">
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="deonice8">
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="proizvodnja1">
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="proizvodnja2">
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="proizvodnja3">
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="proizvodnja4">
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="proizvodnja5">
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="proizvodnja6">
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="proizvodnja7">
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="proizvodnja8">
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="veleprodaja1">
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="veleprodaja2">
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="veleprodaja3">
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="veleprodaja4">
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="veleprodaja5">
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="veleprodaja6">
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="veleprodaja7">
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="veleprodaja8">
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="maloprodaja1">
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="maloprodaja2">
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="maloprodaja3">
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="maloprodaja4">
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="maloprodaja5">
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="maloprodaja6">
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="maloprodaja7">
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="maloprodaja8">
+    <Visible>True</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="korporacija5">
+    <Visible>False</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="korporacija6">
+    <Visible>False</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="korporacija2">
+    <Visible>False</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="korporacija7">
+    <Visible>False</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="korporacija8">
+    <Visible>False</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="korporacija3">
+    <Visible>False</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="korporacija1">
+    <Visible>False</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.Button" Name="korporacija4">
+    <Visible>False</Visible>
+  </Control>
+  <Control Type="System.Windows.Forms.GroupBox" Name="igrac6">
+    <Visible>True</Visible>
+    <Control Type="System.Windows.Forms.TextBox" Name="kontinent66">
+      <Text>0</Text>
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="dodaj_novac6">
+      <Text />
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="kontinent65">
+      <Text>0</Text>
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="trenutna_dividenda6">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="kontinent64">
+      <Text>0</Text>
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.Button" Name="dividenda6">
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="kontinent63">
+      <Text>0</Text>
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.Button" Name="izgubi6">
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="kontinent62">
+      <Text>0</Text>
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.Button" Name="uzmi6">
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="kontinent61">
+      <Text>0</Text>
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.Button" Name="prodaj6">
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.Button" Name="kupi6">
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="novac6">
+      <Text>100000</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija66">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja61">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija67">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice68">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija64">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja62">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija68">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice66">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija63">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja65">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija65">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice67">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija62">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja63">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija61">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice64">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja68">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice63">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja64">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice65">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja67">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice62">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja66">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice61">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja61">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja62">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja65">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja63">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja68">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja64">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja67">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja66">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja61">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja66">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja62">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja67">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja65">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja64">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja63">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja68">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+  </Control>
+  <Control Type="System.Windows.Forms.GroupBox" Name="igrac3">
+    <Visible>True</Visible>
+    <Control Type="System.Windows.Forms.TextBox" Name="kontinent36">
+      <Text>0</Text>
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="dodaj_novac3">
+      <Text />
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="kontinent35">
+      <Text>0</Text>
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="trenutna_dividenda3">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="kontinent34">
+      <Text>0</Text>
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.Button" Name="dividenda3">
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="kontinent33">
+      <Text>0</Text>
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.Button" Name="izgubi3">
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="kontinent32">
+      <Text>0</Text>
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.Button" Name="uzmi3">
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="kontinent31">
+      <Text>0</Text>
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.Button" Name="prodaj3">
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.Button" Name="kupi3">
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="novac3">
+      <Text>100000</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja31">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija38">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice38">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja32">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice36">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija36">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja35">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice37">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja33">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice34">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja38">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija31">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice33">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja34">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice35">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja37">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija37">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija32">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice32">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja36">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice31">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja33">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja36">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja32">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja37">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja36">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja37">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja31">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja31">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja32">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja35">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija35">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja38">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija33">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja34">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija34">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja35">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja34">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja33">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja38">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+  </Control>
+  <Control Type="System.Windows.Forms.GroupBox" Name="igrac5">
+    <Visible>True</Visible>
+    <Control Type="System.Windows.Forms.TextBox" Name="kontinent56">
+      <Text>0</Text>
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="dodaj_novac5">
+      <Text />
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="kontinent55">
+      <Text>0</Text>
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="trenutna_dividenda5">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="kontinent54">
+      <Text>0</Text>
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.Button" Name="dividenda5">
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="kontinent53">
+      <Text>0</Text>
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.Button" Name="izgubi5">
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="kontinent52">
+      <Text>0</Text>
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.Button" Name="uzmi5">
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="kontinent51">
+      <Text>0</Text>
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.Button" Name="prodaj5">
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.Button" Name="kupi5">
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="novac5">
+      <Text>100000</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja51">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija56">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice58">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja52">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija57">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice56">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja55">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice57">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija54">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja53">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice54">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja58">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija58">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice53">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja54">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija53">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice55">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja57">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija55">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice52">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija52">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja56">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija51">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice51">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja51">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja52">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja55">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja53">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja58">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja54">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja57">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja56">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja51">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja56">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja52">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja57">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja55">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja54">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja53">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja58">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+  </Control>
+  <Control Type="System.Windows.Forms.GroupBox" Name="igrac2">
+    <Visible>True</Visible>
+    <Control Type="System.Windows.Forms.TextBox" Name="kontinent26">
+      <Text>0</Text>
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="dodaj_novac2">
+      <Text />
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="kontinent25">
+      <Text>0</Text>
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="trenutna_dividenda2">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="kontinent24">
+      <Text>0</Text>
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.Button" Name="dividenda2">
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="kontinent23">
+      <Text>0</Text>
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.Button" Name="izgubi2">
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="kontinent22">
+      <Text>0</Text>
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.Button" Name="uzmi2">
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="kontinent21">
+      <Text>0</Text>
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.Button" Name="prodaj2">
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.Button" Name="kupi2">
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="novac2">
+      <Text>100000</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja21">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija25">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija21">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija22">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice28">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja22">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija23">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija28">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice26">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja25">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija24">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija27">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice27">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja23">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija26">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice24">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja28">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice23">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja24">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice25">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja27">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice22">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja26">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice21">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja25">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja27">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja23">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja26">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja28">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja21">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja22">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja24">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja21">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja25">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja23">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja22">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja26">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja27">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja24">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja28">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+  </Control>
+  <Control Type="System.Windows.Forms.GroupBox" Name="igrac4">
+    <Visible>True</Visible>
+    <Control Type="System.Windows.Forms.TextBox" Name="kontinent46">
+      <Text>0</Text>
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="dodaj_novac4">
+      <Text />
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="kontinent45">
+      <Text>0</Text>
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="trenutna_dividenda4">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="kontinent44">
+      <Text>0</Text>
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.Button" Name="dividenda4">
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="kontinent43">
+      <Text>0</Text>
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.Button" Name="izgubi4">
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="kontinent42">
+      <Text>0</Text>
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.Button" Name="uzmi4">
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="kontinent41">
+      <Text>0</Text>
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.Button" Name="prodaj4">
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.Button" Name="kupi4">
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="novac4">
+      <Text>100000</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja41">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice48">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija46">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja42">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice46">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja45">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice47">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija47">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja43">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice44">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja48">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice43">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja44">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice45">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija44">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja47">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice42">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja46">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice41">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja41">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija48">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja42">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja45">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija43">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja43">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija41">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja48">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija42">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja44">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija45">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja47">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja46">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja41">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja46">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja42">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja47">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja45">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja44">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja43">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja48">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+  </Control>
+  <Control Type="System.Windows.Forms.GroupBox" Name="igrac1">
+    <Visible>True</Visible>
+    <Control Type="System.Windows.Forms.TextBox" Name="kontinent11">
+      <Text>0</Text>
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="kontinent12">
+      <Text>0</Text>
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="kontinent13">
+      <Text>0</Text>
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="kontinent14">
+      <Text>0</Text>
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="kontinent15">
+      <Text>0</Text>
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="kontinent16">
+      <Text>0</Text>
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="dodaj_novac1">
+      <Text />
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="trenutna_dividenda1">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.Button" Name="dividenda1">
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.Button" Name="izgubi1">
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.Button" Name="uzmi1">
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.Button" Name="prodaj1">
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.Button" Name="kupi1">
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="novac1">
+      <Text>100000</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja11">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija12">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija11">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija15">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice18">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja12">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija18">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija13">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice16">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija14">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja15">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija17">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice17">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja13">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="korporacija16">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice14">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja18">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice13">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja14">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice15">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja17">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice12">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="maloprodaja16">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="deonice11">
+      <Text>0</Text>
+      <Visible>True</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja12">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja18">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja11">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja15">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja13">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja14">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja12">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja15">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja17">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja14">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja11">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="veleprodaja16">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja16">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja17">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja13">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+    <Control Type="System.Windows.Forms.TextBox" Name="proizvodnja18">
+      <Text />
+      <Visible>False</Visible>
+    </Control>
+  </Control>
+</ChildForm>
