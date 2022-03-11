@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\filip\\Documents\\Visual Studio\\Projects\\Igre\\Kapital\\Kapital\\Kapital.csproj": {}
+    "C:\\Users\\filip\\Documents\\Visual Studio\\Projects\\Igre\\Kapital\\Kapital.csproj": {}
   },
   "projects": {
-    "C:\\Users\\filip\\Documents\\Visual Studio\\Projects\\Igre\\Kapital\\Kapital\\Kapital.csproj": {
+    "C:\\Users\\filip\\Documents\\Visual Studio\\Projects\\Igre\\Kapital\\Kapital.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\filip\\Documents\\Visual Studio\\Projects\\Igre\\Kapital\\Kapital\\Kapital.csproj",
+        "projectUniqueName": "C:\\Users\\filip\\Documents\\Visual Studio\\Projects\\Igre\\Kapital\\Kapital.csproj",
         "projectName": "Kapital",
-        "projectPath": "C:\\Users\\filip\\Documents\\Visual Studio\\Projects\\Igre\\Kapital\\Kapital\\Kapital.csproj",
+        "projectPath": "C:\\Users\\filip\\Documents\\Visual Studio\\Projects\\Igre\\Kapital\\Kapital.csproj",
         "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\filip\\Documents\\Visual Studio\\Projects\\Igre\\Kapital\\Kapital\\obj\\",
+        "outputPath": "C:\\Users\\filip\\Documents\\Visual Studio\\Projects\\Igre\\Kapital\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

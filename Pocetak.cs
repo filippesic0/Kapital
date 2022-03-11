@@ -1,4 +1,6 @@
-﻿namespace Kapital
+﻿using FormSerialisation;
+
+namespace Kapital
 {
 	public partial class Pocetak : Form
 	{
@@ -22,9 +24,8 @@
 		{
 			string[] imena = new string[6];
 			for (int i = 0; i < 6; i++)
-			{
 				imena[i] = igrac[i].Text;
-			}
+			FormSerialisor.Deserialise(kapital, Application.StartupPath + @"\Nova_igra.xml");
 			kapital.Nova_igra(imena);
 			kapital.Show();
 			this.Close();
@@ -33,7 +34,7 @@
 		private void cancel_Click(object sender, EventArgs e)
 		{
 			kapital.Show();
-			this.Close();
+			this.Hide();
 		}
 	}
 }

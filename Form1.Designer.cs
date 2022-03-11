@@ -490,7 +490,6 @@
 			this.kontinent16.ReadOnly = true;
 			this.kontinent16.Size = new System.Drawing.Size(84, 36);
 			this.kontinent16.TabIndex = 77;
-			this.kontinent16.Text = "0";
 			this.kontinent16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent16.Visible = false;
 			// 
@@ -503,7 +502,6 @@
 			this.kontinent15.ReadOnly = true;
 			this.kontinent15.Size = new System.Drawing.Size(84, 36);
 			this.kontinent15.TabIndex = 76;
-			this.kontinent15.Text = "0";
 			this.kontinent15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent15.Visible = false;
 			// 
@@ -516,7 +514,6 @@
 			this.kontinent14.ReadOnly = true;
 			this.kontinent14.Size = new System.Drawing.Size(84, 36);
 			this.kontinent14.TabIndex = 75;
-			this.kontinent14.Text = "0";
 			this.kontinent14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent14.Visible = false;
 			// 
@@ -524,12 +521,12 @@
 			// 
 			this.kontinent13.BackColor = System.Drawing.Color.Purple;
 			this.kontinent13.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+			this.kontinent13.ForeColor = System.Drawing.Color.White;
 			this.kontinent13.Location = new System.Drawing.Point(6, 665);
 			this.kontinent13.Name = "kontinent13";
 			this.kontinent13.ReadOnly = true;
 			this.kontinent13.Size = new System.Drawing.Size(84, 36);
 			this.kontinent13.TabIndex = 74;
-			this.kontinent13.Text = "0";
 			this.kontinent13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent13.Visible = false;
 			// 
@@ -542,7 +539,6 @@
 			this.kontinent12.ReadOnly = true;
 			this.kontinent12.Size = new System.Drawing.Size(84, 36);
 			this.kontinent12.TabIndex = 73;
-			this.kontinent12.Text = "0";
 			this.kontinent12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent12.Visible = false;
 			// 
@@ -550,12 +546,12 @@
 			// 
 			this.kontinent11.BackColor = System.Drawing.Color.Blue;
 			this.kontinent11.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+			this.kontinent11.ForeColor = System.Drawing.Color.White;
 			this.kontinent11.Location = new System.Drawing.Point(6, 623);
 			this.kontinent11.Name = "kontinent11";
 			this.kontinent11.ReadOnly = true;
 			this.kontinent11.Size = new System.Drawing.Size(84, 36);
 			this.kontinent11.TabIndex = 72;
-			this.kontinent11.Text = "0";
 			this.kontinent11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent11.Visible = false;
 			// 
@@ -1210,7 +1206,6 @@
 			this.kontinent26.ReadOnly = true;
 			this.kontinent26.Size = new System.Drawing.Size(84, 36);
 			this.kontinent26.TabIndex = 83;
-			this.kontinent26.Text = "0";
 			this.kontinent26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent26.Visible = false;
 			// 
@@ -1233,7 +1228,6 @@
 			this.kontinent25.ReadOnly = true;
 			this.kontinent25.Size = new System.Drawing.Size(84, 36);
 			this.kontinent25.TabIndex = 82;
-			this.kontinent25.Text = "0";
 			this.kontinent25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent25.Visible = false;
 			// 
@@ -1258,7 +1252,6 @@
 			this.kontinent24.ReadOnly = true;
 			this.kontinent24.Size = new System.Drawing.Size(84, 36);
 			this.kontinent24.TabIndex = 81;
-			this.kontinent24.Text = "0";
 			this.kontinent24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent24.Visible = false;
 			// 
@@ -1277,12 +1270,12 @@
 			// 
 			this.kontinent23.BackColor = System.Drawing.Color.Purple;
 			this.kontinent23.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+			this.kontinent23.ForeColor = System.Drawing.Color.White;
 			this.kontinent23.Location = new System.Drawing.Point(6, 665);
 			this.kontinent23.Name = "kontinent23";
 			this.kontinent23.ReadOnly = true;
 			this.kontinent23.Size = new System.Drawing.Size(84, 36);
 			this.kontinent23.TabIndex = 80;
-			this.kontinent23.Text = "0";
 			this.kontinent23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent23.Visible = false;
 			// 
@@ -1306,7 +1299,6 @@
 			this.kontinent22.ReadOnly = true;
 			this.kontinent22.Size = new System.Drawing.Size(84, 36);
 			this.kontinent22.TabIndex = 79;
-			this.kontinent22.Text = "0";
 			this.kontinent22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent22.Visible = false;
 			// 
@@ -1325,12 +1317,12 @@
 			// 
 			this.kontinent21.BackColor = System.Drawing.Color.Blue;
 			this.kontinent21.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+			this.kontinent21.ForeColor = System.Drawing.Color.White;
 			this.kontinent21.Location = new System.Drawing.Point(6, 623);
 			this.kontinent21.Name = "kontinent21";
 			this.kontinent21.ReadOnly = true;
 			this.kontinent21.Size = new System.Drawing.Size(84, 36);
 			this.kontinent21.TabIndex = 78;
-			this.kontinent21.Text = "0";
 			this.kontinent21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent21.Visible = false;
 			// 
@@ -1930,7 +1922,6 @@
 			this.kontinent36.ReadOnly = true;
 			this.kontinent36.Size = new System.Drawing.Size(84, 36);
 			this.kontinent36.TabIndex = 89;
-			this.kontinent36.Text = "0";
 			this.kontinent36.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent36.Visible = false;
 			// 
@@ -1953,7 +1944,6 @@
 			this.kontinent35.ReadOnly = true;
 			this.kontinent35.Size = new System.Drawing.Size(84, 36);
 			this.kontinent35.TabIndex = 88;
-			this.kontinent35.Text = "0";
 			this.kontinent35.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent35.Visible = false;
 			// 
@@ -1978,7 +1968,6 @@
 			this.kontinent34.ReadOnly = true;
 			this.kontinent34.Size = new System.Drawing.Size(84, 36);
 			this.kontinent34.TabIndex = 87;
-			this.kontinent34.Text = "0";
 			this.kontinent34.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent34.Visible = false;
 			// 
@@ -1997,12 +1986,12 @@
 			// 
 			this.kontinent33.BackColor = System.Drawing.Color.Purple;
 			this.kontinent33.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+			this.kontinent33.ForeColor = System.Drawing.Color.White;
 			this.kontinent33.Location = new System.Drawing.Point(6, 665);
 			this.kontinent33.Name = "kontinent33";
 			this.kontinent33.ReadOnly = true;
 			this.kontinent33.Size = new System.Drawing.Size(84, 36);
 			this.kontinent33.TabIndex = 86;
-			this.kontinent33.Text = "0";
 			this.kontinent33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent33.Visible = false;
 			// 
@@ -2026,7 +2015,6 @@
 			this.kontinent32.ReadOnly = true;
 			this.kontinent32.Size = new System.Drawing.Size(84, 36);
 			this.kontinent32.TabIndex = 85;
-			this.kontinent32.Text = "0";
 			this.kontinent32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent32.Visible = false;
 			// 
@@ -2045,12 +2033,12 @@
 			// 
 			this.kontinent31.BackColor = System.Drawing.Color.Blue;
 			this.kontinent31.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+			this.kontinent31.ForeColor = System.Drawing.Color.White;
 			this.kontinent31.Location = new System.Drawing.Point(6, 623);
 			this.kontinent31.Name = "kontinent31";
 			this.kontinent31.ReadOnly = true;
 			this.kontinent31.Size = new System.Drawing.Size(84, 36);
 			this.kontinent31.TabIndex = 84;
-			this.kontinent31.Text = "0";
 			this.kontinent31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent31.Visible = false;
 			// 
@@ -2650,7 +2638,6 @@
 			this.kontinent66.ReadOnly = true;
 			this.kontinent66.Size = new System.Drawing.Size(84, 36);
 			this.kontinent66.TabIndex = 135;
-			this.kontinent66.Text = "0";
 			this.kontinent66.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent66.Visible = false;
 			// 
@@ -2673,7 +2660,6 @@
 			this.kontinent65.ReadOnly = true;
 			this.kontinent65.Size = new System.Drawing.Size(84, 36);
 			this.kontinent65.TabIndex = 134;
-			this.kontinent65.Text = "0";
 			this.kontinent65.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent65.Visible = false;
 			// 
@@ -2698,7 +2684,6 @@
 			this.kontinent64.ReadOnly = true;
 			this.kontinent64.Size = new System.Drawing.Size(84, 36);
 			this.kontinent64.TabIndex = 133;
-			this.kontinent64.Text = "0";
 			this.kontinent64.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent64.Visible = false;
 			// 
@@ -2717,12 +2702,12 @@
 			// 
 			this.kontinent63.BackColor = System.Drawing.Color.Purple;
 			this.kontinent63.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+			this.kontinent63.ForeColor = System.Drawing.Color.White;
 			this.kontinent63.Location = new System.Drawing.Point(6, 665);
 			this.kontinent63.Name = "kontinent63";
 			this.kontinent63.ReadOnly = true;
 			this.kontinent63.Size = new System.Drawing.Size(84, 36);
 			this.kontinent63.TabIndex = 132;
-			this.kontinent63.Text = "0";
 			this.kontinent63.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent63.Visible = false;
 			// 
@@ -2746,7 +2731,6 @@
 			this.kontinent62.ReadOnly = true;
 			this.kontinent62.Size = new System.Drawing.Size(84, 36);
 			this.kontinent62.TabIndex = 131;
-			this.kontinent62.Text = "0";
 			this.kontinent62.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent62.Visible = false;
 			// 
@@ -2765,12 +2749,12 @@
 			// 
 			this.kontinent61.BackColor = System.Drawing.Color.Blue;
 			this.kontinent61.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+			this.kontinent61.ForeColor = System.Drawing.Color.White;
 			this.kontinent61.Location = new System.Drawing.Point(6, 623);
 			this.kontinent61.Name = "kontinent61";
 			this.kontinent61.ReadOnly = true;
 			this.kontinent61.Size = new System.Drawing.Size(84, 36);
 			this.kontinent61.TabIndex = 130;
-			this.kontinent61.Text = "0";
 			this.kontinent61.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent61.Visible = false;
 			// 
@@ -3370,7 +3354,6 @@
 			this.kontinent56.ReadOnly = true;
 			this.kontinent56.Size = new System.Drawing.Size(84, 36);
 			this.kontinent56.TabIndex = 129;
-			this.kontinent56.Text = "0";
 			this.kontinent56.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent56.Visible = false;
 			// 
@@ -3393,7 +3376,6 @@
 			this.kontinent55.ReadOnly = true;
 			this.kontinent55.Size = new System.Drawing.Size(84, 36);
 			this.kontinent55.TabIndex = 128;
-			this.kontinent55.Text = "0";
 			this.kontinent55.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent55.Visible = false;
 			// 
@@ -3418,7 +3400,6 @@
 			this.kontinent54.ReadOnly = true;
 			this.kontinent54.Size = new System.Drawing.Size(84, 36);
 			this.kontinent54.TabIndex = 127;
-			this.kontinent54.Text = "0";
 			this.kontinent54.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent54.Visible = false;
 			// 
@@ -3437,12 +3418,12 @@
 			// 
 			this.kontinent53.BackColor = System.Drawing.Color.Purple;
 			this.kontinent53.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+			this.kontinent53.ForeColor = System.Drawing.Color.White;
 			this.kontinent53.Location = new System.Drawing.Point(6, 665);
 			this.kontinent53.Name = "kontinent53";
 			this.kontinent53.ReadOnly = true;
 			this.kontinent53.Size = new System.Drawing.Size(84, 36);
 			this.kontinent53.TabIndex = 126;
-			this.kontinent53.Text = "0";
 			this.kontinent53.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent53.Visible = false;
 			// 
@@ -3466,7 +3447,6 @@
 			this.kontinent52.ReadOnly = true;
 			this.kontinent52.Size = new System.Drawing.Size(84, 36);
 			this.kontinent52.TabIndex = 125;
-			this.kontinent52.Text = "0";
 			this.kontinent52.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent52.Visible = false;
 			// 
@@ -3485,12 +3465,12 @@
 			// 
 			this.kontinent51.BackColor = System.Drawing.Color.Blue;
 			this.kontinent51.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+			this.kontinent51.ForeColor = System.Drawing.Color.White;
 			this.kontinent51.Location = new System.Drawing.Point(6, 623);
 			this.kontinent51.Name = "kontinent51";
 			this.kontinent51.ReadOnly = true;
 			this.kontinent51.Size = new System.Drawing.Size(84, 36);
 			this.kontinent51.TabIndex = 124;
-			this.kontinent51.Text = "0";
 			this.kontinent51.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent51.Visible = false;
 			// 
@@ -4090,7 +4070,6 @@
 			this.kontinent46.ReadOnly = true;
 			this.kontinent46.Size = new System.Drawing.Size(84, 36);
 			this.kontinent46.TabIndex = 123;
-			this.kontinent46.Text = "0";
 			this.kontinent46.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent46.Visible = false;
 			// 
@@ -4113,7 +4092,6 @@
 			this.kontinent45.ReadOnly = true;
 			this.kontinent45.Size = new System.Drawing.Size(84, 36);
 			this.kontinent45.TabIndex = 122;
-			this.kontinent45.Text = "0";
 			this.kontinent45.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent45.Visible = false;
 			// 
@@ -4138,7 +4116,6 @@
 			this.kontinent44.ReadOnly = true;
 			this.kontinent44.Size = new System.Drawing.Size(84, 36);
 			this.kontinent44.TabIndex = 121;
-			this.kontinent44.Text = "0";
 			this.kontinent44.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent44.Visible = false;
 			// 
@@ -4157,12 +4134,12 @@
 			// 
 			this.kontinent43.BackColor = System.Drawing.Color.Purple;
 			this.kontinent43.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+			this.kontinent43.ForeColor = System.Drawing.Color.White;
 			this.kontinent43.Location = new System.Drawing.Point(6, 665);
 			this.kontinent43.Name = "kontinent43";
 			this.kontinent43.ReadOnly = true;
 			this.kontinent43.Size = new System.Drawing.Size(84, 36);
 			this.kontinent43.TabIndex = 120;
-			this.kontinent43.Text = "0";
 			this.kontinent43.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent43.Visible = false;
 			// 
@@ -4186,7 +4163,6 @@
 			this.kontinent42.ReadOnly = true;
 			this.kontinent42.Size = new System.Drawing.Size(84, 36);
 			this.kontinent42.TabIndex = 119;
-			this.kontinent42.Text = "0";
 			this.kontinent42.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent42.Visible = false;
 			// 
@@ -4205,12 +4181,12 @@
 			// 
 			this.kontinent41.BackColor = System.Drawing.Color.Blue;
 			this.kontinent41.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+			this.kontinent41.ForeColor = System.Drawing.Color.White;
 			this.kontinent41.Location = new System.Drawing.Point(6, 623);
 			this.kontinent41.Name = "kontinent41";
 			this.kontinent41.ReadOnly = true;
 			this.kontinent41.Size = new System.Drawing.Size(84, 36);
 			this.kontinent41.TabIndex = 118;
-			this.kontinent41.Text = "0";
 			this.kontinent41.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent41.Visible = false;
 			// 
@@ -5473,7 +5449,6 @@
 			this.MaximizeBox = false;
 			this.MaximumSize = new System.Drawing.Size(1380, 830);
 			this.Name = "Form1";
-			this.Text = "Kapital";
 			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
 			this.Load += new System.EventHandler(this.Form1_Load);
 			this.igrac1.ResumeLayout(false);

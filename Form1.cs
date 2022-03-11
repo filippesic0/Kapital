@@ -27,6 +27,7 @@ namespace Kapital
 		bool[] kradja_kompanije;
 		bool[] kradja_korporacije;
 		int broj_igraca;
+		int pritisunti_kontinent = -1;
 
 		public Form1()
 		{
@@ -35,8 +36,6 @@ namespace Kapital
 
 		private void Form1_Load(object sender, EventArgs e)
 		{
-			FormSerialisor.Deserialise(this, Application.StartupPath + @"\Trenutno_stanje.xml");
-
 			ime = new GroupBox[6];
 			novac = new TextBox[6];
 			dodaj_novac = new TextBox[6];
@@ -44,7 +43,7 @@ namespace Kapital
 			deonice = new TextBox[6, 8];
 			kompanija = new TextBox[6, 8, 3];
 			korporacija = new TextBox[6, 8];
-			kontinent = new TextBox[6, 8];
+			kontinent = new TextBox[6, 6];
 			Bdeonice = new Button[8];
 			Bkompanija = new Button[8, 3];
 			Bkorporacija = new Button[8];
@@ -117,6 +116,9 @@ namespace Kapital
 				name = "kontinent" + (kont + 1);
 				Bkontinent[kont] = this.Controls.Find(name, true)[0];
 			}
+			FormSerialisor.Serialise(this, Application.StartupPath + @"\Nova_igra.xml");
+			FormSerialisor.Deserialise(this, Application.StartupPath + @"\Trenutno_stanje.xml");
+			set_width();
 		}
 
 		private void Cancel()
@@ -124,12 +126,12 @@ namespace Kapital
 			for (int industrija = 0; industrija < 8; industrija++)
 			{
 				Bdeonice[industrija].Enabled = false;
+				Bdeonice[industrija].Visible = true;
 				for (int igrac = 0; igrac < 6; igrac++)
-					if (korporacija[igrac, industrija].Visible)
-					{
-						Bkorporacija[industrija].Visible = false;
-						break;
-					}
+				{
+					Bkorporacija[industrija].Visible = false;
+					break;
+				}
 				if (Bkorporacija[industrija].Visible)
 				{
 					Bkorporacija[industrija].Enabled = false;
@@ -169,6 +171,7 @@ namespace Kapital
 			nebrani.Visible = false;
 			dodajnovac.Visible = true;
 			oduzminovac.Visible = true;
+			pritisunti_kontinent = -1;
 
 			FormSerialisor.Serialise(this, Application.StartupPath + @"\Trenutno_stanje.xml");
 		}
@@ -206,7 +209,7 @@ namespace Kapital
 				for (int industrija = 0; industrija < 8; industrija++)
 					if (korporacija[igrac, industrija].Visible)
 						broj_korporacija++;
-				if (kontinent[igrac, kont].compare(broj_korporacija) < 0)
+				if (kontinent[igrac, kont].Text.Length / 2 < broj_korporacija)
 					if (novac[igrac].compare(cena_kontinenta(kont)) >= 0)
 						Bkontinent[kont].Visible = true;
 			}
@@ -226,20 +229,43 @@ namespace Kapital
 
 		private void Uzmi(int igrac)
 		{
+			if (!kupi[0].Visible && !kupi[1].Visible)//kupovina deonica od igraca po izboru
+			{
+				igrac--;
+				for (int industrija = 0; industrija < 8; industrija++)
+				{
+					int sum = 0;
+					for (int igrac1 = 0; igrac1 < 6; igrac1++)
+						sum += int.Parse(deonice[igrac1, industrija].Text);
+					if (sum > 16)
+					{
+						deonice[igrac, industrija].minus(1);
+						break;
+					}
+				}
+				pritisnuto_dugme = 0;
+				Cancel();
+				return;
+			}
+
 			igrac--;
 			igrac_na_potezu = igrac;
 			pritisnuto_dugme = 1;
 
 			//preuzimanje korporacije
 			for (int industrija = 0; industrija < 8; industrija++)
+			{
+				int objekti = 0;
 				for (int komp = 0; komp < 3; komp++)
 					if (kompanija[igrac, industrija, komp].Visible)
 						if (kompanija[igrac, industrija, komp].Text.Equals("OB"))
-							if (deonice[igrac, industrija].compare(5) >= 0)
-							{
-								Bkorporacija[industrija].Visible = true;
-								Bkorporacija[industrija].Enabled = true;
-							}
+							objekti++;
+				if (deonice[igrac, industrija].compare(5) >= 0 && objekti == 3)
+				{
+					Bkorporacija[industrija].Visible = true;
+					Bkorporacija[industrija].Enabled = true;
+				}
+			}
 
 			//kradja korporacije
 			for (napadnut_igrac = 0; napadnut_igrac < 6; napadnut_igrac++)
@@ -251,6 +277,7 @@ namespace Kapital
 						if (deonice[igrac, industrija].compare(10) >= 0)
 						{
 							Bkorporacija[industrija].Visible = true;
+							Bkorporacija[industrija].Enabled = true;
 							kradja_korporacije[industrija] = true;
 						}
 			}
@@ -259,7 +286,8 @@ namespace Kapital
 			for (int industrija = 0; industrija < 8; industrija++)
 			{
 				bool ind = !Bkorporacija[industrija].Visible;
-				Bdeonice[industrija].Enabled = true;
+				if (Bdeonice[industrija].compare(0) > 0)
+					Bdeonice[industrija].Enabled = true;
 				if (deonice[igrac_na_potezu, industrija].compare(3) >= 0)//Moze da se preuzme kompanija.
 				{
 					for (int komp = 0; komp < 3; komp++)
@@ -268,20 +296,20 @@ namespace Kapital
 							Bkompanija[industrija, komp].Enabled = true;
 							ind = false;
 						}
-				}
-				//Da li postoji korporacija:
-				for (napadnut_igrac = 0; napadnut_igrac < 6; napadnut_igrac++)
-					if (korporacija[napadnut_igrac, industrija].Visible)
+					//Da li postoji korporacija:
+					for (napadnut_igrac = 0; napadnut_igrac < 6; napadnut_igrac++)
+						if (korporacija[napadnut_igrac, industrija].Visible)
+						{
+							ind = false;
+							break;
+						}
+					if (ind)//Sve kompanije su preuzete, pa mogu da se kradu.
 					{
-						ind = false;
-						break;
+						for (int komp = 0; komp < 3; komp++)
+							if (!kompanija[igrac, industrija, komp].Visible)
+								Bkompanija[industrija, komp].Visible = true;
+						kradja_kompanije[industrija] = true;
 					}
-				if (ind)//Sve kompanije su preuzete, pa mogu da se kradu.
-				{
-					for (int komp = 0; komp < 3; komp++)
-						if (!kompanija[igrac, industrija, komp].Visible)
-							Bkompanija[industrija, komp].Visible = true;
-					kradja_kompanije[industrija] = true;
 				}
 			}
 
@@ -346,6 +374,8 @@ namespace Kapital
 				}
 				else
 					Bdeonice[industrija].minus(1);
+
+				Cancel();
 			}
 			else//prodaja/gubitak deonica
 			{
@@ -353,20 +383,19 @@ namespace Kapital
 				if (pritisnuto_dugme == 2)
 					novac[igrac_na_potezu].plus(cena_deonice(industrija));
 				Bdeonice[industrija].plus(1);
+				Prodaj(igrac_na_potezu + 1);
 			}
-
-			Cancel();
 		}
 
 		private int cena_deonice(int industrija)
 		{
 			int cena = 0;
 			int igrac;
-			bool ima_korporacija = false;
+			bool ima_korporaciju = false;
 			for (igrac = 0; igrac < 6; igrac++)//ko ima tu korporaciju
 				if (korporacija[igrac, industrija].Visible)
 				{
-					ima_korporacija = true;
+					ima_korporaciju = true;
 					break;
 				}
 			int broj_korporacija = 0;
@@ -377,24 +406,12 @@ namespace Kapital
 				cena = 20000;
 			else
 				cena = industrija * 2000;
-			if (ima_korporacija)
-			{
-				cena += cena / 2;
-				for (industrija = 0; industrija < 8; industrija++)//kol'ko taj igrac ima korporacija
-					if (korporacija[igrac, industrija].Visible)
-					{
-						broj_korporacija++;
-					}
-			}
-			//Pretpostavimo da ne znamo sa kojom industrijom je igrac izasao na trziste, pa pravimo prosek.
-			if (broj_korporacija > 0)
-			{
+			industrija--;
+
+			if (ima_korporaciju)
 				for (int kont = 0; kont < 6; kont++)
-				{
-					if (int.Parse(kontinent[igrac, kont].Text) > 0)
-						cena += int.Parse(kontinent[igrac, kont].Text) / broj_korporacija * (kont + 1) * 2000;
-				}
-			}
+					if (kontinent[igrac, kont].Text.Contains(Skracenica_industrije(industrija)))
+						cena += (6 - kont) * 2000;
 			return cena;
 		}
 
@@ -463,9 +480,37 @@ namespace Kapital
 			}
 		}
 
+		private string Skracenica_industrije(int industrija)
+		{
+			switch (industrija)
+			{
+				case 0:
+					return "HR";
+				case 1:
+					return "IG";
+				case 2:
+					return "OD";
+				case 3:
+					return "OB";
+				case 4:
+					return "NM";
+				case 5:
+					return "EL";
+				case 6:
+					return "AU";
+				default:
+					return "NF";
+			}
+		}
+
 		private void Preuzmi_korporaciju(int industrija)
 		{
 			industrija--;
+			if (pritisunti_kontinent >= 0)//kupovina kontinenta, bira se industrija za koju se kupuje
+			{
+				Kupi_kontinent_2(industrija, false);
+				return;
+			}
 
 			if (!kradja_korporacije[industrija])
 			{
@@ -488,6 +533,14 @@ namespace Kapital
 
 			//kradja korporacije
 			deonice[igrac_na_potezu, industrija].minus(10);
+			for (int kont = 0; kont < 6; kont++)//prodaja svih kontinenata
+				if (kontinent[napadnut_igrac, kont].Text.Length > 1)
+				{
+					kontinent[napadnut_igrac, kont].Text += " ";
+					kontinent[napadnut_igrac, kont].Text =
+						kontinent[napadnut_igrac, kont].Text.Replace(Skracenica_industrije(industrija) + " ", "").Trim();
+					novac[napadnut_igrac].plus(cena_kontinenta(kont));
+				}
 			Bdeonice[industrija].plus(10);
 			for (napadnut_igrac = 0; napadnut_igrac < 6; napadnut_igrac++)
 			{
@@ -495,8 +548,17 @@ namespace Kapital
 					break;
 			}
 			korporacija[napadnut_igrac, industrija].Visible = false;
-			for (int kont = 0; kont < 6; kont++)
-				kontinent[napadnut_igrac, kont].Visible = false;
+			//Ako napadnuti igrac nema drugu korporaciju, sakrivaju se informacije o kontinentima:
+			bool ima_korporaciju = false;
+			for (int i = 0; i < 6; i++)//ko ima tu korporaciju
+				if (korporacija[napadnut_igrac, i].Visible)
+				{
+					ima_korporaciju = true;
+					break;
+				}
+			if (!ima_korporaciju)
+				for (int kont = 0; kont < 6; kont++)
+					kontinent[napadnut_igrac, kont].Visible = false;
 			korporacija[igrac_na_potezu, industrija].Visible = true;
 			for (int kont = 0; kont < 6; kont++)
 				kontinent[igrac_na_potezu, kont].Visible = true;
@@ -508,18 +570,78 @@ namespace Kapital
 		private void Kupi_kontinent(int kont)
 		{
 			kont--;
+			int broj_korporacija = 0;
+			int industrija = 0;
+			for (int i = 0; i < 8; i++)
+				if (korporacija[igrac_na_potezu, i].Visible)
+				{
+					broj_korporacija++;
+					industrija = i;
+				}
+			if (broj_korporacija == 1)
+			{
+				pritisunti_kontinent = kont;
+				Kupi_kontinent_2(industrija, true);
+			}
+			else if (broj_korporacija > 1)
+			{
+				if (pritisnuto_dugme == 0)
+				{
+					for (industrija = 0; industrija < 8; industrija++)
+					{
+						if (korporacija[igrac_na_potezu, industrija].Visible &&
+							!kontinent[igrac_na_potezu, kont].Text.Contains(Skracenica_industrije(industrija)))
+						{
+							Bkorporacija[industrija].Visible = true;
+							Bkorporacija[industrija].Enabled = true;
+						}
+						Bdeonice[industrija].Enabled = false;
+						for (int kompanija = 0; kompanija < 3; kompanija++)
+							Bkompanija[industrija, kompanija].Enabled = false;
+					}
+					for (int k = 0; k < 6; k++)
+						Bkontinent[k].Visible = false;
+				}
+				else if (pritisnuto_dugme == 2)
+				{
+					for (industrija = 0; industrija < 8; industrija++)
+					{
+						if (korporacija[igrac_na_potezu, industrija].Visible &&
+							kontinent[igrac_na_potezu, kont].Text.Contains(Skracenica_industrije(industrija)))
+						{
+							Bkorporacija[industrija].Visible = true;
+							Bkorporacija[industrija].Enabled = true;
+						}
+						Bdeonice[industrija].Enabled = false;
+						for (int kompanija = 0; kompanija < 3; kompanija++)
+							Bkompanija[industrija, kompanija].Enabled = false;
+					}
+					for (int k = 0; k < 6; k++)
+						Bkontinent[k].Visible = false;
+				}
+				pritisunti_kontinent = kont;
+			}
+		}
+
+		private void Kupi_kontinent_2(int industrija, bool jedna_korporacija)
+		{
 			if (pritisnuto_dugme == 0)//kupovina kontinenta
 			{
-				kontinent[igrac_na_potezu, kont].plus(1);
-				novac[igrac_na_potezu].minus(cena_kontinenta(kont));
+				kontinent[igrac_na_potezu, pritisunti_kontinent].Text += " " + Skracenica_industrije(industrija);
+				kontinent[igrac_na_potezu, pritisunti_kontinent].Text = kontinent[igrac_na_potezu, pritisunti_kontinent].Text.Trim();
+				novac[igrac_na_potezu].minus(cena_kontinenta(pritisunti_kontinent));
+				Cancel();
 			}
 			else if (pritisnuto_dugme == 2)//prodaja kontinenta
 			{
-				kontinent[igrac_na_potezu, kont].minus(1);
-				novac[igrac_na_potezu].plus(cena_kontinenta(kont));
+				kontinent[igrac_na_potezu, pritisunti_kontinent].Text += " ";
+				kontinent[igrac_na_potezu, pritisunti_kontinent].Text =
+					kontinent[igrac_na_potezu, pritisunti_kontinent].Text.Replace(Skracenica_industrije(industrija) + " ", "").Trim();
+				novac[igrac_na_potezu].plus(cena_kontinenta(pritisunti_kontinent));
+				if (!jedna_korporacija)
+					Cancel();
 			}
 			Izracunaj_dividendu(igrac_na_potezu);
-			Cancel();
 		}
 
 		private void brani_Click(object sender, EventArgs e)
@@ -560,6 +682,8 @@ namespace Kapital
 			{
 				if (deonice[igrac, industrija].compare(0) > 0)
 					Bdeonice[industrija].Enabled = true;
+				else
+					Bdeonice[industrija].Enabled = false;
 				for (int komp = 0; komp < 3; komp++)
 					if (kompanija[igrac, industrija, komp].Text.Equals("OB"))
 					{
@@ -571,7 +695,7 @@ namespace Kapital
 			for (int industrija = 0; industrija < 8; industrija++)//prodaja kontinenata
 				if (korporacija[igrac, industrija].Visible)
 					for (int kont = 0; kont < 6; kont++)
-						if (kontinent[igrac, kont].compare(0) > 0)
+						if (kontinent[igrac, kont].Text.Length > 1)
 							Bkontinent[kont].Visible = true;
 
 			for (igrac = 0; igrac < 6; igrac++)
@@ -615,27 +739,20 @@ namespace Kapital
 		{
 			int dividenda = 0;
 			for (int industrija = 0; industrija < 8; industrija++)
-			{
 				if (korporacija[igrac, industrija].Visible)
-				{
 					dividenda += (industrija * 1000 + 8000) * 4;
-				}
 				else
 					for (int komp = 0; komp < 3; komp++)
-					{
 						if (kompanija[igrac, industrija, komp].Visible)
 						{
 							dividenda += industrija * 1000 + 7000;
 							if (kompanija[igrac, industrija, komp].Text.Equals("OB"))
 								dividenda += 1000;
 						}
-					}
-			}
+
 			for (int kont = 0; kont < 6; kont++)//racuna se samo jednom
-			{
-				if (int.Parse(kontinent[igrac, kont].Text) > 0)
-					dividenda += int.Parse(kontinent[igrac, kont].Text) * (6 - kont) * 5000;
-			}
+				dividenda += kontinent[igrac, kont].Text.Length / 2 * (6 - kont) * 5000;
+
 			trenutna_dividenda[igrac].Text = dividenda.ToString();
 		}
 
@@ -1033,31 +1150,37 @@ namespace Kapital
 		private void kontinent1_Click(object sender, EventArgs e)
 		{
 			Kupi_kontinent(1);
+			kontinent1.Visible = false;
 		}
 
 		private void kontinent2_Click(object sender, EventArgs e)
 		{
 			Kupi_kontinent(2);
+			kontinent2.Visible = false;
 		}
 
 		private void kontinent3_Click(object sender, EventArgs e)
 		{
 			Kupi_kontinent(3);
+			kontinent3.Visible = false;
 		}
 
 		private void kontinent4_Click(object sender, EventArgs e)
 		{
 			Kupi_kontinent(4);
+			kontinent4.Visible = false;
 		}
 
 		private void kontinent5_Click(object sender, EventArgs e)
 		{
 			Kupi_kontinent(5);
+			kontinent5.Visible = false;
 		}
 
 		private void kontinent6_Click(object sender, EventArgs e)
 		{
 			Kupi_kontinent(6);
+			kontinent6.Visible = false;
 		}
 
 		private void Form1_FormClosing(object sender, FormClosingEventArgs e)
@@ -1067,8 +1190,8 @@ namespace Kapital
 
 		private void nova_igra_Click(object sender, EventArgs e)
 		{
+			FormSerialisor.Serialise(this, Application.StartupPath + @"\Trenutno_stanje.xml");
 			Pocetak pocetak = new(this, ime);
-			FormSerialisor.Deserialise(this, Application.StartupPath + @"\Nova_igra.xml");
 			Cancel();
 			pocetak.Show();
 			this.Hide();
@@ -1089,11 +1212,18 @@ namespace Kapital
 				else
 					ime[igrac].Text = imena[igrac];
 			}
-			for (int i = 6; i > broj_igraca && i > 2; i--)
-			{
+			set_width();
+		}
+
+		private void set_width()
+		{
+			this.MaximumSize = new System.Drawing.Size(0, 0);
+			this.MinimumSize = new System.Drawing.Size(0, 0);
+			this.Width = 1380;
+			for (int igrac = 5; ime[igrac].Text.Equals("") && igrac >= 2; igrac--)
 				this.Width -= 194;
-			}
-			FormSerialisor.Serialise(this, Application.StartupPath + @"\Nova_igra.xml");
+			this.MaximumSize = new System.Drawing.Size(this.Width, this.Height);
+			this.MinimumSize = new System.Drawing.Size(this.Width, this.Height);
 		}
 	}
 }
