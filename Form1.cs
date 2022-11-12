@@ -391,14 +391,6 @@ namespace Kapital
 		{
 			int cena = 0;
 			int igrac;
-			bool ima_korporaciju = false;
-			for (igrac = 0; igrac < 6; igrac++)//ko ima tu korporaciju
-				if (korporacija[igrac, industrija].Visible)
-				{
-					ima_korporaciju = true;
-					break;
-				}
-			int broj_korporacija = 0;
 			industrija++;
 			if (industrija == 7)
 				cena = 16000;
@@ -408,10 +400,20 @@ namespace Kapital
 				cena = industrija * 2000;
 			industrija--;
 
+			bool ima_korporaciju = false;
+			for (igrac = 0; igrac < 6; igrac++)//ko ima tu korporaciju
+				if (korporacija[igrac, industrija].Visible)
+				{
+					ima_korporaciju = true;
+					break;
+				}
 			if (ima_korporaciju)
+			{
+				cena += cena / 2;
 				for (int kont = 0; kont < 6; kont++)
 					if (kontinent[igrac, kont].Text.Contains(Skracenica_industrije(industrija)))
 						cena += (6 - kont) * 2000;
+			}
 			return cena;
 		}
 
@@ -637,7 +639,7 @@ namespace Kapital
 				kontinent[igrac_na_potezu, pritisunti_kontinent].Text += " ";
 				kontinent[igrac_na_potezu, pritisunti_kontinent].Text =
 					kontinent[igrac_na_potezu, pritisunti_kontinent].Text.Replace(Skracenica_industrije(industrija) + " ", "").Trim();
-				novac[igrac_na_potezu].plus(cena_kontinenta(pritisunti_kontinent));
+				novac[igrac_na_potezu].plus(cena_kontinenta(pritisunti_kontinent) * 3 / 4);
 				if (!jedna_korporacija)
 					Cancel();
 			}
