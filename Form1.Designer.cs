@@ -410,6 +410,9 @@
 			this.kontinent5 = new System.Windows.Forms.Button();
 			this.kontinent6 = new System.Windows.Forms.Button();
 			this.nova_igra = new System.Windows.Forms.Button();
+			this.skok_proizvodnje = new System.Windows.Forms.Button();
+			this.lose_poslovanje = new System.Windows.Forms.Button();
+			this.otvori_kontroler = new System.Windows.Forms.Button();
 			this.igrac1.SuspendLayout();
 			this.igrac2.SuspendLayout();
 			this.igrac3.SuspendLayout();
@@ -475,20 +478,24 @@
 			this.igrac1.Controls.Add(this.proizvodnja13);
 			this.igrac1.Controls.Add(this.proizvodnja18);
 			this.igrac1.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.igrac1.Location = new System.Drawing.Point(12, 12);
+			this.igrac1.Location = new System.Drawing.Point(14, 16);
+			this.igrac1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.igrac1.Name = "igrac1";
-			this.igrac1.Size = new System.Drawing.Size(188, 767);
+			this.igrac1.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.igrac1.Size = new System.Drawing.Size(215, 1018);
 			this.igrac1.TabIndex = 1;
 			this.igrac1.TabStop = false;
+			this.igrac1.Text = "igrač 1";
 			// 
 			// kontinent16
 			// 
 			this.kontinent16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
 			this.kontinent16.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.kontinent16.Location = new System.Drawing.Point(98, 707);
+			this.kontinent16.Location = new System.Drawing.Point(112, 943);
+			this.kontinent16.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent16.Name = "kontinent16";
 			this.kontinent16.ReadOnly = true;
-			this.kontinent16.Size = new System.Drawing.Size(84, 36);
+			this.kontinent16.Size = new System.Drawing.Size(95, 43);
 			this.kontinent16.TabIndex = 77;
 			this.kontinent16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent16.Visible = false;
@@ -497,10 +504,11 @@
 			// 
 			this.kontinent15.BackColor = System.Drawing.Color.Lime;
 			this.kontinent15.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.kontinent15.Location = new System.Drawing.Point(6, 707);
+			this.kontinent15.Location = new System.Drawing.Point(7, 943);
+			this.kontinent15.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent15.Name = "kontinent15";
 			this.kontinent15.ReadOnly = true;
-			this.kontinent15.Size = new System.Drawing.Size(84, 36);
+			this.kontinent15.Size = new System.Drawing.Size(95, 43);
 			this.kontinent15.TabIndex = 76;
 			this.kontinent15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent15.Visible = false;
@@ -509,10 +517,11 @@
 			// 
 			this.kontinent14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
 			this.kontinent14.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.kontinent14.Location = new System.Drawing.Point(98, 665);
+			this.kontinent14.Location = new System.Drawing.Point(112, 887);
+			this.kontinent14.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent14.Name = "kontinent14";
 			this.kontinent14.ReadOnly = true;
-			this.kontinent14.Size = new System.Drawing.Size(84, 36);
+			this.kontinent14.Size = new System.Drawing.Size(95, 43);
 			this.kontinent14.TabIndex = 75;
 			this.kontinent14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent14.Visible = false;
@@ -522,10 +531,11 @@
 			this.kontinent13.BackColor = System.Drawing.Color.Purple;
 			this.kontinent13.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.kontinent13.ForeColor = System.Drawing.Color.White;
-			this.kontinent13.Location = new System.Drawing.Point(6, 665);
+			this.kontinent13.Location = new System.Drawing.Point(7, 887);
+			this.kontinent13.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent13.Name = "kontinent13";
 			this.kontinent13.ReadOnly = true;
-			this.kontinent13.Size = new System.Drawing.Size(84, 36);
+			this.kontinent13.Size = new System.Drawing.Size(95, 43);
 			this.kontinent13.TabIndex = 74;
 			this.kontinent13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent13.Visible = false;
@@ -534,10 +544,11 @@
 			// 
 			this.kontinent12.BackColor = System.Drawing.Color.Yellow;
 			this.kontinent12.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.kontinent12.Location = new System.Drawing.Point(98, 623);
+			this.kontinent12.Location = new System.Drawing.Point(112, 831);
+			this.kontinent12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent12.Name = "kontinent12";
 			this.kontinent12.ReadOnly = true;
-			this.kontinent12.Size = new System.Drawing.Size(84, 36);
+			this.kontinent12.Size = new System.Drawing.Size(95, 43);
 			this.kontinent12.TabIndex = 73;
 			this.kontinent12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent12.Visible = false;
@@ -547,10 +558,11 @@
 			this.kontinent11.BackColor = System.Drawing.Color.Blue;
 			this.kontinent11.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.kontinent11.ForeColor = System.Drawing.Color.White;
-			this.kontinent11.Location = new System.Drawing.Point(6, 623);
+			this.kontinent11.Location = new System.Drawing.Point(7, 831);
+			this.kontinent11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent11.Name = "kontinent11";
 			this.kontinent11.ReadOnly = true;
-			this.kontinent11.Size = new System.Drawing.Size(84, 36);
+			this.kontinent11.Size = new System.Drawing.Size(95, 43);
 			this.kontinent11.TabIndex = 72;
 			this.kontinent11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent11.Visible = false;
@@ -559,9 +571,10 @@
 			// 
 			this.dodaj_novac1.BackColor = System.Drawing.Color.White;
 			this.dodaj_novac1.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.dodaj_novac1.Location = new System.Drawing.Point(6, 581);
+			this.dodaj_novac1.Location = new System.Drawing.Point(7, 775);
+			this.dodaj_novac1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.dodaj_novac1.Name = "dodaj_novac1";
-			this.dodaj_novac1.Size = new System.Drawing.Size(176, 36);
+			this.dodaj_novac1.Size = new System.Drawing.Size(201, 43);
 			this.dodaj_novac1.TabIndex = 71;
 			this.dodaj_novac1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			// 
@@ -569,10 +582,11 @@
 			// 
 			this.trenutna_dividenda1.BackColor = System.Drawing.Color.White;
 			this.trenutna_dividenda1.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.trenutna_dividenda1.Location = new System.Drawing.Point(6, 77);
+			this.trenutna_dividenda1.Location = new System.Drawing.Point(7, 103);
+			this.trenutna_dividenda1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.trenutna_dividenda1.Name = "trenutna_dividenda1";
 			this.trenutna_dividenda1.ReadOnly = true;
-			this.trenutna_dividenda1.Size = new System.Drawing.Size(176, 36);
+			this.trenutna_dividenda1.Size = new System.Drawing.Size(201, 43);
 			this.trenutna_dividenda1.TabIndex = 70;
 			this.trenutna_dividenda1.Text = "0";
 			this.trenutna_dividenda1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -580,9 +594,10 @@
 			// dividenda1
 			// 
 			this.dividenda1.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.dividenda1.Location = new System.Drawing.Point(6, 539);
+			this.dividenda1.Location = new System.Drawing.Point(7, 719);
+			this.dividenda1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.dividenda1.Name = "dividenda1";
-			this.dividenda1.Size = new System.Drawing.Size(176, 36);
+			this.dividenda1.Size = new System.Drawing.Size(201, 48);
 			this.dividenda1.TabIndex = 69;
 			this.dividenda1.Text = "Dividenda";
 			this.dividenda1.UseVisualStyleBackColor = true;
@@ -590,10 +605,11 @@
 			// 
 			// izgubi1
 			// 
-			this.izgubi1.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.izgubi1.Location = new System.Drawing.Point(104, 497);
+			this.izgubi1.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+			this.izgubi1.Location = new System.Drawing.Point(119, 663);
+			this.izgubi1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.izgubi1.Name = "izgubi1";
-			this.izgubi1.Size = new System.Drawing.Size(78, 36);
+			this.izgubi1.Size = new System.Drawing.Size(89, 48);
 			this.izgubi1.TabIndex = 68;
 			this.izgubi1.Text = "Izgubi";
 			this.izgubi1.UseVisualStyleBackColor = true;
@@ -602,9 +618,10 @@
 			// uzmi1
 			// 
 			this.uzmi1.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.uzmi1.Location = new System.Drawing.Point(104, 455);
+			this.uzmi1.Location = new System.Drawing.Point(119, 607);
+			this.uzmi1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.uzmi1.Name = "uzmi1";
-			this.uzmi1.Size = new System.Drawing.Size(78, 36);
+			this.uzmi1.Size = new System.Drawing.Size(89, 48);
 			this.uzmi1.TabIndex = 67;
 			this.uzmi1.Text = "Uzmi";
 			this.uzmi1.UseVisualStyleBackColor = true;
@@ -613,9 +630,10 @@
 			// prodaj1
 			// 
 			this.prodaj1.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.prodaj1.Location = new System.Drawing.Point(6, 497);
+			this.prodaj1.Location = new System.Drawing.Point(7, 663);
+			this.prodaj1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.prodaj1.Name = "prodaj1";
-			this.prodaj1.Size = new System.Drawing.Size(92, 36);
+			this.prodaj1.Size = new System.Drawing.Size(105, 48);
 			this.prodaj1.TabIndex = 66;
 			this.prodaj1.Text = "Prodaj";
 			this.prodaj1.UseVisualStyleBackColor = true;
@@ -624,9 +642,10 @@
 			// kupi1
 			// 
 			this.kupi1.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.kupi1.Location = new System.Drawing.Point(6, 455);
+			this.kupi1.Location = new System.Drawing.Point(7, 607);
+			this.kupi1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kupi1.Name = "kupi1";
-			this.kupi1.Size = new System.Drawing.Size(92, 36);
+			this.kupi1.Size = new System.Drawing.Size(105, 48);
 			this.kupi1.TabIndex = 65;
 			this.kupi1.Text = "Kupi";
 			this.kupi1.UseVisualStyleBackColor = true;
@@ -636,10 +655,11 @@
 			// 
 			this.novac1.BackColor = System.Drawing.Color.White;
 			this.novac1.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.novac1.Location = new System.Drawing.Point(6, 35);
+			this.novac1.Location = new System.Drawing.Point(7, 47);
+			this.novac1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.novac1.Name = "novac1";
 			this.novac1.ReadOnly = true;
-			this.novac1.Size = new System.Drawing.Size(176, 36);
+			this.novac1.Size = new System.Drawing.Size(201, 43);
 			this.novac1.TabIndex = 64;
 			this.novac1.Text = "100000";
 			this.novac1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -648,10 +668,11 @@
 			// 
 			this.korporacija11.BackColor = System.Drawing.Color.Cyan;
 			this.korporacija11.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija11.Location = new System.Drawing.Point(62, 413);
+			this.korporacija11.Location = new System.Drawing.Point(71, 551);
+			this.korporacija11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija11.Name = "korporacija11";
 			this.korporacija11.ReadOnly = true;
-			this.korporacija11.Size = new System.Drawing.Size(120, 36);
+			this.korporacija11.Size = new System.Drawing.Size(137, 43);
 			this.korporacija11.TabIndex = 39;
 			this.korporacija11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija11.Visible = false;
@@ -660,10 +681,11 @@
 			// 
 			this.korporacija12.BackColor = System.Drawing.Color.Lime;
 			this.korporacija12.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija12.Location = new System.Drawing.Point(62, 371);
+			this.korporacija12.Location = new System.Drawing.Point(71, 495);
+			this.korporacija12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija12.Name = "korporacija12";
 			this.korporacija12.ReadOnly = true;
-			this.korporacija12.Size = new System.Drawing.Size(120, 36);
+			this.korporacija12.Size = new System.Drawing.Size(137, 43);
 			this.korporacija12.TabIndex = 38;
 			this.korporacija12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija12.Visible = false;
@@ -672,10 +694,11 @@
 			// 
 			this.maloprodaja11.BackColor = System.Drawing.Color.Cyan;
 			this.maloprodaja11.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja11.Location = new System.Drawing.Point(146, 413);
+			this.maloprodaja11.Location = new System.Drawing.Point(167, 551);
+			this.maloprodaja11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja11.Name = "maloprodaja11";
 			this.maloprodaja11.ReadOnly = true;
-			this.maloprodaja11.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja11.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja11.TabIndex = 63;
 			this.maloprodaja11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja11.Visible = false;
@@ -684,10 +707,11 @@
 			// 
 			this.korporacija15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
 			this.korporacija15.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija15.Location = new System.Drawing.Point(62, 245);
+			this.korporacija15.Location = new System.Drawing.Point(71, 327);
+			this.korporacija15.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija15.Name = "korporacija15";
 			this.korporacija15.ReadOnly = true;
-			this.korporacija15.Size = new System.Drawing.Size(120, 36);
+			this.korporacija15.Size = new System.Drawing.Size(137, 43);
 			this.korporacija15.TabIndex = 35;
 			this.korporacija15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija15.Visible = false;
@@ -697,10 +721,11 @@
 			this.deonice18.BackColor = System.Drawing.Color.Purple;
 			this.deonice18.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.deonice18.ForeColor = System.Drawing.SystemColors.Window;
-			this.deonice18.Location = new System.Drawing.Point(6, 119);
+			this.deonice18.Location = new System.Drawing.Point(7, 159);
+			this.deonice18.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice18.Name = "deonice18";
 			this.deonice18.ReadOnly = true;
-			this.deonice18.Size = new System.Drawing.Size(50, 36);
+			this.deonice18.Size = new System.Drawing.Size(57, 43);
 			this.deonice18.TabIndex = 0;
 			this.deonice18.Text = "0";
 			this.deonice18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -709,10 +734,11 @@
 			// 
 			this.korporacija13.BackColor = System.Drawing.Color.Yellow;
 			this.korporacija13.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija13.Location = new System.Drawing.Point(62, 329);
+			this.korporacija13.Location = new System.Drawing.Point(71, 439);
+			this.korporacija13.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija13.Name = "korporacija13";
 			this.korporacija13.ReadOnly = true;
-			this.korporacija13.Size = new System.Drawing.Size(120, 36);
+			this.korporacija13.Size = new System.Drawing.Size(137, 43);
 			this.korporacija13.TabIndex = 37;
 			this.korporacija13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija13.Visible = false;
@@ -721,10 +747,11 @@
 			// 
 			this.maloprodaja12.BackColor = System.Drawing.Color.Lime;
 			this.maloprodaja12.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja12.Location = new System.Drawing.Point(146, 371);
+			this.maloprodaja12.Location = new System.Drawing.Point(167, 495);
+			this.maloprodaja12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja12.Name = "maloprodaja12";
 			this.maloprodaja12.ReadOnly = true;
-			this.maloprodaja12.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja12.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja12.TabIndex = 62;
 			this.maloprodaja12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja12.Visible = false;
@@ -734,10 +761,11 @@
 			this.korporacija18.BackColor = System.Drawing.Color.Purple;
 			this.korporacija18.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.korporacija18.ForeColor = System.Drawing.SystemColors.Window;
-			this.korporacija18.Location = new System.Drawing.Point(62, 119);
+			this.korporacija18.Location = new System.Drawing.Point(71, 159);
+			this.korporacija18.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija18.Name = "korporacija18";
 			this.korporacija18.ReadOnly = true;
-			this.korporacija18.Size = new System.Drawing.Size(120, 36);
+			this.korporacija18.Size = new System.Drawing.Size(137, 43);
 			this.korporacija18.TabIndex = 32;
 			this.korporacija18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija18.Visible = false;
@@ -747,10 +775,11 @@
 			this.deonice16.BackColor = System.Drawing.Color.Blue;
 			this.deonice16.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.deonice16.ForeColor = System.Drawing.SystemColors.Window;
-			this.deonice16.Location = new System.Drawing.Point(6, 203);
+			this.deonice16.Location = new System.Drawing.Point(7, 271);
+			this.deonice16.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice16.Name = "deonice16";
 			this.deonice16.ReadOnly = true;
-			this.deonice16.Size = new System.Drawing.Size(50, 36);
+			this.deonice16.Size = new System.Drawing.Size(57, 43);
 			this.deonice16.TabIndex = 2;
 			this.deonice16.Text = "0";
 			this.deonice16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -759,10 +788,11 @@
 			// 
 			this.korporacija14.BackColor = System.Drawing.Color.Red;
 			this.korporacija14.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija14.Location = new System.Drawing.Point(62, 287);
+			this.korporacija14.Location = new System.Drawing.Point(71, 383);
+			this.korporacija14.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija14.Name = "korporacija14";
 			this.korporacija14.ReadOnly = true;
-			this.korporacija14.Size = new System.Drawing.Size(120, 36);
+			this.korporacija14.Size = new System.Drawing.Size(137, 43);
 			this.korporacija14.TabIndex = 36;
 			this.korporacija14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija14.Visible = false;
@@ -771,10 +801,11 @@
 			// 
 			this.maloprodaja15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
 			this.maloprodaja15.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja15.Location = new System.Drawing.Point(146, 245);
+			this.maloprodaja15.Location = new System.Drawing.Point(167, 327);
+			this.maloprodaja15.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja15.Name = "maloprodaja15";
 			this.maloprodaja15.ReadOnly = true;
-			this.maloprodaja15.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja15.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja15.TabIndex = 59;
 			this.maloprodaja15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja15.Visible = false;
@@ -783,10 +814,11 @@
 			// 
 			this.korporacija17.BackColor = System.Drawing.Color.Silver;
 			this.korporacija17.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija17.Location = new System.Drawing.Point(62, 161);
+			this.korporacija17.Location = new System.Drawing.Point(71, 215);
+			this.korporacija17.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija17.Name = "korporacija17";
 			this.korporacija17.ReadOnly = true;
-			this.korporacija17.Size = new System.Drawing.Size(120, 36);
+			this.korporacija17.Size = new System.Drawing.Size(137, 43);
 			this.korporacija17.TabIndex = 33;
 			this.korporacija17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija17.Visible = false;
@@ -795,10 +827,11 @@
 			// 
 			this.deonice17.BackColor = System.Drawing.Color.Silver;
 			this.deonice17.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice17.Location = new System.Drawing.Point(6, 161);
+			this.deonice17.Location = new System.Drawing.Point(7, 215);
+			this.deonice17.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice17.Name = "deonice17";
 			this.deonice17.ReadOnly = true;
-			this.deonice17.Size = new System.Drawing.Size(50, 36);
+			this.deonice17.Size = new System.Drawing.Size(57, 43);
 			this.deonice17.TabIndex = 1;
 			this.deonice17.Text = "0";
 			this.deonice17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -808,10 +841,11 @@
 			this.korporacija16.BackColor = System.Drawing.Color.Blue;
 			this.korporacija16.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.korporacija16.ForeColor = System.Drawing.SystemColors.Window;
-			this.korporacija16.Location = new System.Drawing.Point(62, 203);
+			this.korporacija16.Location = new System.Drawing.Point(71, 271);
+			this.korporacija16.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija16.Name = "korporacija16";
 			this.korporacija16.ReadOnly = true;
-			this.korporacija16.Size = new System.Drawing.Size(120, 36);
+			this.korporacija16.Size = new System.Drawing.Size(137, 43);
 			this.korporacija16.TabIndex = 34;
 			this.korporacija16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija16.Visible = false;
@@ -820,10 +854,11 @@
 			// 
 			this.maloprodaja13.BackColor = System.Drawing.Color.Yellow;
 			this.maloprodaja13.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja13.Location = new System.Drawing.Point(146, 329);
+			this.maloprodaja13.Location = new System.Drawing.Point(167, 439);
+			this.maloprodaja13.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja13.Name = "maloprodaja13";
 			this.maloprodaja13.ReadOnly = true;
-			this.maloprodaja13.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja13.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja13.TabIndex = 61;
 			this.maloprodaja13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja13.Visible = false;
@@ -832,10 +867,11 @@
 			// 
 			this.deonice14.BackColor = System.Drawing.Color.Red;
 			this.deonice14.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice14.Location = new System.Drawing.Point(6, 287);
+			this.deonice14.Location = new System.Drawing.Point(7, 383);
+			this.deonice14.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice14.Name = "deonice14";
 			this.deonice14.ReadOnly = true;
-			this.deonice14.Size = new System.Drawing.Size(50, 36);
+			this.deonice14.Size = new System.Drawing.Size(57, 43);
 			this.deonice14.TabIndex = 4;
 			this.deonice14.Text = "0";
 			this.deonice14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -845,10 +881,11 @@
 			this.maloprodaja18.BackColor = System.Drawing.Color.Purple;
 			this.maloprodaja18.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.maloprodaja18.ForeColor = System.Drawing.SystemColors.Window;
-			this.maloprodaja18.Location = new System.Drawing.Point(146, 119);
+			this.maloprodaja18.Location = new System.Drawing.Point(167, 159);
+			this.maloprodaja18.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja18.Name = "maloprodaja18";
 			this.maloprodaja18.ReadOnly = true;
-			this.maloprodaja18.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja18.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja18.TabIndex = 56;
 			this.maloprodaja18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja18.Visible = false;
@@ -857,10 +894,11 @@
 			// 
 			this.deonice13.BackColor = System.Drawing.Color.Yellow;
 			this.deonice13.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice13.Location = new System.Drawing.Point(6, 329);
+			this.deonice13.Location = new System.Drawing.Point(7, 439);
+			this.deonice13.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice13.Name = "deonice13";
 			this.deonice13.ReadOnly = true;
-			this.deonice13.Size = new System.Drawing.Size(50, 36);
+			this.deonice13.Size = new System.Drawing.Size(57, 43);
 			this.deonice13.TabIndex = 5;
 			this.deonice13.Text = "0";
 			this.deonice13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -869,10 +907,11 @@
 			// 
 			this.maloprodaja14.BackColor = System.Drawing.Color.Red;
 			this.maloprodaja14.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja14.Location = new System.Drawing.Point(146, 287);
+			this.maloprodaja14.Location = new System.Drawing.Point(167, 383);
+			this.maloprodaja14.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja14.Name = "maloprodaja14";
 			this.maloprodaja14.ReadOnly = true;
-			this.maloprodaja14.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja14.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja14.TabIndex = 60;
 			this.maloprodaja14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja14.Visible = false;
@@ -881,10 +920,11 @@
 			// 
 			this.deonice15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
 			this.deonice15.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice15.Location = new System.Drawing.Point(6, 245);
+			this.deonice15.Location = new System.Drawing.Point(7, 327);
+			this.deonice15.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice15.Name = "deonice15";
 			this.deonice15.ReadOnly = true;
-			this.deonice15.Size = new System.Drawing.Size(50, 36);
+			this.deonice15.Size = new System.Drawing.Size(57, 43);
 			this.deonice15.TabIndex = 3;
 			this.deonice15.Text = "0";
 			this.deonice15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -893,10 +933,11 @@
 			// 
 			this.maloprodaja17.BackColor = System.Drawing.Color.Silver;
 			this.maloprodaja17.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja17.Location = new System.Drawing.Point(146, 161);
+			this.maloprodaja17.Location = new System.Drawing.Point(167, 215);
+			this.maloprodaja17.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja17.Name = "maloprodaja17";
 			this.maloprodaja17.ReadOnly = true;
-			this.maloprodaja17.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja17.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja17.TabIndex = 57;
 			this.maloprodaja17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja17.Visible = false;
@@ -905,10 +946,11 @@
 			// 
 			this.deonice12.BackColor = System.Drawing.Color.Lime;
 			this.deonice12.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice12.Location = new System.Drawing.Point(6, 371);
+			this.deonice12.Location = new System.Drawing.Point(7, 495);
+			this.deonice12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice12.Name = "deonice12";
 			this.deonice12.ReadOnly = true;
-			this.deonice12.Size = new System.Drawing.Size(50, 36);
+			this.deonice12.Size = new System.Drawing.Size(57, 43);
 			this.deonice12.TabIndex = 6;
 			this.deonice12.Text = "0";
 			this.deonice12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -918,10 +960,11 @@
 			this.maloprodaja16.BackColor = System.Drawing.Color.Blue;
 			this.maloprodaja16.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.maloprodaja16.ForeColor = System.Drawing.SystemColors.Window;
-			this.maloprodaja16.Location = new System.Drawing.Point(146, 203);
+			this.maloprodaja16.Location = new System.Drawing.Point(167, 271);
+			this.maloprodaja16.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja16.Name = "maloprodaja16";
 			this.maloprodaja16.ReadOnly = true;
-			this.maloprodaja16.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja16.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja16.TabIndex = 58;
 			this.maloprodaja16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja16.Visible = false;
@@ -930,10 +973,11 @@
 			// 
 			this.deonice11.BackColor = System.Drawing.Color.Cyan;
 			this.deonice11.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice11.Location = new System.Drawing.Point(6, 413);
+			this.deonice11.Location = new System.Drawing.Point(7, 551);
+			this.deonice11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice11.Name = "deonice11";
 			this.deonice11.ReadOnly = true;
-			this.deonice11.Size = new System.Drawing.Size(50, 36);
+			this.deonice11.Size = new System.Drawing.Size(57, 43);
 			this.deonice11.TabIndex = 7;
 			this.deonice11.Text = "0";
 			this.deonice11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -942,10 +986,11 @@
 			// 
 			this.veleprodaja11.BackColor = System.Drawing.Color.Cyan;
 			this.veleprodaja11.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja11.Location = new System.Drawing.Point(104, 413);
+			this.veleprodaja11.Location = new System.Drawing.Point(119, 551);
+			this.veleprodaja11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja11.Name = "veleprodaja11";
 			this.veleprodaja11.ReadOnly = true;
-			this.veleprodaja11.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja11.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja11.TabIndex = 55;
 			this.veleprodaja11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja11.Visible = false;
@@ -954,10 +999,11 @@
 			// 
 			this.veleprodaja12.BackColor = System.Drawing.Color.Lime;
 			this.veleprodaja12.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja12.Location = new System.Drawing.Point(104, 371);
+			this.veleprodaja12.Location = new System.Drawing.Point(119, 495);
+			this.veleprodaja12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja12.Name = "veleprodaja12";
 			this.veleprodaja12.ReadOnly = true;
-			this.veleprodaja12.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja12.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja12.TabIndex = 54;
 			this.veleprodaja12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja12.Visible = false;
@@ -966,10 +1012,11 @@
 			// 
 			this.veleprodaja15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
 			this.veleprodaja15.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja15.Location = new System.Drawing.Point(104, 245);
+			this.veleprodaja15.Location = new System.Drawing.Point(119, 327);
+			this.veleprodaja15.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja15.Name = "veleprodaja15";
 			this.veleprodaja15.ReadOnly = true;
-			this.veleprodaja15.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja15.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja15.TabIndex = 51;
 			this.veleprodaja15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja15.Visible = false;
@@ -978,10 +1025,11 @@
 			// 
 			this.veleprodaja13.BackColor = System.Drawing.Color.Yellow;
 			this.veleprodaja13.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja13.Location = new System.Drawing.Point(104, 329);
+			this.veleprodaja13.Location = new System.Drawing.Point(119, 439);
+			this.veleprodaja13.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja13.Name = "veleprodaja13";
 			this.veleprodaja13.ReadOnly = true;
-			this.veleprodaja13.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja13.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja13.TabIndex = 53;
 			this.veleprodaja13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja13.Visible = false;
@@ -991,10 +1039,11 @@
 			this.veleprodaja18.BackColor = System.Drawing.Color.Purple;
 			this.veleprodaja18.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.veleprodaja18.ForeColor = System.Drawing.SystemColors.Window;
-			this.veleprodaja18.Location = new System.Drawing.Point(104, 119);
+			this.veleprodaja18.Location = new System.Drawing.Point(119, 159);
+			this.veleprodaja18.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja18.Name = "veleprodaja18";
 			this.veleprodaja18.ReadOnly = true;
-			this.veleprodaja18.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja18.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja18.TabIndex = 48;
 			this.veleprodaja18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja18.Visible = false;
@@ -1003,10 +1052,11 @@
 			// 
 			this.veleprodaja14.BackColor = System.Drawing.Color.Red;
 			this.veleprodaja14.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja14.Location = new System.Drawing.Point(104, 287);
+			this.veleprodaja14.Location = new System.Drawing.Point(119, 383);
+			this.veleprodaja14.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja14.Name = "veleprodaja14";
 			this.veleprodaja14.ReadOnly = true;
-			this.veleprodaja14.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja14.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja14.TabIndex = 52;
 			this.veleprodaja14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja14.Visible = false;
@@ -1015,10 +1065,11 @@
 			// 
 			this.veleprodaja17.BackColor = System.Drawing.Color.Silver;
 			this.veleprodaja17.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja17.Location = new System.Drawing.Point(104, 161);
+			this.veleprodaja17.Location = new System.Drawing.Point(119, 215);
+			this.veleprodaja17.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja17.Name = "veleprodaja17";
 			this.veleprodaja17.ReadOnly = true;
-			this.veleprodaja17.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja17.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja17.TabIndex = 49;
 			this.veleprodaja17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja17.Visible = false;
@@ -1028,10 +1079,11 @@
 			this.veleprodaja16.BackColor = System.Drawing.Color.Blue;
 			this.veleprodaja16.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.veleprodaja16.ForeColor = System.Drawing.SystemColors.Window;
-			this.veleprodaja16.Location = new System.Drawing.Point(104, 203);
+			this.veleprodaja16.Location = new System.Drawing.Point(119, 271);
+			this.veleprodaja16.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja16.Name = "veleprodaja16";
 			this.veleprodaja16.ReadOnly = true;
-			this.veleprodaja16.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja16.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja16.TabIndex = 50;
 			this.veleprodaja16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja16.Visible = false;
@@ -1040,10 +1092,11 @@
 			// 
 			this.proizvodnja11.BackColor = System.Drawing.Color.Cyan;
 			this.proizvodnja11.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja11.Location = new System.Drawing.Point(62, 413);
+			this.proizvodnja11.Location = new System.Drawing.Point(71, 551);
+			this.proizvodnja11.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja11.Name = "proizvodnja11";
 			this.proizvodnja11.ReadOnly = true;
-			this.proizvodnja11.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja11.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja11.TabIndex = 47;
 			this.proizvodnja11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja11.Visible = false;
@@ -1053,10 +1106,11 @@
 			this.proizvodnja16.BackColor = System.Drawing.Color.Blue;
 			this.proizvodnja16.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.proizvodnja16.ForeColor = System.Drawing.SystemColors.Window;
-			this.proizvodnja16.Location = new System.Drawing.Point(62, 203);
+			this.proizvodnja16.Location = new System.Drawing.Point(71, 271);
+			this.proizvodnja16.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja16.Name = "proizvodnja16";
 			this.proizvodnja16.ReadOnly = true;
-			this.proizvodnja16.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja16.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja16.TabIndex = 42;
 			this.proizvodnja16.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja16.Visible = false;
@@ -1065,10 +1119,11 @@
 			// 
 			this.proizvodnja12.BackColor = System.Drawing.Color.Lime;
 			this.proizvodnja12.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja12.Location = new System.Drawing.Point(62, 371);
+			this.proizvodnja12.Location = new System.Drawing.Point(71, 495);
+			this.proizvodnja12.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja12.Name = "proizvodnja12";
 			this.proizvodnja12.ReadOnly = true;
-			this.proizvodnja12.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja12.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja12.TabIndex = 46;
 			this.proizvodnja12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja12.Visible = false;
@@ -1077,10 +1132,11 @@
 			// 
 			this.proizvodnja17.BackColor = System.Drawing.Color.Silver;
 			this.proizvodnja17.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja17.Location = new System.Drawing.Point(62, 161);
+			this.proizvodnja17.Location = new System.Drawing.Point(71, 215);
+			this.proizvodnja17.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja17.Name = "proizvodnja17";
 			this.proizvodnja17.ReadOnly = true;
-			this.proizvodnja17.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja17.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja17.TabIndex = 41;
 			this.proizvodnja17.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja17.Visible = false;
@@ -1089,10 +1145,11 @@
 			// 
 			this.proizvodnja15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
 			this.proizvodnja15.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja15.Location = new System.Drawing.Point(62, 245);
+			this.proizvodnja15.Location = new System.Drawing.Point(71, 327);
+			this.proizvodnja15.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja15.Name = "proizvodnja15";
 			this.proizvodnja15.ReadOnly = true;
-			this.proizvodnja15.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja15.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja15.TabIndex = 43;
 			this.proizvodnja15.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja15.Visible = false;
@@ -1101,10 +1158,11 @@
 			// 
 			this.proizvodnja14.BackColor = System.Drawing.Color.Red;
 			this.proizvodnja14.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja14.Location = new System.Drawing.Point(62, 287);
+			this.proizvodnja14.Location = new System.Drawing.Point(71, 383);
+			this.proizvodnja14.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja14.Name = "proizvodnja14";
 			this.proizvodnja14.ReadOnly = true;
-			this.proizvodnja14.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja14.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja14.TabIndex = 44;
 			this.proizvodnja14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja14.Visible = false;
@@ -1113,10 +1171,11 @@
 			// 
 			this.proizvodnja13.BackColor = System.Drawing.Color.Yellow;
 			this.proizvodnja13.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja13.Location = new System.Drawing.Point(62, 329);
+			this.proizvodnja13.Location = new System.Drawing.Point(71, 439);
+			this.proizvodnja13.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja13.Name = "proizvodnja13";
 			this.proizvodnja13.ReadOnly = true;
-			this.proizvodnja13.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja13.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja13.TabIndex = 45;
 			this.proizvodnja13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja13.Visible = false;
@@ -1126,10 +1185,11 @@
 			this.proizvodnja18.BackColor = System.Drawing.Color.Purple;
 			this.proizvodnja18.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.proizvodnja18.ForeColor = System.Drawing.SystemColors.Window;
-			this.proizvodnja18.Location = new System.Drawing.Point(62, 119);
+			this.proizvodnja18.Location = new System.Drawing.Point(71, 159);
+			this.proizvodnja18.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja18.Name = "proizvodnja18";
 			this.proizvodnja18.ReadOnly = true;
-			this.proizvodnja18.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja18.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja18.TabIndex = 40;
 			this.proizvodnja18.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja18.Visible = false;
@@ -1191,20 +1251,24 @@
 			this.igrac2.Controls.Add(this.proizvodnja23);
 			this.igrac2.Controls.Add(this.proizvodnja28);
 			this.igrac2.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.igrac2.Location = new System.Drawing.Point(206, 12);
+			this.igrac2.Location = new System.Drawing.Point(235, 16);
+			this.igrac2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.igrac2.Name = "igrac2";
-			this.igrac2.Size = new System.Drawing.Size(188, 767);
+			this.igrac2.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.igrac2.Size = new System.Drawing.Size(215, 1018);
 			this.igrac2.TabIndex = 70;
 			this.igrac2.TabStop = false;
+			this.igrac2.Text = "igrač 2";
 			// 
 			// kontinent26
 			// 
 			this.kontinent26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
 			this.kontinent26.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.kontinent26.Location = new System.Drawing.Point(98, 707);
+			this.kontinent26.Location = new System.Drawing.Point(112, 943);
+			this.kontinent26.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent26.Name = "kontinent26";
 			this.kontinent26.ReadOnly = true;
-			this.kontinent26.Size = new System.Drawing.Size(84, 36);
+			this.kontinent26.Size = new System.Drawing.Size(95, 43);
 			this.kontinent26.TabIndex = 83;
 			this.kontinent26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent26.Visible = false;
@@ -1213,9 +1277,10 @@
 			// 
 			this.dodaj_novac2.BackColor = System.Drawing.Color.White;
 			this.dodaj_novac2.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.dodaj_novac2.Location = new System.Drawing.Point(6, 581);
+			this.dodaj_novac2.Location = new System.Drawing.Point(7, 775);
+			this.dodaj_novac2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.dodaj_novac2.Name = "dodaj_novac2";
-			this.dodaj_novac2.Size = new System.Drawing.Size(176, 36);
+			this.dodaj_novac2.Size = new System.Drawing.Size(201, 43);
 			this.dodaj_novac2.TabIndex = 72;
 			this.dodaj_novac2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			// 
@@ -1223,10 +1288,11 @@
 			// 
 			this.kontinent25.BackColor = System.Drawing.Color.Lime;
 			this.kontinent25.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.kontinent25.Location = new System.Drawing.Point(6, 707);
+			this.kontinent25.Location = new System.Drawing.Point(7, 943);
+			this.kontinent25.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent25.Name = "kontinent25";
 			this.kontinent25.ReadOnly = true;
-			this.kontinent25.Size = new System.Drawing.Size(84, 36);
+			this.kontinent25.Size = new System.Drawing.Size(95, 43);
 			this.kontinent25.TabIndex = 82;
 			this.kontinent25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent25.Visible = false;
@@ -1235,10 +1301,11 @@
 			// 
 			this.trenutna_dividenda2.BackColor = System.Drawing.Color.White;
 			this.trenutna_dividenda2.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.trenutna_dividenda2.Location = new System.Drawing.Point(6, 77);
+			this.trenutna_dividenda2.Location = new System.Drawing.Point(7, 103);
+			this.trenutna_dividenda2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.trenutna_dividenda2.Name = "trenutna_dividenda2";
 			this.trenutna_dividenda2.ReadOnly = true;
-			this.trenutna_dividenda2.Size = new System.Drawing.Size(176, 36);
+			this.trenutna_dividenda2.Size = new System.Drawing.Size(201, 43);
 			this.trenutna_dividenda2.TabIndex = 71;
 			this.trenutna_dividenda2.Text = "0";
 			this.trenutna_dividenda2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1247,10 +1314,11 @@
 			// 
 			this.kontinent24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
 			this.kontinent24.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.kontinent24.Location = new System.Drawing.Point(98, 665);
+			this.kontinent24.Location = new System.Drawing.Point(112, 887);
+			this.kontinent24.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent24.Name = "kontinent24";
 			this.kontinent24.ReadOnly = true;
-			this.kontinent24.Size = new System.Drawing.Size(84, 36);
+			this.kontinent24.Size = new System.Drawing.Size(95, 43);
 			this.kontinent24.TabIndex = 81;
 			this.kontinent24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent24.Visible = false;
@@ -1258,9 +1326,10 @@
 			// dividenda2
 			// 
 			this.dividenda2.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.dividenda2.Location = new System.Drawing.Point(6, 539);
+			this.dividenda2.Location = new System.Drawing.Point(7, 719);
+			this.dividenda2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.dividenda2.Name = "dividenda2";
-			this.dividenda2.Size = new System.Drawing.Size(176, 36);
+			this.dividenda2.Size = new System.Drawing.Size(201, 48);
 			this.dividenda2.TabIndex = 69;
 			this.dividenda2.Text = "Dividenda";
 			this.dividenda2.UseVisualStyleBackColor = true;
@@ -1271,20 +1340,22 @@
 			this.kontinent23.BackColor = System.Drawing.Color.Purple;
 			this.kontinent23.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.kontinent23.ForeColor = System.Drawing.Color.White;
-			this.kontinent23.Location = new System.Drawing.Point(6, 665);
+			this.kontinent23.Location = new System.Drawing.Point(7, 887);
+			this.kontinent23.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent23.Name = "kontinent23";
 			this.kontinent23.ReadOnly = true;
-			this.kontinent23.Size = new System.Drawing.Size(84, 36);
+			this.kontinent23.Size = new System.Drawing.Size(95, 43);
 			this.kontinent23.TabIndex = 80;
 			this.kontinent23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent23.Visible = false;
 			// 
 			// izgubi2
 			// 
-			this.izgubi2.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.izgubi2.Location = new System.Drawing.Point(104, 497);
+			this.izgubi2.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+			this.izgubi2.Location = new System.Drawing.Point(119, 663);
+			this.izgubi2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.izgubi2.Name = "izgubi2";
-			this.izgubi2.Size = new System.Drawing.Size(78, 36);
+			this.izgubi2.Size = new System.Drawing.Size(89, 48);
 			this.izgubi2.TabIndex = 68;
 			this.izgubi2.Text = "Izgubi";
 			this.izgubi2.UseVisualStyleBackColor = true;
@@ -1294,10 +1365,11 @@
 			// 
 			this.kontinent22.BackColor = System.Drawing.Color.Yellow;
 			this.kontinent22.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.kontinent22.Location = new System.Drawing.Point(98, 623);
+			this.kontinent22.Location = new System.Drawing.Point(112, 831);
+			this.kontinent22.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent22.Name = "kontinent22";
 			this.kontinent22.ReadOnly = true;
-			this.kontinent22.Size = new System.Drawing.Size(84, 36);
+			this.kontinent22.Size = new System.Drawing.Size(95, 43);
 			this.kontinent22.TabIndex = 79;
 			this.kontinent22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent22.Visible = false;
@@ -1305,9 +1377,10 @@
 			// uzmi2
 			// 
 			this.uzmi2.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.uzmi2.Location = new System.Drawing.Point(104, 455);
+			this.uzmi2.Location = new System.Drawing.Point(119, 607);
+			this.uzmi2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.uzmi2.Name = "uzmi2";
-			this.uzmi2.Size = new System.Drawing.Size(78, 36);
+			this.uzmi2.Size = new System.Drawing.Size(89, 48);
 			this.uzmi2.TabIndex = 67;
 			this.uzmi2.Text = "Uzmi";
 			this.uzmi2.UseVisualStyleBackColor = true;
@@ -1318,10 +1391,11 @@
 			this.kontinent21.BackColor = System.Drawing.Color.Blue;
 			this.kontinent21.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.kontinent21.ForeColor = System.Drawing.Color.White;
-			this.kontinent21.Location = new System.Drawing.Point(6, 623);
+			this.kontinent21.Location = new System.Drawing.Point(7, 831);
+			this.kontinent21.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent21.Name = "kontinent21";
 			this.kontinent21.ReadOnly = true;
-			this.kontinent21.Size = new System.Drawing.Size(84, 36);
+			this.kontinent21.Size = new System.Drawing.Size(95, 43);
 			this.kontinent21.TabIndex = 78;
 			this.kontinent21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent21.Visible = false;
@@ -1329,9 +1403,10 @@
 			// prodaj2
 			// 
 			this.prodaj2.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.prodaj2.Location = new System.Drawing.Point(6, 497);
+			this.prodaj2.Location = new System.Drawing.Point(7, 663);
+			this.prodaj2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.prodaj2.Name = "prodaj2";
-			this.prodaj2.Size = new System.Drawing.Size(92, 36);
+			this.prodaj2.Size = new System.Drawing.Size(105, 48);
 			this.prodaj2.TabIndex = 66;
 			this.prodaj2.Text = "Prodaj";
 			this.prodaj2.UseVisualStyleBackColor = true;
@@ -1340,9 +1415,10 @@
 			// kupi2
 			// 
 			this.kupi2.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.kupi2.Location = new System.Drawing.Point(6, 455);
+			this.kupi2.Location = new System.Drawing.Point(7, 607);
+			this.kupi2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kupi2.Name = "kupi2";
-			this.kupi2.Size = new System.Drawing.Size(92, 36);
+			this.kupi2.Size = new System.Drawing.Size(105, 48);
 			this.kupi2.TabIndex = 65;
 			this.kupi2.Text = "Kupi";
 			this.kupi2.UseVisualStyleBackColor = true;
@@ -1352,10 +1428,11 @@
 			// 
 			this.novac2.BackColor = System.Drawing.Color.White;
 			this.novac2.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.novac2.Location = new System.Drawing.Point(6, 35);
+			this.novac2.Location = new System.Drawing.Point(7, 47);
+			this.novac2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.novac2.Name = "novac2";
 			this.novac2.ReadOnly = true;
-			this.novac2.Size = new System.Drawing.Size(176, 36);
+			this.novac2.Size = new System.Drawing.Size(201, 43);
 			this.novac2.TabIndex = 64;
 			this.novac2.Text = "100000";
 			this.novac2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1364,10 +1441,11 @@
 			// 
 			this.korporacija21.BackColor = System.Drawing.Color.Cyan;
 			this.korporacija21.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija21.Location = new System.Drawing.Point(62, 413);
+			this.korporacija21.Location = new System.Drawing.Point(71, 551);
+			this.korporacija21.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija21.Name = "korporacija21";
 			this.korporacija21.ReadOnly = true;
-			this.korporacija21.Size = new System.Drawing.Size(120, 36);
+			this.korporacija21.Size = new System.Drawing.Size(137, 43);
 			this.korporacija21.TabIndex = 39;
 			this.korporacija21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija21.Visible = false;
@@ -1376,10 +1454,11 @@
 			// 
 			this.korporacija22.BackColor = System.Drawing.Color.Lime;
 			this.korporacija22.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija22.Location = new System.Drawing.Point(62, 371);
+			this.korporacija22.Location = new System.Drawing.Point(71, 495);
+			this.korporacija22.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija22.Name = "korporacija22";
 			this.korporacija22.ReadOnly = true;
-			this.korporacija22.Size = new System.Drawing.Size(120, 36);
+			this.korporacija22.Size = new System.Drawing.Size(137, 43);
 			this.korporacija22.TabIndex = 38;
 			this.korporacija22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija22.Visible = false;
@@ -1388,10 +1467,11 @@
 			// 
 			this.maloprodaja21.BackColor = System.Drawing.Color.Cyan;
 			this.maloprodaja21.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja21.Location = new System.Drawing.Point(146, 413);
+			this.maloprodaja21.Location = new System.Drawing.Point(167, 551);
+			this.maloprodaja21.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja21.Name = "maloprodaja21";
 			this.maloprodaja21.ReadOnly = true;
-			this.maloprodaja21.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja21.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja21.TabIndex = 63;
 			this.maloprodaja21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja21.Visible = false;
@@ -1400,10 +1480,11 @@
 			// 
 			this.korporacija25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
 			this.korporacija25.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija25.Location = new System.Drawing.Point(62, 245);
+			this.korporacija25.Location = new System.Drawing.Point(71, 327);
+			this.korporacija25.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija25.Name = "korporacija25";
 			this.korporacija25.ReadOnly = true;
-			this.korporacija25.Size = new System.Drawing.Size(120, 36);
+			this.korporacija25.Size = new System.Drawing.Size(137, 43);
 			this.korporacija25.TabIndex = 35;
 			this.korporacija25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija25.Visible = false;
@@ -1413,10 +1494,11 @@
 			this.deonice28.BackColor = System.Drawing.Color.Purple;
 			this.deonice28.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.deonice28.ForeColor = System.Drawing.SystemColors.Window;
-			this.deonice28.Location = new System.Drawing.Point(6, 119);
+			this.deonice28.Location = new System.Drawing.Point(7, 159);
+			this.deonice28.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice28.Name = "deonice28";
 			this.deonice28.ReadOnly = true;
-			this.deonice28.Size = new System.Drawing.Size(50, 36);
+			this.deonice28.Size = new System.Drawing.Size(57, 43);
 			this.deonice28.TabIndex = 0;
 			this.deonice28.Text = "0";
 			this.deonice28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1425,10 +1507,11 @@
 			// 
 			this.korporacija23.BackColor = System.Drawing.Color.Yellow;
 			this.korporacija23.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija23.Location = new System.Drawing.Point(62, 329);
+			this.korporacija23.Location = new System.Drawing.Point(71, 439);
+			this.korporacija23.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija23.Name = "korporacija23";
 			this.korporacija23.ReadOnly = true;
-			this.korporacija23.Size = new System.Drawing.Size(120, 36);
+			this.korporacija23.Size = new System.Drawing.Size(137, 43);
 			this.korporacija23.TabIndex = 37;
 			this.korporacija23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija23.Visible = false;
@@ -1437,10 +1520,11 @@
 			// 
 			this.maloprodaja22.BackColor = System.Drawing.Color.Lime;
 			this.maloprodaja22.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja22.Location = new System.Drawing.Point(146, 371);
+			this.maloprodaja22.Location = new System.Drawing.Point(167, 495);
+			this.maloprodaja22.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja22.Name = "maloprodaja22";
 			this.maloprodaja22.ReadOnly = true;
-			this.maloprodaja22.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja22.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja22.TabIndex = 62;
 			this.maloprodaja22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja22.Visible = false;
@@ -1450,10 +1534,11 @@
 			this.korporacija28.BackColor = System.Drawing.Color.Purple;
 			this.korporacija28.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.korporacija28.ForeColor = System.Drawing.SystemColors.Window;
-			this.korporacija28.Location = new System.Drawing.Point(62, 119);
+			this.korporacija28.Location = new System.Drawing.Point(71, 159);
+			this.korporacija28.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija28.Name = "korporacija28";
 			this.korporacija28.ReadOnly = true;
-			this.korporacija28.Size = new System.Drawing.Size(120, 36);
+			this.korporacija28.Size = new System.Drawing.Size(137, 43);
 			this.korporacija28.TabIndex = 32;
 			this.korporacija28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija28.Visible = false;
@@ -1463,10 +1548,11 @@
 			this.deonice26.BackColor = System.Drawing.Color.Blue;
 			this.deonice26.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.deonice26.ForeColor = System.Drawing.SystemColors.Window;
-			this.deonice26.Location = new System.Drawing.Point(6, 203);
+			this.deonice26.Location = new System.Drawing.Point(7, 271);
+			this.deonice26.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice26.Name = "deonice26";
 			this.deonice26.ReadOnly = true;
-			this.deonice26.Size = new System.Drawing.Size(50, 36);
+			this.deonice26.Size = new System.Drawing.Size(57, 43);
 			this.deonice26.TabIndex = 2;
 			this.deonice26.Text = "0";
 			this.deonice26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1475,10 +1561,11 @@
 			// 
 			this.korporacija24.BackColor = System.Drawing.Color.Red;
 			this.korporacija24.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija24.Location = new System.Drawing.Point(62, 287);
+			this.korporacija24.Location = new System.Drawing.Point(71, 383);
+			this.korporacija24.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija24.Name = "korporacija24";
 			this.korporacija24.ReadOnly = true;
-			this.korporacija24.Size = new System.Drawing.Size(120, 36);
+			this.korporacija24.Size = new System.Drawing.Size(137, 43);
 			this.korporacija24.TabIndex = 36;
 			this.korporacija24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija24.Visible = false;
@@ -1487,10 +1574,11 @@
 			// 
 			this.maloprodaja25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
 			this.maloprodaja25.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja25.Location = new System.Drawing.Point(146, 245);
+			this.maloprodaja25.Location = new System.Drawing.Point(167, 327);
+			this.maloprodaja25.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja25.Name = "maloprodaja25";
 			this.maloprodaja25.ReadOnly = true;
-			this.maloprodaja25.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja25.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja25.TabIndex = 59;
 			this.maloprodaja25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja25.Visible = false;
@@ -1499,10 +1587,11 @@
 			// 
 			this.korporacija27.BackColor = System.Drawing.Color.Silver;
 			this.korporacija27.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija27.Location = new System.Drawing.Point(62, 161);
+			this.korporacija27.Location = new System.Drawing.Point(71, 215);
+			this.korporacija27.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija27.Name = "korporacija27";
 			this.korporacija27.ReadOnly = true;
-			this.korporacija27.Size = new System.Drawing.Size(120, 36);
+			this.korporacija27.Size = new System.Drawing.Size(137, 43);
 			this.korporacija27.TabIndex = 33;
 			this.korporacija27.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija27.Visible = false;
@@ -1511,10 +1600,11 @@
 			// 
 			this.deonice27.BackColor = System.Drawing.Color.Silver;
 			this.deonice27.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice27.Location = new System.Drawing.Point(6, 161);
+			this.deonice27.Location = new System.Drawing.Point(7, 215);
+			this.deonice27.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice27.Name = "deonice27";
 			this.deonice27.ReadOnly = true;
-			this.deonice27.Size = new System.Drawing.Size(50, 36);
+			this.deonice27.Size = new System.Drawing.Size(57, 43);
 			this.deonice27.TabIndex = 1;
 			this.deonice27.Text = "0";
 			this.deonice27.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1524,10 +1614,11 @@
 			this.korporacija26.BackColor = System.Drawing.Color.Blue;
 			this.korporacija26.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.korporacija26.ForeColor = System.Drawing.SystemColors.Window;
-			this.korporacija26.Location = new System.Drawing.Point(62, 203);
+			this.korporacija26.Location = new System.Drawing.Point(71, 271);
+			this.korporacija26.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija26.Name = "korporacija26";
 			this.korporacija26.ReadOnly = true;
-			this.korporacija26.Size = new System.Drawing.Size(120, 36);
+			this.korporacija26.Size = new System.Drawing.Size(137, 43);
 			this.korporacija26.TabIndex = 34;
 			this.korporacija26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija26.Visible = false;
@@ -1536,10 +1627,11 @@
 			// 
 			this.maloprodaja23.BackColor = System.Drawing.Color.Yellow;
 			this.maloprodaja23.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja23.Location = new System.Drawing.Point(146, 329);
+			this.maloprodaja23.Location = new System.Drawing.Point(167, 439);
+			this.maloprodaja23.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja23.Name = "maloprodaja23";
 			this.maloprodaja23.ReadOnly = true;
-			this.maloprodaja23.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja23.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja23.TabIndex = 61;
 			this.maloprodaja23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja23.Visible = false;
@@ -1548,10 +1640,11 @@
 			// 
 			this.deonice24.BackColor = System.Drawing.Color.Red;
 			this.deonice24.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice24.Location = new System.Drawing.Point(6, 287);
+			this.deonice24.Location = new System.Drawing.Point(7, 383);
+			this.deonice24.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice24.Name = "deonice24";
 			this.deonice24.ReadOnly = true;
-			this.deonice24.Size = new System.Drawing.Size(50, 36);
+			this.deonice24.Size = new System.Drawing.Size(57, 43);
 			this.deonice24.TabIndex = 4;
 			this.deonice24.Text = "0";
 			this.deonice24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1561,10 +1654,11 @@
 			this.maloprodaja28.BackColor = System.Drawing.Color.Purple;
 			this.maloprodaja28.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.maloprodaja28.ForeColor = System.Drawing.SystemColors.Window;
-			this.maloprodaja28.Location = new System.Drawing.Point(146, 119);
+			this.maloprodaja28.Location = new System.Drawing.Point(167, 159);
+			this.maloprodaja28.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja28.Name = "maloprodaja28";
 			this.maloprodaja28.ReadOnly = true;
-			this.maloprodaja28.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja28.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja28.TabIndex = 56;
 			this.maloprodaja28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja28.Visible = false;
@@ -1573,10 +1667,11 @@
 			// 
 			this.deonice23.BackColor = System.Drawing.Color.Yellow;
 			this.deonice23.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice23.Location = new System.Drawing.Point(6, 329);
+			this.deonice23.Location = new System.Drawing.Point(7, 439);
+			this.deonice23.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice23.Name = "deonice23";
 			this.deonice23.ReadOnly = true;
-			this.deonice23.Size = new System.Drawing.Size(50, 36);
+			this.deonice23.Size = new System.Drawing.Size(57, 43);
 			this.deonice23.TabIndex = 5;
 			this.deonice23.Text = "0";
 			this.deonice23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1585,10 +1680,11 @@
 			// 
 			this.maloprodaja24.BackColor = System.Drawing.Color.Red;
 			this.maloprodaja24.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja24.Location = new System.Drawing.Point(146, 287);
+			this.maloprodaja24.Location = new System.Drawing.Point(167, 383);
+			this.maloprodaja24.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja24.Name = "maloprodaja24";
 			this.maloprodaja24.ReadOnly = true;
-			this.maloprodaja24.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja24.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja24.TabIndex = 60;
 			this.maloprodaja24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja24.Visible = false;
@@ -1597,10 +1693,11 @@
 			// 
 			this.deonice25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
 			this.deonice25.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice25.Location = new System.Drawing.Point(6, 245);
+			this.deonice25.Location = new System.Drawing.Point(7, 327);
+			this.deonice25.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice25.Name = "deonice25";
 			this.deonice25.ReadOnly = true;
-			this.deonice25.Size = new System.Drawing.Size(50, 36);
+			this.deonice25.Size = new System.Drawing.Size(57, 43);
 			this.deonice25.TabIndex = 3;
 			this.deonice25.Text = "0";
 			this.deonice25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1609,10 +1706,11 @@
 			// 
 			this.maloprodaja27.BackColor = System.Drawing.Color.Silver;
 			this.maloprodaja27.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja27.Location = new System.Drawing.Point(146, 161);
+			this.maloprodaja27.Location = new System.Drawing.Point(167, 215);
+			this.maloprodaja27.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja27.Name = "maloprodaja27";
 			this.maloprodaja27.ReadOnly = true;
-			this.maloprodaja27.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja27.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja27.TabIndex = 57;
 			this.maloprodaja27.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja27.Visible = false;
@@ -1621,10 +1719,11 @@
 			// 
 			this.deonice22.BackColor = System.Drawing.Color.Lime;
 			this.deonice22.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice22.Location = new System.Drawing.Point(6, 371);
+			this.deonice22.Location = new System.Drawing.Point(7, 495);
+			this.deonice22.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice22.Name = "deonice22";
 			this.deonice22.ReadOnly = true;
-			this.deonice22.Size = new System.Drawing.Size(50, 36);
+			this.deonice22.Size = new System.Drawing.Size(57, 43);
 			this.deonice22.TabIndex = 6;
 			this.deonice22.Text = "0";
 			this.deonice22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1634,10 +1733,11 @@
 			this.maloprodaja26.BackColor = System.Drawing.Color.Blue;
 			this.maloprodaja26.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.maloprodaja26.ForeColor = System.Drawing.SystemColors.Window;
-			this.maloprodaja26.Location = new System.Drawing.Point(146, 203);
+			this.maloprodaja26.Location = new System.Drawing.Point(167, 271);
+			this.maloprodaja26.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja26.Name = "maloprodaja26";
 			this.maloprodaja26.ReadOnly = true;
-			this.maloprodaja26.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja26.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja26.TabIndex = 58;
 			this.maloprodaja26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja26.Visible = false;
@@ -1646,10 +1746,11 @@
 			// 
 			this.deonice21.BackColor = System.Drawing.Color.Cyan;
 			this.deonice21.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice21.Location = new System.Drawing.Point(6, 413);
+			this.deonice21.Location = new System.Drawing.Point(7, 551);
+			this.deonice21.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice21.Name = "deonice21";
 			this.deonice21.ReadOnly = true;
-			this.deonice21.Size = new System.Drawing.Size(50, 36);
+			this.deonice21.Size = new System.Drawing.Size(57, 43);
 			this.deonice21.TabIndex = 7;
 			this.deonice21.Text = "0";
 			this.deonice21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1658,10 +1759,11 @@
 			// 
 			this.veleprodaja21.BackColor = System.Drawing.Color.Cyan;
 			this.veleprodaja21.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja21.Location = new System.Drawing.Point(104, 413);
+			this.veleprodaja21.Location = new System.Drawing.Point(119, 551);
+			this.veleprodaja21.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja21.Name = "veleprodaja21";
 			this.veleprodaja21.ReadOnly = true;
-			this.veleprodaja21.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja21.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja21.TabIndex = 55;
 			this.veleprodaja21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja21.Visible = false;
@@ -1670,10 +1772,11 @@
 			// 
 			this.veleprodaja22.BackColor = System.Drawing.Color.Lime;
 			this.veleprodaja22.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja22.Location = new System.Drawing.Point(104, 371);
+			this.veleprodaja22.Location = new System.Drawing.Point(119, 495);
+			this.veleprodaja22.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja22.Name = "veleprodaja22";
 			this.veleprodaja22.ReadOnly = true;
-			this.veleprodaja22.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja22.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja22.TabIndex = 54;
 			this.veleprodaja22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja22.Visible = false;
@@ -1682,10 +1785,11 @@
 			// 
 			this.veleprodaja25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
 			this.veleprodaja25.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja25.Location = new System.Drawing.Point(104, 245);
+			this.veleprodaja25.Location = new System.Drawing.Point(119, 327);
+			this.veleprodaja25.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja25.Name = "veleprodaja25";
 			this.veleprodaja25.ReadOnly = true;
-			this.veleprodaja25.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja25.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja25.TabIndex = 51;
 			this.veleprodaja25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja25.Visible = false;
@@ -1694,10 +1798,11 @@
 			// 
 			this.veleprodaja23.BackColor = System.Drawing.Color.Yellow;
 			this.veleprodaja23.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja23.Location = new System.Drawing.Point(104, 329);
+			this.veleprodaja23.Location = new System.Drawing.Point(119, 439);
+			this.veleprodaja23.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja23.Name = "veleprodaja23";
 			this.veleprodaja23.ReadOnly = true;
-			this.veleprodaja23.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja23.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja23.TabIndex = 53;
 			this.veleprodaja23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja23.Visible = false;
@@ -1707,10 +1812,11 @@
 			this.veleprodaja28.BackColor = System.Drawing.Color.Purple;
 			this.veleprodaja28.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.veleprodaja28.ForeColor = System.Drawing.SystemColors.Window;
-			this.veleprodaja28.Location = new System.Drawing.Point(104, 119);
+			this.veleprodaja28.Location = new System.Drawing.Point(119, 159);
+			this.veleprodaja28.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja28.Name = "veleprodaja28";
 			this.veleprodaja28.ReadOnly = true;
-			this.veleprodaja28.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja28.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja28.TabIndex = 48;
 			this.veleprodaja28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja28.Visible = false;
@@ -1719,10 +1825,11 @@
 			// 
 			this.veleprodaja24.BackColor = System.Drawing.Color.Red;
 			this.veleprodaja24.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja24.Location = new System.Drawing.Point(104, 287);
+			this.veleprodaja24.Location = new System.Drawing.Point(119, 383);
+			this.veleprodaja24.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja24.Name = "veleprodaja24";
 			this.veleprodaja24.ReadOnly = true;
-			this.veleprodaja24.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja24.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja24.TabIndex = 52;
 			this.veleprodaja24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja24.Visible = false;
@@ -1731,10 +1838,11 @@
 			// 
 			this.veleprodaja27.BackColor = System.Drawing.Color.Silver;
 			this.veleprodaja27.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja27.Location = new System.Drawing.Point(104, 161);
+			this.veleprodaja27.Location = new System.Drawing.Point(119, 215);
+			this.veleprodaja27.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja27.Name = "veleprodaja27";
 			this.veleprodaja27.ReadOnly = true;
-			this.veleprodaja27.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja27.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja27.TabIndex = 49;
 			this.veleprodaja27.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja27.Visible = false;
@@ -1744,10 +1852,11 @@
 			this.veleprodaja26.BackColor = System.Drawing.Color.Blue;
 			this.veleprodaja26.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.veleprodaja26.ForeColor = System.Drawing.SystemColors.Window;
-			this.veleprodaja26.Location = new System.Drawing.Point(104, 203);
+			this.veleprodaja26.Location = new System.Drawing.Point(119, 271);
+			this.veleprodaja26.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja26.Name = "veleprodaja26";
 			this.veleprodaja26.ReadOnly = true;
-			this.veleprodaja26.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja26.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja26.TabIndex = 50;
 			this.veleprodaja26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja26.Visible = false;
@@ -1756,10 +1865,11 @@
 			// 
 			this.proizvodnja21.BackColor = System.Drawing.Color.Cyan;
 			this.proizvodnja21.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja21.Location = new System.Drawing.Point(62, 413);
+			this.proizvodnja21.Location = new System.Drawing.Point(71, 551);
+			this.proizvodnja21.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja21.Name = "proizvodnja21";
 			this.proizvodnja21.ReadOnly = true;
-			this.proizvodnja21.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja21.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja21.TabIndex = 47;
 			this.proizvodnja21.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja21.Visible = false;
@@ -1769,10 +1879,11 @@
 			this.proizvodnja26.BackColor = System.Drawing.Color.Blue;
 			this.proizvodnja26.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.proizvodnja26.ForeColor = System.Drawing.SystemColors.Window;
-			this.proizvodnja26.Location = new System.Drawing.Point(62, 203);
+			this.proizvodnja26.Location = new System.Drawing.Point(71, 271);
+			this.proizvodnja26.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja26.Name = "proizvodnja26";
 			this.proizvodnja26.ReadOnly = true;
-			this.proizvodnja26.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja26.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja26.TabIndex = 42;
 			this.proizvodnja26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja26.Visible = false;
@@ -1781,10 +1892,11 @@
 			// 
 			this.proizvodnja22.BackColor = System.Drawing.Color.Lime;
 			this.proizvodnja22.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja22.Location = new System.Drawing.Point(62, 371);
+			this.proizvodnja22.Location = new System.Drawing.Point(71, 495);
+			this.proizvodnja22.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja22.Name = "proizvodnja22";
 			this.proizvodnja22.ReadOnly = true;
-			this.proizvodnja22.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja22.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja22.TabIndex = 46;
 			this.proizvodnja22.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja22.Visible = false;
@@ -1793,10 +1905,11 @@
 			// 
 			this.proizvodnja27.BackColor = System.Drawing.Color.Silver;
 			this.proizvodnja27.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja27.Location = new System.Drawing.Point(62, 161);
+			this.proizvodnja27.Location = new System.Drawing.Point(71, 215);
+			this.proizvodnja27.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja27.Name = "proizvodnja27";
 			this.proizvodnja27.ReadOnly = true;
-			this.proizvodnja27.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja27.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja27.TabIndex = 41;
 			this.proizvodnja27.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja27.Visible = false;
@@ -1805,10 +1918,11 @@
 			// 
 			this.proizvodnja25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
 			this.proizvodnja25.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja25.Location = new System.Drawing.Point(62, 245);
+			this.proizvodnja25.Location = new System.Drawing.Point(71, 327);
+			this.proizvodnja25.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja25.Name = "proizvodnja25";
 			this.proizvodnja25.ReadOnly = true;
-			this.proizvodnja25.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja25.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja25.TabIndex = 43;
 			this.proizvodnja25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja25.Visible = false;
@@ -1817,10 +1931,11 @@
 			// 
 			this.proizvodnja24.BackColor = System.Drawing.Color.Red;
 			this.proizvodnja24.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja24.Location = new System.Drawing.Point(62, 287);
+			this.proizvodnja24.Location = new System.Drawing.Point(71, 383);
+			this.proizvodnja24.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja24.Name = "proizvodnja24";
 			this.proizvodnja24.ReadOnly = true;
-			this.proizvodnja24.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja24.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja24.TabIndex = 44;
 			this.proizvodnja24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja24.Visible = false;
@@ -1829,10 +1944,11 @@
 			// 
 			this.proizvodnja23.BackColor = System.Drawing.Color.Yellow;
 			this.proizvodnja23.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja23.Location = new System.Drawing.Point(62, 329);
+			this.proizvodnja23.Location = new System.Drawing.Point(71, 439);
+			this.proizvodnja23.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja23.Name = "proizvodnja23";
 			this.proizvodnja23.ReadOnly = true;
-			this.proizvodnja23.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja23.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja23.TabIndex = 45;
 			this.proizvodnja23.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja23.Visible = false;
@@ -1842,10 +1958,11 @@
 			this.proizvodnja28.BackColor = System.Drawing.Color.Purple;
 			this.proizvodnja28.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.proizvodnja28.ForeColor = System.Drawing.SystemColors.Window;
-			this.proizvodnja28.Location = new System.Drawing.Point(62, 119);
+			this.proizvodnja28.Location = new System.Drawing.Point(71, 159);
+			this.proizvodnja28.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja28.Name = "proizvodnja28";
 			this.proizvodnja28.ReadOnly = true;
-			this.proizvodnja28.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja28.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja28.TabIndex = 40;
 			this.proizvodnja28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja28.Visible = false;
@@ -1907,20 +2024,24 @@
 			this.igrac3.Controls.Add(this.proizvodnja33);
 			this.igrac3.Controls.Add(this.proizvodnja38);
 			this.igrac3.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.igrac3.Location = new System.Drawing.Point(582, 12);
+			this.igrac3.Location = new System.Drawing.Point(665, 16);
+			this.igrac3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.igrac3.Name = "igrac3";
-			this.igrac3.Size = new System.Drawing.Size(188, 767);
+			this.igrac3.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.igrac3.Size = new System.Drawing.Size(215, 1018);
 			this.igrac3.TabIndex = 70;
 			this.igrac3.TabStop = false;
+			this.igrac3.Text = "igrač 3";
 			// 
 			// kontinent36
 			// 
 			this.kontinent36.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
 			this.kontinent36.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.kontinent36.Location = new System.Drawing.Point(98, 707);
+			this.kontinent36.Location = new System.Drawing.Point(112, 943);
+			this.kontinent36.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent36.Name = "kontinent36";
 			this.kontinent36.ReadOnly = true;
-			this.kontinent36.Size = new System.Drawing.Size(84, 36);
+			this.kontinent36.Size = new System.Drawing.Size(95, 43);
 			this.kontinent36.TabIndex = 89;
 			this.kontinent36.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent36.Visible = false;
@@ -1929,9 +2050,10 @@
 			// 
 			this.dodaj_novac3.BackColor = System.Drawing.Color.White;
 			this.dodaj_novac3.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.dodaj_novac3.Location = new System.Drawing.Point(6, 581);
+			this.dodaj_novac3.Location = new System.Drawing.Point(7, 775);
+			this.dodaj_novac3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.dodaj_novac3.Name = "dodaj_novac3";
-			this.dodaj_novac3.Size = new System.Drawing.Size(176, 36);
+			this.dodaj_novac3.Size = new System.Drawing.Size(201, 43);
 			this.dodaj_novac3.TabIndex = 117;
 			this.dodaj_novac3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			// 
@@ -1939,10 +2061,11 @@
 			// 
 			this.kontinent35.BackColor = System.Drawing.Color.Lime;
 			this.kontinent35.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.kontinent35.Location = new System.Drawing.Point(6, 707);
+			this.kontinent35.Location = new System.Drawing.Point(7, 943);
+			this.kontinent35.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent35.Name = "kontinent35";
 			this.kontinent35.ReadOnly = true;
-			this.kontinent35.Size = new System.Drawing.Size(84, 36);
+			this.kontinent35.Size = new System.Drawing.Size(95, 43);
 			this.kontinent35.TabIndex = 88;
 			this.kontinent35.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent35.Visible = false;
@@ -1951,10 +2074,11 @@
 			// 
 			this.trenutna_dividenda3.BackColor = System.Drawing.Color.White;
 			this.trenutna_dividenda3.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.trenutna_dividenda3.Location = new System.Drawing.Point(6, 77);
+			this.trenutna_dividenda3.Location = new System.Drawing.Point(7, 103);
+			this.trenutna_dividenda3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.trenutna_dividenda3.Name = "trenutna_dividenda3";
 			this.trenutna_dividenda3.ReadOnly = true;
-			this.trenutna_dividenda3.Size = new System.Drawing.Size(176, 36);
+			this.trenutna_dividenda3.Size = new System.Drawing.Size(201, 43);
 			this.trenutna_dividenda3.TabIndex = 72;
 			this.trenutna_dividenda3.Text = "0";
 			this.trenutna_dividenda3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -1963,10 +2087,11 @@
 			// 
 			this.kontinent34.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
 			this.kontinent34.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.kontinent34.Location = new System.Drawing.Point(98, 665);
+			this.kontinent34.Location = new System.Drawing.Point(112, 887);
+			this.kontinent34.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent34.Name = "kontinent34";
 			this.kontinent34.ReadOnly = true;
-			this.kontinent34.Size = new System.Drawing.Size(84, 36);
+			this.kontinent34.Size = new System.Drawing.Size(95, 43);
 			this.kontinent34.TabIndex = 87;
 			this.kontinent34.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent34.Visible = false;
@@ -1974,9 +2099,10 @@
 			// dividenda3
 			// 
 			this.dividenda3.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.dividenda3.Location = new System.Drawing.Point(6, 539);
+			this.dividenda3.Location = new System.Drawing.Point(7, 719);
+			this.dividenda3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.dividenda3.Name = "dividenda3";
-			this.dividenda3.Size = new System.Drawing.Size(176, 36);
+			this.dividenda3.Size = new System.Drawing.Size(201, 48);
 			this.dividenda3.TabIndex = 69;
 			this.dividenda3.Text = "Dividenda";
 			this.dividenda3.UseVisualStyleBackColor = true;
@@ -1987,20 +2113,22 @@
 			this.kontinent33.BackColor = System.Drawing.Color.Purple;
 			this.kontinent33.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.kontinent33.ForeColor = System.Drawing.Color.White;
-			this.kontinent33.Location = new System.Drawing.Point(6, 665);
+			this.kontinent33.Location = new System.Drawing.Point(7, 887);
+			this.kontinent33.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent33.Name = "kontinent33";
 			this.kontinent33.ReadOnly = true;
-			this.kontinent33.Size = new System.Drawing.Size(84, 36);
+			this.kontinent33.Size = new System.Drawing.Size(95, 43);
 			this.kontinent33.TabIndex = 86;
 			this.kontinent33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent33.Visible = false;
 			// 
 			// izgubi3
 			// 
-			this.izgubi3.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.izgubi3.Location = new System.Drawing.Point(104, 497);
+			this.izgubi3.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+			this.izgubi3.Location = new System.Drawing.Point(119, 663);
+			this.izgubi3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.izgubi3.Name = "izgubi3";
-			this.izgubi3.Size = new System.Drawing.Size(78, 36);
+			this.izgubi3.Size = new System.Drawing.Size(89, 48);
 			this.izgubi3.TabIndex = 68;
 			this.izgubi3.Text = "Izgubi";
 			this.izgubi3.UseVisualStyleBackColor = true;
@@ -2010,10 +2138,11 @@
 			// 
 			this.kontinent32.BackColor = System.Drawing.Color.Yellow;
 			this.kontinent32.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.kontinent32.Location = new System.Drawing.Point(98, 623);
+			this.kontinent32.Location = new System.Drawing.Point(112, 831);
+			this.kontinent32.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent32.Name = "kontinent32";
 			this.kontinent32.ReadOnly = true;
-			this.kontinent32.Size = new System.Drawing.Size(84, 36);
+			this.kontinent32.Size = new System.Drawing.Size(95, 43);
 			this.kontinent32.TabIndex = 85;
 			this.kontinent32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent32.Visible = false;
@@ -2021,9 +2150,10 @@
 			// uzmi3
 			// 
 			this.uzmi3.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.uzmi3.Location = new System.Drawing.Point(104, 455);
+			this.uzmi3.Location = new System.Drawing.Point(119, 607);
+			this.uzmi3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.uzmi3.Name = "uzmi3";
-			this.uzmi3.Size = new System.Drawing.Size(78, 36);
+			this.uzmi3.Size = new System.Drawing.Size(89, 48);
 			this.uzmi3.TabIndex = 67;
 			this.uzmi3.Text = "Uzmi";
 			this.uzmi3.UseVisualStyleBackColor = true;
@@ -2034,10 +2164,11 @@
 			this.kontinent31.BackColor = System.Drawing.Color.Blue;
 			this.kontinent31.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.kontinent31.ForeColor = System.Drawing.Color.White;
-			this.kontinent31.Location = new System.Drawing.Point(6, 623);
+			this.kontinent31.Location = new System.Drawing.Point(7, 831);
+			this.kontinent31.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent31.Name = "kontinent31";
 			this.kontinent31.ReadOnly = true;
-			this.kontinent31.Size = new System.Drawing.Size(84, 36);
+			this.kontinent31.Size = new System.Drawing.Size(95, 43);
 			this.kontinent31.TabIndex = 84;
 			this.kontinent31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent31.Visible = false;
@@ -2045,9 +2176,10 @@
 			// prodaj3
 			// 
 			this.prodaj3.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.prodaj3.Location = new System.Drawing.Point(6, 497);
+			this.prodaj3.Location = new System.Drawing.Point(7, 663);
+			this.prodaj3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.prodaj3.Name = "prodaj3";
-			this.prodaj3.Size = new System.Drawing.Size(92, 36);
+			this.prodaj3.Size = new System.Drawing.Size(105, 48);
 			this.prodaj3.TabIndex = 66;
 			this.prodaj3.Text = "Prodaj";
 			this.prodaj3.UseVisualStyleBackColor = true;
@@ -2056,9 +2188,10 @@
 			// kupi3
 			// 
 			this.kupi3.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.kupi3.Location = new System.Drawing.Point(6, 455);
+			this.kupi3.Location = new System.Drawing.Point(7, 607);
+			this.kupi3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kupi3.Name = "kupi3";
-			this.kupi3.Size = new System.Drawing.Size(92, 36);
+			this.kupi3.Size = new System.Drawing.Size(105, 48);
 			this.kupi3.TabIndex = 65;
 			this.kupi3.Text = "Kupi";
 			this.kupi3.UseVisualStyleBackColor = true;
@@ -2068,10 +2201,11 @@
 			// 
 			this.novac3.BackColor = System.Drawing.Color.White;
 			this.novac3.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.novac3.Location = new System.Drawing.Point(6, 35);
+			this.novac3.Location = new System.Drawing.Point(7, 47);
+			this.novac3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.novac3.Name = "novac3";
 			this.novac3.ReadOnly = true;
-			this.novac3.Size = new System.Drawing.Size(176, 36);
+			this.novac3.Size = new System.Drawing.Size(201, 43);
 			this.novac3.TabIndex = 64;
 			this.novac3.Text = "100000";
 			this.novac3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2081,10 +2215,11 @@
 			this.korporacija38.BackColor = System.Drawing.Color.Purple;
 			this.korporacija38.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.korporacija38.ForeColor = System.Drawing.SystemColors.Window;
-			this.korporacija38.Location = new System.Drawing.Point(62, 119);
+			this.korporacija38.Location = new System.Drawing.Point(71, 159);
+			this.korporacija38.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija38.Name = "korporacija38";
 			this.korporacija38.ReadOnly = true;
-			this.korporacija38.Size = new System.Drawing.Size(120, 36);
+			this.korporacija38.Size = new System.Drawing.Size(137, 43);
 			this.korporacija38.TabIndex = 32;
 			this.korporacija38.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija38.Visible = false;
@@ -2093,10 +2228,11 @@
 			// 
 			this.maloprodaja31.BackColor = System.Drawing.Color.Cyan;
 			this.maloprodaja31.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja31.Location = new System.Drawing.Point(146, 413);
+			this.maloprodaja31.Location = new System.Drawing.Point(167, 551);
+			this.maloprodaja31.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja31.Name = "maloprodaja31";
 			this.maloprodaja31.ReadOnly = true;
-			this.maloprodaja31.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja31.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja31.TabIndex = 63;
 			this.maloprodaja31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja31.Visible = false;
@@ -2106,10 +2242,11 @@
 			this.deonice38.BackColor = System.Drawing.Color.Purple;
 			this.deonice38.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.deonice38.ForeColor = System.Drawing.SystemColors.Window;
-			this.deonice38.Location = new System.Drawing.Point(6, 119);
+			this.deonice38.Location = new System.Drawing.Point(7, 159);
+			this.deonice38.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice38.Name = "deonice38";
 			this.deonice38.ReadOnly = true;
-			this.deonice38.Size = new System.Drawing.Size(50, 36);
+			this.deonice38.Size = new System.Drawing.Size(57, 43);
 			this.deonice38.TabIndex = 0;
 			this.deonice38.Text = "0";
 			this.deonice38.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2118,10 +2255,11 @@
 			// 
 			this.maloprodaja32.BackColor = System.Drawing.Color.Lime;
 			this.maloprodaja32.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja32.Location = new System.Drawing.Point(146, 371);
+			this.maloprodaja32.Location = new System.Drawing.Point(167, 495);
+			this.maloprodaja32.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja32.Name = "maloprodaja32";
 			this.maloprodaja32.ReadOnly = true;
-			this.maloprodaja32.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja32.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja32.TabIndex = 62;
 			this.maloprodaja32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja32.Visible = false;
@@ -2131,10 +2269,11 @@
 			this.deonice36.BackColor = System.Drawing.Color.Blue;
 			this.deonice36.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.deonice36.ForeColor = System.Drawing.SystemColors.Window;
-			this.deonice36.Location = new System.Drawing.Point(6, 203);
+			this.deonice36.Location = new System.Drawing.Point(7, 271);
+			this.deonice36.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice36.Name = "deonice36";
 			this.deonice36.ReadOnly = true;
-			this.deonice36.Size = new System.Drawing.Size(50, 36);
+			this.deonice36.Size = new System.Drawing.Size(57, 43);
 			this.deonice36.TabIndex = 2;
 			this.deonice36.Text = "0";
 			this.deonice36.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2143,10 +2282,11 @@
 			// 
 			this.maloprodaja35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
 			this.maloprodaja35.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja35.Location = new System.Drawing.Point(146, 245);
+			this.maloprodaja35.Location = new System.Drawing.Point(167, 327);
+			this.maloprodaja35.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja35.Name = "maloprodaja35";
 			this.maloprodaja35.ReadOnly = true;
-			this.maloprodaja35.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja35.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja35.TabIndex = 59;
 			this.maloprodaja35.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja35.Visible = false;
@@ -2156,10 +2296,11 @@
 			this.korporacija36.BackColor = System.Drawing.Color.Blue;
 			this.korporacija36.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.korporacija36.ForeColor = System.Drawing.SystemColors.Window;
-			this.korporacija36.Location = new System.Drawing.Point(62, 203);
+			this.korporacija36.Location = new System.Drawing.Point(71, 271);
+			this.korporacija36.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija36.Name = "korporacija36";
 			this.korporacija36.ReadOnly = true;
-			this.korporacija36.Size = new System.Drawing.Size(120, 36);
+			this.korporacija36.Size = new System.Drawing.Size(137, 43);
 			this.korporacija36.TabIndex = 34;
 			this.korporacija36.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija36.Visible = false;
@@ -2168,10 +2309,11 @@
 			// 
 			this.deonice37.BackColor = System.Drawing.Color.Silver;
 			this.deonice37.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice37.Location = new System.Drawing.Point(6, 161);
+			this.deonice37.Location = new System.Drawing.Point(7, 215);
+			this.deonice37.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice37.Name = "deonice37";
 			this.deonice37.ReadOnly = true;
-			this.deonice37.Size = new System.Drawing.Size(50, 36);
+			this.deonice37.Size = new System.Drawing.Size(57, 43);
 			this.deonice37.TabIndex = 1;
 			this.deonice37.Text = "0";
 			this.deonice37.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2180,10 +2322,11 @@
 			// 
 			this.maloprodaja33.BackColor = System.Drawing.Color.Yellow;
 			this.maloprodaja33.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja33.Location = new System.Drawing.Point(146, 329);
+			this.maloprodaja33.Location = new System.Drawing.Point(167, 439);
+			this.maloprodaja33.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja33.Name = "maloprodaja33";
 			this.maloprodaja33.ReadOnly = true;
-			this.maloprodaja33.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja33.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja33.TabIndex = 61;
 			this.maloprodaja33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja33.Visible = false;
@@ -2192,10 +2335,11 @@
 			// 
 			this.deonice34.BackColor = System.Drawing.Color.Red;
 			this.deonice34.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice34.Location = new System.Drawing.Point(6, 287);
+			this.deonice34.Location = new System.Drawing.Point(7, 383);
+			this.deonice34.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice34.Name = "deonice34";
 			this.deonice34.ReadOnly = true;
-			this.deonice34.Size = new System.Drawing.Size(50, 36);
+			this.deonice34.Size = new System.Drawing.Size(57, 43);
 			this.deonice34.TabIndex = 4;
 			this.deonice34.Text = "0";
 			this.deonice34.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2204,10 +2348,11 @@
 			// 
 			this.korporacija31.BackColor = System.Drawing.Color.Cyan;
 			this.korporacija31.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija31.Location = new System.Drawing.Point(62, 413);
+			this.korporacija31.Location = new System.Drawing.Point(71, 551);
+			this.korporacija31.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija31.Name = "korporacija31";
 			this.korporacija31.ReadOnly = true;
-			this.korporacija31.Size = new System.Drawing.Size(120, 36);
+			this.korporacija31.Size = new System.Drawing.Size(137, 43);
 			this.korporacija31.TabIndex = 39;
 			this.korporacija31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija31.Visible = false;
@@ -2217,10 +2362,11 @@
 			this.maloprodaja38.BackColor = System.Drawing.Color.Purple;
 			this.maloprodaja38.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.maloprodaja38.ForeColor = System.Drawing.SystemColors.Window;
-			this.maloprodaja38.Location = new System.Drawing.Point(146, 119);
+			this.maloprodaja38.Location = new System.Drawing.Point(167, 159);
+			this.maloprodaja38.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja38.Name = "maloprodaja38";
 			this.maloprodaja38.ReadOnly = true;
-			this.maloprodaja38.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja38.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja38.TabIndex = 56;
 			this.maloprodaja38.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja38.Visible = false;
@@ -2229,10 +2375,11 @@
 			// 
 			this.deonice33.BackColor = System.Drawing.Color.Yellow;
 			this.deonice33.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice33.Location = new System.Drawing.Point(6, 329);
+			this.deonice33.Location = new System.Drawing.Point(7, 439);
+			this.deonice33.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice33.Name = "deonice33";
 			this.deonice33.ReadOnly = true;
-			this.deonice33.Size = new System.Drawing.Size(50, 36);
+			this.deonice33.Size = new System.Drawing.Size(57, 43);
 			this.deonice33.TabIndex = 5;
 			this.deonice33.Text = "0";
 			this.deonice33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2241,10 +2388,11 @@
 			// 
 			this.maloprodaja34.BackColor = System.Drawing.Color.Red;
 			this.maloprodaja34.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja34.Location = new System.Drawing.Point(146, 287);
+			this.maloprodaja34.Location = new System.Drawing.Point(167, 383);
+			this.maloprodaja34.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja34.Name = "maloprodaja34";
 			this.maloprodaja34.ReadOnly = true;
-			this.maloprodaja34.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja34.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja34.TabIndex = 60;
 			this.maloprodaja34.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja34.Visible = false;
@@ -2253,10 +2401,11 @@
 			// 
 			this.deonice35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
 			this.deonice35.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice35.Location = new System.Drawing.Point(6, 245);
+			this.deonice35.Location = new System.Drawing.Point(7, 327);
+			this.deonice35.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice35.Name = "deonice35";
 			this.deonice35.ReadOnly = true;
-			this.deonice35.Size = new System.Drawing.Size(50, 36);
+			this.deonice35.Size = new System.Drawing.Size(57, 43);
 			this.deonice35.TabIndex = 3;
 			this.deonice35.Text = "0";
 			this.deonice35.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2265,10 +2414,11 @@
 			// 
 			this.korporacija32.BackColor = System.Drawing.Color.Lime;
 			this.korporacija32.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija32.Location = new System.Drawing.Point(62, 371);
+			this.korporacija32.Location = new System.Drawing.Point(71, 495);
+			this.korporacija32.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija32.Name = "korporacija32";
 			this.korporacija32.ReadOnly = true;
-			this.korporacija32.Size = new System.Drawing.Size(120, 36);
+			this.korporacija32.Size = new System.Drawing.Size(137, 43);
 			this.korporacija32.TabIndex = 38;
 			this.korporacija32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija32.Visible = false;
@@ -2277,10 +2427,11 @@
 			// 
 			this.maloprodaja37.BackColor = System.Drawing.Color.Silver;
 			this.maloprodaja37.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja37.Location = new System.Drawing.Point(146, 161);
+			this.maloprodaja37.Location = new System.Drawing.Point(167, 215);
+			this.maloprodaja37.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja37.Name = "maloprodaja37";
 			this.maloprodaja37.ReadOnly = true;
-			this.maloprodaja37.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja37.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja37.TabIndex = 57;
 			this.maloprodaja37.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja37.Visible = false;
@@ -2289,10 +2440,11 @@
 			// 
 			this.korporacija37.BackColor = System.Drawing.Color.Silver;
 			this.korporacija37.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija37.Location = new System.Drawing.Point(62, 161);
+			this.korporacija37.Location = new System.Drawing.Point(71, 215);
+			this.korporacija37.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija37.Name = "korporacija37";
 			this.korporacija37.ReadOnly = true;
-			this.korporacija37.Size = new System.Drawing.Size(120, 36);
+			this.korporacija37.Size = new System.Drawing.Size(137, 43);
 			this.korporacija37.TabIndex = 33;
 			this.korporacija37.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija37.Visible = false;
@@ -2301,10 +2453,11 @@
 			// 
 			this.deonice32.BackColor = System.Drawing.Color.Lime;
 			this.deonice32.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice32.Location = new System.Drawing.Point(6, 371);
+			this.deonice32.Location = new System.Drawing.Point(7, 495);
+			this.deonice32.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice32.Name = "deonice32";
 			this.deonice32.ReadOnly = true;
-			this.deonice32.Size = new System.Drawing.Size(50, 36);
+			this.deonice32.Size = new System.Drawing.Size(57, 43);
 			this.deonice32.TabIndex = 6;
 			this.deonice32.Text = "0";
 			this.deonice32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2314,10 +2467,11 @@
 			this.maloprodaja36.BackColor = System.Drawing.Color.Blue;
 			this.maloprodaja36.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.maloprodaja36.ForeColor = System.Drawing.SystemColors.Window;
-			this.maloprodaja36.Location = new System.Drawing.Point(146, 203);
+			this.maloprodaja36.Location = new System.Drawing.Point(167, 271);
+			this.maloprodaja36.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja36.Name = "maloprodaja36";
 			this.maloprodaja36.ReadOnly = true;
-			this.maloprodaja36.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja36.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja36.TabIndex = 58;
 			this.maloprodaja36.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja36.Visible = false;
@@ -2326,10 +2480,11 @@
 			// 
 			this.deonice31.BackColor = System.Drawing.Color.Cyan;
 			this.deonice31.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice31.Location = new System.Drawing.Point(6, 413);
+			this.deonice31.Location = new System.Drawing.Point(7, 551);
+			this.deonice31.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice31.Name = "deonice31";
 			this.deonice31.ReadOnly = true;
-			this.deonice31.Size = new System.Drawing.Size(50, 36);
+			this.deonice31.Size = new System.Drawing.Size(57, 43);
 			this.deonice31.TabIndex = 7;
 			this.deonice31.Text = "0";
 			this.deonice31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2338,10 +2493,11 @@
 			// 
 			this.veleprodaja31.BackColor = System.Drawing.Color.Cyan;
 			this.veleprodaja31.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja31.Location = new System.Drawing.Point(104, 413);
+			this.veleprodaja31.Location = new System.Drawing.Point(119, 551);
+			this.veleprodaja31.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja31.Name = "veleprodaja31";
 			this.veleprodaja31.ReadOnly = true;
-			this.veleprodaja31.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja31.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja31.TabIndex = 55;
 			this.veleprodaja31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja31.Visible = false;
@@ -2350,10 +2506,11 @@
 			// 
 			this.veleprodaja32.BackColor = System.Drawing.Color.Lime;
 			this.veleprodaja32.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja32.Location = new System.Drawing.Point(104, 371);
+			this.veleprodaja32.Location = new System.Drawing.Point(119, 495);
+			this.veleprodaja32.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja32.Name = "veleprodaja32";
 			this.veleprodaja32.ReadOnly = true;
-			this.veleprodaja32.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja32.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja32.TabIndex = 54;
 			this.veleprodaja32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja32.Visible = false;
@@ -2362,10 +2519,11 @@
 			// 
 			this.veleprodaja35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
 			this.veleprodaja35.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja35.Location = new System.Drawing.Point(104, 245);
+			this.veleprodaja35.Location = new System.Drawing.Point(119, 327);
+			this.veleprodaja35.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja35.Name = "veleprodaja35";
 			this.veleprodaja35.ReadOnly = true;
-			this.veleprodaja35.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja35.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja35.TabIndex = 51;
 			this.veleprodaja35.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja35.Visible = false;
@@ -2374,10 +2532,11 @@
 			// 
 			this.korporacija35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
 			this.korporacija35.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija35.Location = new System.Drawing.Point(62, 245);
+			this.korporacija35.Location = new System.Drawing.Point(71, 327);
+			this.korporacija35.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija35.Name = "korporacija35";
 			this.korporacija35.ReadOnly = true;
-			this.korporacija35.Size = new System.Drawing.Size(120, 36);
+			this.korporacija35.Size = new System.Drawing.Size(137, 43);
 			this.korporacija35.TabIndex = 35;
 			this.korporacija35.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija35.Visible = false;
@@ -2386,10 +2545,11 @@
 			// 
 			this.veleprodaja33.BackColor = System.Drawing.Color.Yellow;
 			this.veleprodaja33.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja33.Location = new System.Drawing.Point(104, 329);
+			this.veleprodaja33.Location = new System.Drawing.Point(119, 439);
+			this.veleprodaja33.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja33.Name = "veleprodaja33";
 			this.veleprodaja33.ReadOnly = true;
-			this.veleprodaja33.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja33.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja33.TabIndex = 53;
 			this.veleprodaja33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja33.Visible = false;
@@ -2399,10 +2559,11 @@
 			this.veleprodaja38.BackColor = System.Drawing.Color.Purple;
 			this.veleprodaja38.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.veleprodaja38.ForeColor = System.Drawing.SystemColors.Window;
-			this.veleprodaja38.Location = new System.Drawing.Point(104, 119);
+			this.veleprodaja38.Location = new System.Drawing.Point(119, 159);
+			this.veleprodaja38.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja38.Name = "veleprodaja38";
 			this.veleprodaja38.ReadOnly = true;
-			this.veleprodaja38.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja38.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja38.TabIndex = 48;
 			this.veleprodaja38.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja38.Visible = false;
@@ -2411,10 +2572,11 @@
 			// 
 			this.korporacija33.BackColor = System.Drawing.Color.Yellow;
 			this.korporacija33.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija33.Location = new System.Drawing.Point(62, 329);
+			this.korporacija33.Location = new System.Drawing.Point(71, 439);
+			this.korporacija33.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija33.Name = "korporacija33";
 			this.korporacija33.ReadOnly = true;
-			this.korporacija33.Size = new System.Drawing.Size(120, 36);
+			this.korporacija33.Size = new System.Drawing.Size(137, 43);
 			this.korporacija33.TabIndex = 37;
 			this.korporacija33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija33.Visible = false;
@@ -2423,10 +2585,11 @@
 			// 
 			this.veleprodaja34.BackColor = System.Drawing.Color.Red;
 			this.veleprodaja34.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja34.Location = new System.Drawing.Point(104, 287);
+			this.veleprodaja34.Location = new System.Drawing.Point(119, 383);
+			this.veleprodaja34.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja34.Name = "veleprodaja34";
 			this.veleprodaja34.ReadOnly = true;
-			this.veleprodaja34.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja34.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja34.TabIndex = 52;
 			this.veleprodaja34.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja34.Visible = false;
@@ -2435,10 +2598,11 @@
 			// 
 			this.veleprodaja37.BackColor = System.Drawing.Color.Silver;
 			this.veleprodaja37.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja37.Location = new System.Drawing.Point(104, 161);
+			this.veleprodaja37.Location = new System.Drawing.Point(119, 215);
+			this.veleprodaja37.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja37.Name = "veleprodaja37";
 			this.veleprodaja37.ReadOnly = true;
-			this.veleprodaja37.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja37.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja37.TabIndex = 49;
 			this.veleprodaja37.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja37.Visible = false;
@@ -2448,10 +2612,11 @@
 			this.veleprodaja36.BackColor = System.Drawing.Color.Blue;
 			this.veleprodaja36.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.veleprodaja36.ForeColor = System.Drawing.SystemColors.Window;
-			this.veleprodaja36.Location = new System.Drawing.Point(104, 203);
+			this.veleprodaja36.Location = new System.Drawing.Point(119, 271);
+			this.veleprodaja36.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja36.Name = "veleprodaja36";
 			this.veleprodaja36.ReadOnly = true;
-			this.veleprodaja36.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja36.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja36.TabIndex = 50;
 			this.veleprodaja36.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja36.Visible = false;
@@ -2460,10 +2625,11 @@
 			// 
 			this.korporacija34.BackColor = System.Drawing.Color.Red;
 			this.korporacija34.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija34.Location = new System.Drawing.Point(62, 287);
+			this.korporacija34.Location = new System.Drawing.Point(71, 383);
+			this.korporacija34.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija34.Name = "korporacija34";
 			this.korporacija34.ReadOnly = true;
-			this.korporacija34.Size = new System.Drawing.Size(120, 36);
+			this.korporacija34.Size = new System.Drawing.Size(137, 43);
 			this.korporacija34.TabIndex = 36;
 			this.korporacija34.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija34.Visible = false;
@@ -2472,10 +2638,11 @@
 			// 
 			this.proizvodnja31.BackColor = System.Drawing.Color.Cyan;
 			this.proizvodnja31.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja31.Location = new System.Drawing.Point(62, 413);
+			this.proizvodnja31.Location = new System.Drawing.Point(71, 551);
+			this.proizvodnja31.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja31.Name = "proizvodnja31";
 			this.proizvodnja31.ReadOnly = true;
-			this.proizvodnja31.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja31.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja31.TabIndex = 47;
 			this.proizvodnja31.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja31.Visible = false;
@@ -2485,10 +2652,11 @@
 			this.proizvodnja36.BackColor = System.Drawing.Color.Blue;
 			this.proizvodnja36.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.proizvodnja36.ForeColor = System.Drawing.SystemColors.Window;
-			this.proizvodnja36.Location = new System.Drawing.Point(62, 203);
+			this.proizvodnja36.Location = new System.Drawing.Point(71, 271);
+			this.proizvodnja36.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja36.Name = "proizvodnja36";
 			this.proizvodnja36.ReadOnly = true;
-			this.proizvodnja36.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja36.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja36.TabIndex = 42;
 			this.proizvodnja36.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja36.Visible = false;
@@ -2497,10 +2665,11 @@
 			// 
 			this.proizvodnja32.BackColor = System.Drawing.Color.Lime;
 			this.proizvodnja32.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja32.Location = new System.Drawing.Point(62, 371);
+			this.proizvodnja32.Location = new System.Drawing.Point(71, 495);
+			this.proizvodnja32.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja32.Name = "proizvodnja32";
 			this.proizvodnja32.ReadOnly = true;
-			this.proizvodnja32.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja32.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja32.TabIndex = 46;
 			this.proizvodnja32.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja32.Visible = false;
@@ -2509,10 +2678,11 @@
 			// 
 			this.proizvodnja37.BackColor = System.Drawing.Color.Silver;
 			this.proizvodnja37.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja37.Location = new System.Drawing.Point(62, 161);
+			this.proizvodnja37.Location = new System.Drawing.Point(71, 215);
+			this.proizvodnja37.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja37.Name = "proizvodnja37";
 			this.proizvodnja37.ReadOnly = true;
-			this.proizvodnja37.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja37.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja37.TabIndex = 41;
 			this.proizvodnja37.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja37.Visible = false;
@@ -2521,10 +2691,11 @@
 			// 
 			this.proizvodnja35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
 			this.proizvodnja35.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja35.Location = new System.Drawing.Point(62, 245);
+			this.proizvodnja35.Location = new System.Drawing.Point(71, 327);
+			this.proizvodnja35.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja35.Name = "proizvodnja35";
 			this.proizvodnja35.ReadOnly = true;
-			this.proizvodnja35.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja35.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja35.TabIndex = 43;
 			this.proizvodnja35.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja35.Visible = false;
@@ -2533,10 +2704,11 @@
 			// 
 			this.proizvodnja34.BackColor = System.Drawing.Color.Red;
 			this.proizvodnja34.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja34.Location = new System.Drawing.Point(62, 287);
+			this.proizvodnja34.Location = new System.Drawing.Point(71, 383);
+			this.proizvodnja34.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja34.Name = "proizvodnja34";
 			this.proizvodnja34.ReadOnly = true;
-			this.proizvodnja34.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja34.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja34.TabIndex = 44;
 			this.proizvodnja34.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja34.Visible = false;
@@ -2545,10 +2717,11 @@
 			// 
 			this.proizvodnja33.BackColor = System.Drawing.Color.Yellow;
 			this.proizvodnja33.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja33.Location = new System.Drawing.Point(62, 329);
+			this.proizvodnja33.Location = new System.Drawing.Point(71, 439);
+			this.proizvodnja33.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja33.Name = "proizvodnja33";
 			this.proizvodnja33.ReadOnly = true;
-			this.proizvodnja33.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja33.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja33.TabIndex = 45;
 			this.proizvodnja33.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja33.Visible = false;
@@ -2558,10 +2731,11 @@
 			this.proizvodnja38.BackColor = System.Drawing.Color.Purple;
 			this.proizvodnja38.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.proizvodnja38.ForeColor = System.Drawing.SystemColors.Window;
-			this.proizvodnja38.Location = new System.Drawing.Point(62, 119);
+			this.proizvodnja38.Location = new System.Drawing.Point(71, 159);
+			this.proizvodnja38.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja38.Name = "proizvodnja38";
 			this.proizvodnja38.ReadOnly = true;
-			this.proizvodnja38.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja38.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja38.TabIndex = 40;
 			this.proizvodnja38.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja38.Visible = false;
@@ -2623,20 +2797,24 @@
 			this.igrac6.Controls.Add(this.proizvodnja63);
 			this.igrac6.Controls.Add(this.proizvodnja68);
 			this.igrac6.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.igrac6.Location = new System.Drawing.Point(1164, 12);
+			this.igrac6.Location = new System.Drawing.Point(1330, 16);
+			this.igrac6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.igrac6.Name = "igrac6";
-			this.igrac6.Size = new System.Drawing.Size(188, 767);
+			this.igrac6.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.igrac6.Size = new System.Drawing.Size(215, 1018);
 			this.igrac6.TabIndex = 73;
 			this.igrac6.TabStop = false;
+			this.igrac6.Text = "igrač 6";
 			// 
 			// kontinent66
 			// 
 			this.kontinent66.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
 			this.kontinent66.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.kontinent66.Location = new System.Drawing.Point(98, 707);
+			this.kontinent66.Location = new System.Drawing.Point(112, 943);
+			this.kontinent66.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent66.Name = "kontinent66";
 			this.kontinent66.ReadOnly = true;
-			this.kontinent66.Size = new System.Drawing.Size(84, 36);
+			this.kontinent66.Size = new System.Drawing.Size(95, 43);
 			this.kontinent66.TabIndex = 135;
 			this.kontinent66.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent66.Visible = false;
@@ -2645,9 +2823,10 @@
 			// 
 			this.dodaj_novac6.BackColor = System.Drawing.Color.White;
 			this.dodaj_novac6.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.dodaj_novac6.Location = new System.Drawing.Point(6, 581);
+			this.dodaj_novac6.Location = new System.Drawing.Point(7, 775);
+			this.dodaj_novac6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.dodaj_novac6.Name = "dodaj_novac6";
-			this.dodaj_novac6.Size = new System.Drawing.Size(176, 36);
+			this.dodaj_novac6.Size = new System.Drawing.Size(201, 43);
 			this.dodaj_novac6.TabIndex = 120;
 			this.dodaj_novac6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			// 
@@ -2655,10 +2834,11 @@
 			// 
 			this.kontinent65.BackColor = System.Drawing.Color.Lime;
 			this.kontinent65.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.kontinent65.Location = new System.Drawing.Point(6, 707);
+			this.kontinent65.Location = new System.Drawing.Point(7, 943);
+			this.kontinent65.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent65.Name = "kontinent65";
 			this.kontinent65.ReadOnly = true;
-			this.kontinent65.Size = new System.Drawing.Size(84, 36);
+			this.kontinent65.Size = new System.Drawing.Size(95, 43);
 			this.kontinent65.TabIndex = 134;
 			this.kontinent65.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent65.Visible = false;
@@ -2667,10 +2847,11 @@
 			// 
 			this.trenutna_dividenda6.BackColor = System.Drawing.Color.White;
 			this.trenutna_dividenda6.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.trenutna_dividenda6.Location = new System.Drawing.Point(6, 77);
+			this.trenutna_dividenda6.Location = new System.Drawing.Point(7, 103);
+			this.trenutna_dividenda6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.trenutna_dividenda6.Name = "trenutna_dividenda6";
 			this.trenutna_dividenda6.ReadOnly = true;
-			this.trenutna_dividenda6.Size = new System.Drawing.Size(176, 36);
+			this.trenutna_dividenda6.Size = new System.Drawing.Size(201, 43);
 			this.trenutna_dividenda6.TabIndex = 75;
 			this.trenutna_dividenda6.Text = "0";
 			this.trenutna_dividenda6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2679,10 +2860,11 @@
 			// 
 			this.kontinent64.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
 			this.kontinent64.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.kontinent64.Location = new System.Drawing.Point(98, 665);
+			this.kontinent64.Location = new System.Drawing.Point(112, 887);
+			this.kontinent64.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent64.Name = "kontinent64";
 			this.kontinent64.ReadOnly = true;
-			this.kontinent64.Size = new System.Drawing.Size(84, 36);
+			this.kontinent64.Size = new System.Drawing.Size(95, 43);
 			this.kontinent64.TabIndex = 133;
 			this.kontinent64.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent64.Visible = false;
@@ -2690,9 +2872,10 @@
 			// dividenda6
 			// 
 			this.dividenda6.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.dividenda6.Location = new System.Drawing.Point(6, 539);
+			this.dividenda6.Location = new System.Drawing.Point(7, 719);
+			this.dividenda6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.dividenda6.Name = "dividenda6";
-			this.dividenda6.Size = new System.Drawing.Size(176, 36);
+			this.dividenda6.Size = new System.Drawing.Size(201, 48);
 			this.dividenda6.TabIndex = 69;
 			this.dividenda6.Text = "Dividenda";
 			this.dividenda6.UseVisualStyleBackColor = true;
@@ -2703,20 +2886,22 @@
 			this.kontinent63.BackColor = System.Drawing.Color.Purple;
 			this.kontinent63.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.kontinent63.ForeColor = System.Drawing.Color.White;
-			this.kontinent63.Location = new System.Drawing.Point(6, 665);
+			this.kontinent63.Location = new System.Drawing.Point(7, 887);
+			this.kontinent63.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent63.Name = "kontinent63";
 			this.kontinent63.ReadOnly = true;
-			this.kontinent63.Size = new System.Drawing.Size(84, 36);
+			this.kontinent63.Size = new System.Drawing.Size(95, 43);
 			this.kontinent63.TabIndex = 132;
 			this.kontinent63.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent63.Visible = false;
 			// 
 			// izgubi6
 			// 
-			this.izgubi6.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.izgubi6.Location = new System.Drawing.Point(104, 497);
+			this.izgubi6.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+			this.izgubi6.Location = new System.Drawing.Point(119, 663);
+			this.izgubi6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.izgubi6.Name = "izgubi6";
-			this.izgubi6.Size = new System.Drawing.Size(78, 36);
+			this.izgubi6.Size = new System.Drawing.Size(89, 48);
 			this.izgubi6.TabIndex = 68;
 			this.izgubi6.Text = "Izgubi";
 			this.izgubi6.UseVisualStyleBackColor = true;
@@ -2726,10 +2911,11 @@
 			// 
 			this.kontinent62.BackColor = System.Drawing.Color.Yellow;
 			this.kontinent62.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.kontinent62.Location = new System.Drawing.Point(98, 623);
+			this.kontinent62.Location = new System.Drawing.Point(112, 831);
+			this.kontinent62.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent62.Name = "kontinent62";
 			this.kontinent62.ReadOnly = true;
-			this.kontinent62.Size = new System.Drawing.Size(84, 36);
+			this.kontinent62.Size = new System.Drawing.Size(95, 43);
 			this.kontinent62.TabIndex = 131;
 			this.kontinent62.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent62.Visible = false;
@@ -2737,9 +2923,10 @@
 			// uzmi6
 			// 
 			this.uzmi6.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.uzmi6.Location = new System.Drawing.Point(104, 455);
+			this.uzmi6.Location = new System.Drawing.Point(119, 607);
+			this.uzmi6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.uzmi6.Name = "uzmi6";
-			this.uzmi6.Size = new System.Drawing.Size(78, 36);
+			this.uzmi6.Size = new System.Drawing.Size(89, 48);
 			this.uzmi6.TabIndex = 67;
 			this.uzmi6.Text = "Uzmi";
 			this.uzmi6.UseVisualStyleBackColor = true;
@@ -2750,10 +2937,11 @@
 			this.kontinent61.BackColor = System.Drawing.Color.Blue;
 			this.kontinent61.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.kontinent61.ForeColor = System.Drawing.Color.White;
-			this.kontinent61.Location = new System.Drawing.Point(6, 623);
+			this.kontinent61.Location = new System.Drawing.Point(7, 831);
+			this.kontinent61.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent61.Name = "kontinent61";
 			this.kontinent61.ReadOnly = true;
-			this.kontinent61.Size = new System.Drawing.Size(84, 36);
+			this.kontinent61.Size = new System.Drawing.Size(95, 43);
 			this.kontinent61.TabIndex = 130;
 			this.kontinent61.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent61.Visible = false;
@@ -2761,9 +2949,10 @@
 			// prodaj6
 			// 
 			this.prodaj6.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.prodaj6.Location = new System.Drawing.Point(6, 497);
+			this.prodaj6.Location = new System.Drawing.Point(7, 663);
+			this.prodaj6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.prodaj6.Name = "prodaj6";
-			this.prodaj6.Size = new System.Drawing.Size(92, 36);
+			this.prodaj6.Size = new System.Drawing.Size(105, 48);
 			this.prodaj6.TabIndex = 66;
 			this.prodaj6.Text = "Prodaj";
 			this.prodaj6.UseVisualStyleBackColor = true;
@@ -2772,9 +2961,10 @@
 			// kupi6
 			// 
 			this.kupi6.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.kupi6.Location = new System.Drawing.Point(6, 455);
+			this.kupi6.Location = new System.Drawing.Point(7, 607);
+			this.kupi6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kupi6.Name = "kupi6";
-			this.kupi6.Size = new System.Drawing.Size(92, 36);
+			this.kupi6.Size = new System.Drawing.Size(105, 48);
 			this.kupi6.TabIndex = 65;
 			this.kupi6.Text = "Kupi";
 			this.kupi6.UseVisualStyleBackColor = true;
@@ -2784,10 +2974,11 @@
 			// 
 			this.novac6.BackColor = System.Drawing.Color.White;
 			this.novac6.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.novac6.Location = new System.Drawing.Point(6, 35);
+			this.novac6.Location = new System.Drawing.Point(7, 47);
+			this.novac6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.novac6.Name = "novac6";
 			this.novac6.ReadOnly = true;
-			this.novac6.Size = new System.Drawing.Size(176, 36);
+			this.novac6.Size = new System.Drawing.Size(201, 43);
 			this.novac6.TabIndex = 64;
 			this.novac6.Text = "100000";
 			this.novac6.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2797,10 +2988,11 @@
 			this.korporacija66.BackColor = System.Drawing.Color.Blue;
 			this.korporacija66.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.korporacija66.ForeColor = System.Drawing.SystemColors.Window;
-			this.korporacija66.Location = new System.Drawing.Point(62, 203);
+			this.korporacija66.Location = new System.Drawing.Point(71, 271);
+			this.korporacija66.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija66.Name = "korporacija66";
 			this.korporacija66.ReadOnly = true;
-			this.korporacija66.Size = new System.Drawing.Size(120, 36);
+			this.korporacija66.Size = new System.Drawing.Size(137, 43);
 			this.korporacija66.TabIndex = 34;
 			this.korporacija66.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija66.Visible = false;
@@ -2809,10 +3001,11 @@
 			// 
 			this.maloprodaja61.BackColor = System.Drawing.Color.Cyan;
 			this.maloprodaja61.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja61.Location = new System.Drawing.Point(146, 413);
+			this.maloprodaja61.Location = new System.Drawing.Point(167, 551);
+			this.maloprodaja61.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja61.Name = "maloprodaja61";
 			this.maloprodaja61.ReadOnly = true;
-			this.maloprodaja61.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja61.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja61.TabIndex = 63;
 			this.maloprodaja61.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja61.Visible = false;
@@ -2821,10 +3014,11 @@
 			// 
 			this.korporacija67.BackColor = System.Drawing.Color.Silver;
 			this.korporacija67.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija67.Location = new System.Drawing.Point(62, 161);
+			this.korporacija67.Location = new System.Drawing.Point(71, 215);
+			this.korporacija67.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija67.Name = "korporacija67";
 			this.korporacija67.ReadOnly = true;
-			this.korporacija67.Size = new System.Drawing.Size(120, 36);
+			this.korporacija67.Size = new System.Drawing.Size(137, 43);
 			this.korporacija67.TabIndex = 33;
 			this.korporacija67.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija67.Visible = false;
@@ -2834,10 +3028,11 @@
 			this.deonice68.BackColor = System.Drawing.Color.Purple;
 			this.deonice68.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.deonice68.ForeColor = System.Drawing.SystemColors.Window;
-			this.deonice68.Location = new System.Drawing.Point(6, 119);
+			this.deonice68.Location = new System.Drawing.Point(7, 159);
+			this.deonice68.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice68.Name = "deonice68";
 			this.deonice68.ReadOnly = true;
-			this.deonice68.Size = new System.Drawing.Size(50, 36);
+			this.deonice68.Size = new System.Drawing.Size(57, 43);
 			this.deonice68.TabIndex = 0;
 			this.deonice68.Text = "0";
 			this.deonice68.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2846,10 +3041,11 @@
 			// 
 			this.korporacija64.BackColor = System.Drawing.Color.Red;
 			this.korporacija64.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija64.Location = new System.Drawing.Point(62, 287);
+			this.korporacija64.Location = new System.Drawing.Point(71, 383);
+			this.korporacija64.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija64.Name = "korporacija64";
 			this.korporacija64.ReadOnly = true;
-			this.korporacija64.Size = new System.Drawing.Size(120, 36);
+			this.korporacija64.Size = new System.Drawing.Size(137, 43);
 			this.korporacija64.TabIndex = 36;
 			this.korporacija64.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija64.Visible = false;
@@ -2858,10 +3054,11 @@
 			// 
 			this.maloprodaja62.BackColor = System.Drawing.Color.Lime;
 			this.maloprodaja62.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja62.Location = new System.Drawing.Point(146, 371);
+			this.maloprodaja62.Location = new System.Drawing.Point(167, 495);
+			this.maloprodaja62.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja62.Name = "maloprodaja62";
 			this.maloprodaja62.ReadOnly = true;
-			this.maloprodaja62.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja62.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja62.TabIndex = 62;
 			this.maloprodaja62.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja62.Visible = false;
@@ -2871,10 +3068,11 @@
 			this.korporacija68.BackColor = System.Drawing.Color.Purple;
 			this.korporacija68.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.korporacija68.ForeColor = System.Drawing.SystemColors.Window;
-			this.korporacija68.Location = new System.Drawing.Point(62, 119);
+			this.korporacija68.Location = new System.Drawing.Point(71, 159);
+			this.korporacija68.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija68.Name = "korporacija68";
 			this.korporacija68.ReadOnly = true;
-			this.korporacija68.Size = new System.Drawing.Size(120, 36);
+			this.korporacija68.Size = new System.Drawing.Size(137, 43);
 			this.korporacija68.TabIndex = 32;
 			this.korporacija68.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija68.Visible = false;
@@ -2884,10 +3082,11 @@
 			this.deonice66.BackColor = System.Drawing.Color.Blue;
 			this.deonice66.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.deonice66.ForeColor = System.Drawing.SystemColors.Window;
-			this.deonice66.Location = new System.Drawing.Point(6, 203);
+			this.deonice66.Location = new System.Drawing.Point(7, 271);
+			this.deonice66.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice66.Name = "deonice66";
 			this.deonice66.ReadOnly = true;
-			this.deonice66.Size = new System.Drawing.Size(50, 36);
+			this.deonice66.Size = new System.Drawing.Size(57, 43);
 			this.deonice66.TabIndex = 2;
 			this.deonice66.Text = "0";
 			this.deonice66.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2896,10 +3095,11 @@
 			// 
 			this.korporacija63.BackColor = System.Drawing.Color.Yellow;
 			this.korporacija63.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija63.Location = new System.Drawing.Point(62, 329);
+			this.korporacija63.Location = new System.Drawing.Point(71, 439);
+			this.korporacija63.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija63.Name = "korporacija63";
 			this.korporacija63.ReadOnly = true;
-			this.korporacija63.Size = new System.Drawing.Size(120, 36);
+			this.korporacija63.Size = new System.Drawing.Size(137, 43);
 			this.korporacija63.TabIndex = 37;
 			this.korporacija63.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija63.Visible = false;
@@ -2908,10 +3108,11 @@
 			// 
 			this.maloprodaja65.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
 			this.maloprodaja65.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja65.Location = new System.Drawing.Point(146, 245);
+			this.maloprodaja65.Location = new System.Drawing.Point(167, 327);
+			this.maloprodaja65.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja65.Name = "maloprodaja65";
 			this.maloprodaja65.ReadOnly = true;
-			this.maloprodaja65.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja65.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja65.TabIndex = 59;
 			this.maloprodaja65.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja65.Visible = false;
@@ -2920,10 +3121,11 @@
 			// 
 			this.korporacija65.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
 			this.korporacija65.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija65.Location = new System.Drawing.Point(62, 245);
+			this.korporacija65.Location = new System.Drawing.Point(71, 327);
+			this.korporacija65.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija65.Name = "korporacija65";
 			this.korporacija65.ReadOnly = true;
-			this.korporacija65.Size = new System.Drawing.Size(120, 36);
+			this.korporacija65.Size = new System.Drawing.Size(137, 43);
 			this.korporacija65.TabIndex = 35;
 			this.korporacija65.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija65.Visible = false;
@@ -2932,10 +3134,11 @@
 			// 
 			this.deonice67.BackColor = System.Drawing.Color.Silver;
 			this.deonice67.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice67.Location = new System.Drawing.Point(6, 161);
+			this.deonice67.Location = new System.Drawing.Point(7, 215);
+			this.deonice67.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice67.Name = "deonice67";
 			this.deonice67.ReadOnly = true;
-			this.deonice67.Size = new System.Drawing.Size(50, 36);
+			this.deonice67.Size = new System.Drawing.Size(57, 43);
 			this.deonice67.TabIndex = 1;
 			this.deonice67.Text = "0";
 			this.deonice67.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2944,10 +3147,11 @@
 			// 
 			this.korporacija62.BackColor = System.Drawing.Color.Lime;
 			this.korporacija62.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija62.Location = new System.Drawing.Point(62, 371);
+			this.korporacija62.Location = new System.Drawing.Point(71, 495);
+			this.korporacija62.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija62.Name = "korporacija62";
 			this.korporacija62.ReadOnly = true;
-			this.korporacija62.Size = new System.Drawing.Size(120, 36);
+			this.korporacija62.Size = new System.Drawing.Size(137, 43);
 			this.korporacija62.TabIndex = 38;
 			this.korporacija62.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija62.Visible = false;
@@ -2956,10 +3160,11 @@
 			// 
 			this.maloprodaja63.BackColor = System.Drawing.Color.Yellow;
 			this.maloprodaja63.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja63.Location = new System.Drawing.Point(146, 329);
+			this.maloprodaja63.Location = new System.Drawing.Point(167, 439);
+			this.maloprodaja63.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja63.Name = "maloprodaja63";
 			this.maloprodaja63.ReadOnly = true;
-			this.maloprodaja63.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja63.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja63.TabIndex = 61;
 			this.maloprodaja63.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja63.Visible = false;
@@ -2968,10 +3173,11 @@
 			// 
 			this.korporacija61.BackColor = System.Drawing.Color.Cyan;
 			this.korporacija61.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija61.Location = new System.Drawing.Point(62, 413);
+			this.korporacija61.Location = new System.Drawing.Point(71, 551);
+			this.korporacija61.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija61.Name = "korporacija61";
 			this.korporacija61.ReadOnly = true;
-			this.korporacija61.Size = new System.Drawing.Size(120, 36);
+			this.korporacija61.Size = new System.Drawing.Size(137, 43);
 			this.korporacija61.TabIndex = 39;
 			this.korporacija61.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija61.Visible = false;
@@ -2980,10 +3186,11 @@
 			// 
 			this.deonice64.BackColor = System.Drawing.Color.Red;
 			this.deonice64.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice64.Location = new System.Drawing.Point(6, 287);
+			this.deonice64.Location = new System.Drawing.Point(7, 383);
+			this.deonice64.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice64.Name = "deonice64";
 			this.deonice64.ReadOnly = true;
-			this.deonice64.Size = new System.Drawing.Size(50, 36);
+			this.deonice64.Size = new System.Drawing.Size(57, 43);
 			this.deonice64.TabIndex = 4;
 			this.deonice64.Text = "0";
 			this.deonice64.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -2993,10 +3200,11 @@
 			this.maloprodaja68.BackColor = System.Drawing.Color.Purple;
 			this.maloprodaja68.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.maloprodaja68.ForeColor = System.Drawing.SystemColors.Window;
-			this.maloprodaja68.Location = new System.Drawing.Point(146, 119);
+			this.maloprodaja68.Location = new System.Drawing.Point(167, 159);
+			this.maloprodaja68.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja68.Name = "maloprodaja68";
 			this.maloprodaja68.ReadOnly = true;
-			this.maloprodaja68.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja68.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja68.TabIndex = 56;
 			this.maloprodaja68.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja68.Visible = false;
@@ -3005,10 +3213,11 @@
 			// 
 			this.deonice63.BackColor = System.Drawing.Color.Yellow;
 			this.deonice63.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice63.Location = new System.Drawing.Point(6, 329);
+			this.deonice63.Location = new System.Drawing.Point(7, 439);
+			this.deonice63.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice63.Name = "deonice63";
 			this.deonice63.ReadOnly = true;
-			this.deonice63.Size = new System.Drawing.Size(50, 36);
+			this.deonice63.Size = new System.Drawing.Size(57, 43);
 			this.deonice63.TabIndex = 5;
 			this.deonice63.Text = "0";
 			this.deonice63.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -3017,10 +3226,11 @@
 			// 
 			this.maloprodaja64.BackColor = System.Drawing.Color.Red;
 			this.maloprodaja64.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja64.Location = new System.Drawing.Point(146, 287);
+			this.maloprodaja64.Location = new System.Drawing.Point(167, 383);
+			this.maloprodaja64.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja64.Name = "maloprodaja64";
 			this.maloprodaja64.ReadOnly = true;
-			this.maloprodaja64.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja64.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja64.TabIndex = 60;
 			this.maloprodaja64.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja64.Visible = false;
@@ -3029,10 +3239,11 @@
 			// 
 			this.deonice65.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
 			this.deonice65.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice65.Location = new System.Drawing.Point(6, 245);
+			this.deonice65.Location = new System.Drawing.Point(7, 327);
+			this.deonice65.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice65.Name = "deonice65";
 			this.deonice65.ReadOnly = true;
-			this.deonice65.Size = new System.Drawing.Size(50, 36);
+			this.deonice65.Size = new System.Drawing.Size(57, 43);
 			this.deonice65.TabIndex = 3;
 			this.deonice65.Text = "0";
 			this.deonice65.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -3041,10 +3252,11 @@
 			// 
 			this.maloprodaja67.BackColor = System.Drawing.Color.Silver;
 			this.maloprodaja67.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja67.Location = new System.Drawing.Point(146, 161);
+			this.maloprodaja67.Location = new System.Drawing.Point(167, 215);
+			this.maloprodaja67.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja67.Name = "maloprodaja67";
 			this.maloprodaja67.ReadOnly = true;
-			this.maloprodaja67.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja67.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja67.TabIndex = 57;
 			this.maloprodaja67.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja67.Visible = false;
@@ -3053,10 +3265,11 @@
 			// 
 			this.deonice62.BackColor = System.Drawing.Color.Lime;
 			this.deonice62.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice62.Location = new System.Drawing.Point(6, 371);
+			this.deonice62.Location = new System.Drawing.Point(7, 495);
+			this.deonice62.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice62.Name = "deonice62";
 			this.deonice62.ReadOnly = true;
-			this.deonice62.Size = new System.Drawing.Size(50, 36);
+			this.deonice62.Size = new System.Drawing.Size(57, 43);
 			this.deonice62.TabIndex = 6;
 			this.deonice62.Text = "0";
 			this.deonice62.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -3066,10 +3279,11 @@
 			this.maloprodaja66.BackColor = System.Drawing.Color.Blue;
 			this.maloprodaja66.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.maloprodaja66.ForeColor = System.Drawing.SystemColors.Window;
-			this.maloprodaja66.Location = new System.Drawing.Point(146, 203);
+			this.maloprodaja66.Location = new System.Drawing.Point(167, 271);
+			this.maloprodaja66.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja66.Name = "maloprodaja66";
 			this.maloprodaja66.ReadOnly = true;
-			this.maloprodaja66.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja66.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja66.TabIndex = 58;
 			this.maloprodaja66.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja66.Visible = false;
@@ -3078,10 +3292,11 @@
 			// 
 			this.deonice61.BackColor = System.Drawing.Color.Cyan;
 			this.deonice61.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice61.Location = new System.Drawing.Point(6, 413);
+			this.deonice61.Location = new System.Drawing.Point(7, 551);
+			this.deonice61.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice61.Name = "deonice61";
 			this.deonice61.ReadOnly = true;
-			this.deonice61.Size = new System.Drawing.Size(50, 36);
+			this.deonice61.Size = new System.Drawing.Size(57, 43);
 			this.deonice61.TabIndex = 7;
 			this.deonice61.Text = "0";
 			this.deonice61.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -3090,10 +3305,11 @@
 			// 
 			this.veleprodaja61.BackColor = System.Drawing.Color.Cyan;
 			this.veleprodaja61.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja61.Location = new System.Drawing.Point(104, 413);
+			this.veleprodaja61.Location = new System.Drawing.Point(119, 551);
+			this.veleprodaja61.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja61.Name = "veleprodaja61";
 			this.veleprodaja61.ReadOnly = true;
-			this.veleprodaja61.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja61.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja61.TabIndex = 55;
 			this.veleprodaja61.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja61.Visible = false;
@@ -3102,10 +3318,11 @@
 			// 
 			this.veleprodaja62.BackColor = System.Drawing.Color.Lime;
 			this.veleprodaja62.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja62.Location = new System.Drawing.Point(104, 371);
+			this.veleprodaja62.Location = new System.Drawing.Point(119, 495);
+			this.veleprodaja62.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja62.Name = "veleprodaja62";
 			this.veleprodaja62.ReadOnly = true;
-			this.veleprodaja62.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja62.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja62.TabIndex = 54;
 			this.veleprodaja62.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja62.Visible = false;
@@ -3114,10 +3331,11 @@
 			// 
 			this.veleprodaja65.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
 			this.veleprodaja65.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja65.Location = new System.Drawing.Point(104, 245);
+			this.veleprodaja65.Location = new System.Drawing.Point(119, 327);
+			this.veleprodaja65.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja65.Name = "veleprodaja65";
 			this.veleprodaja65.ReadOnly = true;
-			this.veleprodaja65.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja65.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja65.TabIndex = 51;
 			this.veleprodaja65.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja65.Visible = false;
@@ -3126,10 +3344,11 @@
 			// 
 			this.veleprodaja63.BackColor = System.Drawing.Color.Yellow;
 			this.veleprodaja63.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja63.Location = new System.Drawing.Point(104, 329);
+			this.veleprodaja63.Location = new System.Drawing.Point(119, 439);
+			this.veleprodaja63.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja63.Name = "veleprodaja63";
 			this.veleprodaja63.ReadOnly = true;
-			this.veleprodaja63.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja63.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja63.TabIndex = 53;
 			this.veleprodaja63.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja63.Visible = false;
@@ -3139,10 +3358,11 @@
 			this.veleprodaja68.BackColor = System.Drawing.Color.Purple;
 			this.veleprodaja68.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.veleprodaja68.ForeColor = System.Drawing.SystemColors.Window;
-			this.veleprodaja68.Location = new System.Drawing.Point(104, 119);
+			this.veleprodaja68.Location = new System.Drawing.Point(119, 159);
+			this.veleprodaja68.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja68.Name = "veleprodaja68";
 			this.veleprodaja68.ReadOnly = true;
-			this.veleprodaja68.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja68.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja68.TabIndex = 48;
 			this.veleprodaja68.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja68.Visible = false;
@@ -3151,10 +3371,11 @@
 			// 
 			this.veleprodaja64.BackColor = System.Drawing.Color.Red;
 			this.veleprodaja64.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja64.Location = new System.Drawing.Point(104, 287);
+			this.veleprodaja64.Location = new System.Drawing.Point(119, 383);
+			this.veleprodaja64.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja64.Name = "veleprodaja64";
 			this.veleprodaja64.ReadOnly = true;
-			this.veleprodaja64.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja64.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja64.TabIndex = 52;
 			this.veleprodaja64.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja64.Visible = false;
@@ -3163,10 +3384,11 @@
 			// 
 			this.veleprodaja67.BackColor = System.Drawing.Color.Silver;
 			this.veleprodaja67.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja67.Location = new System.Drawing.Point(104, 161);
+			this.veleprodaja67.Location = new System.Drawing.Point(119, 215);
+			this.veleprodaja67.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja67.Name = "veleprodaja67";
 			this.veleprodaja67.ReadOnly = true;
-			this.veleprodaja67.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja67.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja67.TabIndex = 49;
 			this.veleprodaja67.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja67.Visible = false;
@@ -3176,10 +3398,11 @@
 			this.veleprodaja66.BackColor = System.Drawing.Color.Blue;
 			this.veleprodaja66.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.veleprodaja66.ForeColor = System.Drawing.SystemColors.Window;
-			this.veleprodaja66.Location = new System.Drawing.Point(104, 203);
+			this.veleprodaja66.Location = new System.Drawing.Point(119, 271);
+			this.veleprodaja66.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja66.Name = "veleprodaja66";
 			this.veleprodaja66.ReadOnly = true;
-			this.veleprodaja66.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja66.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja66.TabIndex = 50;
 			this.veleprodaja66.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja66.Visible = false;
@@ -3188,10 +3411,11 @@
 			// 
 			this.proizvodnja61.BackColor = System.Drawing.Color.Cyan;
 			this.proizvodnja61.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja61.Location = new System.Drawing.Point(62, 413);
+			this.proizvodnja61.Location = new System.Drawing.Point(71, 551);
+			this.proizvodnja61.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja61.Name = "proizvodnja61";
 			this.proizvodnja61.ReadOnly = true;
-			this.proizvodnja61.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja61.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja61.TabIndex = 47;
 			this.proizvodnja61.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja61.Visible = false;
@@ -3201,10 +3425,11 @@
 			this.proizvodnja66.BackColor = System.Drawing.Color.Blue;
 			this.proizvodnja66.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.proizvodnja66.ForeColor = System.Drawing.SystemColors.Window;
-			this.proizvodnja66.Location = new System.Drawing.Point(62, 203);
+			this.proizvodnja66.Location = new System.Drawing.Point(71, 271);
+			this.proizvodnja66.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja66.Name = "proizvodnja66";
 			this.proizvodnja66.ReadOnly = true;
-			this.proizvodnja66.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja66.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja66.TabIndex = 42;
 			this.proizvodnja66.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja66.Visible = false;
@@ -3213,10 +3438,11 @@
 			// 
 			this.proizvodnja62.BackColor = System.Drawing.Color.Lime;
 			this.proizvodnja62.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja62.Location = new System.Drawing.Point(62, 371);
+			this.proizvodnja62.Location = new System.Drawing.Point(71, 495);
+			this.proizvodnja62.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja62.Name = "proizvodnja62";
 			this.proizvodnja62.ReadOnly = true;
-			this.proizvodnja62.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja62.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja62.TabIndex = 46;
 			this.proizvodnja62.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja62.Visible = false;
@@ -3225,10 +3451,11 @@
 			// 
 			this.proizvodnja67.BackColor = System.Drawing.Color.Silver;
 			this.proizvodnja67.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja67.Location = new System.Drawing.Point(62, 161);
+			this.proizvodnja67.Location = new System.Drawing.Point(71, 215);
+			this.proizvodnja67.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja67.Name = "proizvodnja67";
 			this.proizvodnja67.ReadOnly = true;
-			this.proizvodnja67.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja67.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja67.TabIndex = 41;
 			this.proizvodnja67.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja67.Visible = false;
@@ -3237,10 +3464,11 @@
 			// 
 			this.proizvodnja65.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
 			this.proizvodnja65.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja65.Location = new System.Drawing.Point(62, 245);
+			this.proizvodnja65.Location = new System.Drawing.Point(71, 327);
+			this.proizvodnja65.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja65.Name = "proizvodnja65";
 			this.proizvodnja65.ReadOnly = true;
-			this.proizvodnja65.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja65.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja65.TabIndex = 43;
 			this.proizvodnja65.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja65.Visible = false;
@@ -3249,10 +3477,11 @@
 			// 
 			this.proizvodnja64.BackColor = System.Drawing.Color.Red;
 			this.proizvodnja64.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja64.Location = new System.Drawing.Point(62, 287);
+			this.proizvodnja64.Location = new System.Drawing.Point(71, 383);
+			this.proizvodnja64.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja64.Name = "proizvodnja64";
 			this.proizvodnja64.ReadOnly = true;
-			this.proizvodnja64.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja64.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja64.TabIndex = 44;
 			this.proizvodnja64.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja64.Visible = false;
@@ -3261,10 +3490,11 @@
 			// 
 			this.proizvodnja63.BackColor = System.Drawing.Color.Yellow;
 			this.proizvodnja63.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja63.Location = new System.Drawing.Point(62, 329);
+			this.proizvodnja63.Location = new System.Drawing.Point(71, 439);
+			this.proizvodnja63.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja63.Name = "proizvodnja63";
 			this.proizvodnja63.ReadOnly = true;
-			this.proizvodnja63.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja63.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja63.TabIndex = 45;
 			this.proizvodnja63.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja63.Visible = false;
@@ -3274,10 +3504,11 @@
 			this.proizvodnja68.BackColor = System.Drawing.Color.Purple;
 			this.proizvodnja68.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.proizvodnja68.ForeColor = System.Drawing.SystemColors.Window;
-			this.proizvodnja68.Location = new System.Drawing.Point(62, 119);
+			this.proizvodnja68.Location = new System.Drawing.Point(71, 159);
+			this.proizvodnja68.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja68.Name = "proizvodnja68";
 			this.proizvodnja68.ReadOnly = true;
-			this.proizvodnja68.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja68.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja68.TabIndex = 40;
 			this.proizvodnja68.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja68.Visible = false;
@@ -3339,20 +3570,24 @@
 			this.igrac5.Controls.Add(this.proizvodnja53);
 			this.igrac5.Controls.Add(this.proizvodnja58);
 			this.igrac5.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.igrac5.Location = new System.Drawing.Point(970, 12);
+			this.igrac5.Location = new System.Drawing.Point(1109, 16);
+			this.igrac5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.igrac5.Name = "igrac5";
-			this.igrac5.Size = new System.Drawing.Size(188, 767);
+			this.igrac5.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.igrac5.Size = new System.Drawing.Size(215, 1018);
 			this.igrac5.TabIndex = 72;
 			this.igrac5.TabStop = false;
+			this.igrac5.Text = "igrač 5";
 			// 
 			// kontinent56
 			// 
 			this.kontinent56.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
 			this.kontinent56.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.kontinent56.Location = new System.Drawing.Point(98, 707);
+			this.kontinent56.Location = new System.Drawing.Point(112, 943);
+			this.kontinent56.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent56.Name = "kontinent56";
 			this.kontinent56.ReadOnly = true;
-			this.kontinent56.Size = new System.Drawing.Size(84, 36);
+			this.kontinent56.Size = new System.Drawing.Size(95, 43);
 			this.kontinent56.TabIndex = 129;
 			this.kontinent56.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent56.Visible = false;
@@ -3361,9 +3596,10 @@
 			// 
 			this.dodaj_novac5.BackColor = System.Drawing.Color.White;
 			this.dodaj_novac5.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.dodaj_novac5.Location = new System.Drawing.Point(6, 581);
+			this.dodaj_novac5.Location = new System.Drawing.Point(7, 775);
+			this.dodaj_novac5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.dodaj_novac5.Name = "dodaj_novac5";
-			this.dodaj_novac5.Size = new System.Drawing.Size(176, 36);
+			this.dodaj_novac5.Size = new System.Drawing.Size(201, 43);
 			this.dodaj_novac5.TabIndex = 119;
 			this.dodaj_novac5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			// 
@@ -3371,10 +3607,11 @@
 			// 
 			this.kontinent55.BackColor = System.Drawing.Color.Lime;
 			this.kontinent55.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.kontinent55.Location = new System.Drawing.Point(6, 707);
+			this.kontinent55.Location = new System.Drawing.Point(7, 943);
+			this.kontinent55.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent55.Name = "kontinent55";
 			this.kontinent55.ReadOnly = true;
-			this.kontinent55.Size = new System.Drawing.Size(84, 36);
+			this.kontinent55.Size = new System.Drawing.Size(95, 43);
 			this.kontinent55.TabIndex = 128;
 			this.kontinent55.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent55.Visible = false;
@@ -3383,10 +3620,11 @@
 			// 
 			this.trenutna_dividenda5.BackColor = System.Drawing.Color.White;
 			this.trenutna_dividenda5.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.trenutna_dividenda5.Location = new System.Drawing.Point(6, 77);
+			this.trenutna_dividenda5.Location = new System.Drawing.Point(7, 103);
+			this.trenutna_dividenda5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.trenutna_dividenda5.Name = "trenutna_dividenda5";
 			this.trenutna_dividenda5.ReadOnly = true;
-			this.trenutna_dividenda5.Size = new System.Drawing.Size(176, 36);
+			this.trenutna_dividenda5.Size = new System.Drawing.Size(201, 43);
 			this.trenutna_dividenda5.TabIndex = 74;
 			this.trenutna_dividenda5.Text = "0";
 			this.trenutna_dividenda5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -3395,10 +3633,11 @@
 			// 
 			this.kontinent54.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
 			this.kontinent54.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.kontinent54.Location = new System.Drawing.Point(98, 665);
+			this.kontinent54.Location = new System.Drawing.Point(112, 887);
+			this.kontinent54.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent54.Name = "kontinent54";
 			this.kontinent54.ReadOnly = true;
-			this.kontinent54.Size = new System.Drawing.Size(84, 36);
+			this.kontinent54.Size = new System.Drawing.Size(95, 43);
 			this.kontinent54.TabIndex = 127;
 			this.kontinent54.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent54.Visible = false;
@@ -3406,9 +3645,10 @@
 			// dividenda5
 			// 
 			this.dividenda5.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.dividenda5.Location = new System.Drawing.Point(6, 539);
+			this.dividenda5.Location = new System.Drawing.Point(7, 719);
+			this.dividenda5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.dividenda5.Name = "dividenda5";
-			this.dividenda5.Size = new System.Drawing.Size(176, 36);
+			this.dividenda5.Size = new System.Drawing.Size(201, 48);
 			this.dividenda5.TabIndex = 69;
 			this.dividenda5.Text = "Dividenda";
 			this.dividenda5.UseVisualStyleBackColor = true;
@@ -3419,20 +3659,22 @@
 			this.kontinent53.BackColor = System.Drawing.Color.Purple;
 			this.kontinent53.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.kontinent53.ForeColor = System.Drawing.Color.White;
-			this.kontinent53.Location = new System.Drawing.Point(6, 665);
+			this.kontinent53.Location = new System.Drawing.Point(7, 887);
+			this.kontinent53.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent53.Name = "kontinent53";
 			this.kontinent53.ReadOnly = true;
-			this.kontinent53.Size = new System.Drawing.Size(84, 36);
+			this.kontinent53.Size = new System.Drawing.Size(95, 43);
 			this.kontinent53.TabIndex = 126;
 			this.kontinent53.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent53.Visible = false;
 			// 
 			// izgubi5
 			// 
-			this.izgubi5.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.izgubi5.Location = new System.Drawing.Point(104, 497);
+			this.izgubi5.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+			this.izgubi5.Location = new System.Drawing.Point(119, 663);
+			this.izgubi5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.izgubi5.Name = "izgubi5";
-			this.izgubi5.Size = new System.Drawing.Size(78, 36);
+			this.izgubi5.Size = new System.Drawing.Size(89, 48);
 			this.izgubi5.TabIndex = 68;
 			this.izgubi5.Text = "Izgubi";
 			this.izgubi5.UseVisualStyleBackColor = true;
@@ -3442,10 +3684,11 @@
 			// 
 			this.kontinent52.BackColor = System.Drawing.Color.Yellow;
 			this.kontinent52.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.kontinent52.Location = new System.Drawing.Point(98, 623);
+			this.kontinent52.Location = new System.Drawing.Point(112, 831);
+			this.kontinent52.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent52.Name = "kontinent52";
 			this.kontinent52.ReadOnly = true;
-			this.kontinent52.Size = new System.Drawing.Size(84, 36);
+			this.kontinent52.Size = new System.Drawing.Size(95, 43);
 			this.kontinent52.TabIndex = 125;
 			this.kontinent52.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent52.Visible = false;
@@ -3453,9 +3696,10 @@
 			// uzmi5
 			// 
 			this.uzmi5.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.uzmi5.Location = new System.Drawing.Point(104, 455);
+			this.uzmi5.Location = new System.Drawing.Point(119, 607);
+			this.uzmi5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.uzmi5.Name = "uzmi5";
-			this.uzmi5.Size = new System.Drawing.Size(78, 36);
+			this.uzmi5.Size = new System.Drawing.Size(89, 48);
 			this.uzmi5.TabIndex = 67;
 			this.uzmi5.Text = "Uzmi";
 			this.uzmi5.UseVisualStyleBackColor = true;
@@ -3466,10 +3710,11 @@
 			this.kontinent51.BackColor = System.Drawing.Color.Blue;
 			this.kontinent51.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.kontinent51.ForeColor = System.Drawing.Color.White;
-			this.kontinent51.Location = new System.Drawing.Point(6, 623);
+			this.kontinent51.Location = new System.Drawing.Point(7, 831);
+			this.kontinent51.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent51.Name = "kontinent51";
 			this.kontinent51.ReadOnly = true;
-			this.kontinent51.Size = new System.Drawing.Size(84, 36);
+			this.kontinent51.Size = new System.Drawing.Size(95, 43);
 			this.kontinent51.TabIndex = 124;
 			this.kontinent51.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent51.Visible = false;
@@ -3477,9 +3722,10 @@
 			// prodaj5
 			// 
 			this.prodaj5.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.prodaj5.Location = new System.Drawing.Point(6, 497);
+			this.prodaj5.Location = new System.Drawing.Point(7, 663);
+			this.prodaj5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.prodaj5.Name = "prodaj5";
-			this.prodaj5.Size = new System.Drawing.Size(92, 36);
+			this.prodaj5.Size = new System.Drawing.Size(105, 48);
 			this.prodaj5.TabIndex = 66;
 			this.prodaj5.Text = "Prodaj";
 			this.prodaj5.UseVisualStyleBackColor = true;
@@ -3488,9 +3734,10 @@
 			// kupi5
 			// 
 			this.kupi5.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.kupi5.Location = new System.Drawing.Point(6, 455);
+			this.kupi5.Location = new System.Drawing.Point(7, 607);
+			this.kupi5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kupi5.Name = "kupi5";
-			this.kupi5.Size = new System.Drawing.Size(92, 36);
+			this.kupi5.Size = new System.Drawing.Size(105, 48);
 			this.kupi5.TabIndex = 65;
 			this.kupi5.Text = "Kupi";
 			this.kupi5.UseVisualStyleBackColor = true;
@@ -3500,10 +3747,11 @@
 			// 
 			this.novac5.BackColor = System.Drawing.Color.White;
 			this.novac5.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.novac5.Location = new System.Drawing.Point(6, 35);
+			this.novac5.Location = new System.Drawing.Point(7, 47);
+			this.novac5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.novac5.Name = "novac5";
 			this.novac5.ReadOnly = true;
-			this.novac5.Size = new System.Drawing.Size(176, 36);
+			this.novac5.Size = new System.Drawing.Size(201, 43);
 			this.novac5.TabIndex = 64;
 			this.novac5.Text = "100000";
 			this.novac5.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -3512,10 +3760,11 @@
 			// 
 			this.maloprodaja51.BackColor = System.Drawing.Color.Cyan;
 			this.maloprodaja51.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja51.Location = new System.Drawing.Point(146, 413);
+			this.maloprodaja51.Location = new System.Drawing.Point(167, 551);
+			this.maloprodaja51.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja51.Name = "maloprodaja51";
 			this.maloprodaja51.ReadOnly = true;
-			this.maloprodaja51.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja51.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja51.TabIndex = 63;
 			this.maloprodaja51.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja51.Visible = false;
@@ -3525,10 +3774,11 @@
 			this.korporacija56.BackColor = System.Drawing.Color.Blue;
 			this.korporacija56.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.korporacija56.ForeColor = System.Drawing.SystemColors.Window;
-			this.korporacija56.Location = new System.Drawing.Point(62, 203);
+			this.korporacija56.Location = new System.Drawing.Point(71, 271);
+			this.korporacija56.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija56.Name = "korporacija56";
 			this.korporacija56.ReadOnly = true;
-			this.korporacija56.Size = new System.Drawing.Size(120, 36);
+			this.korporacija56.Size = new System.Drawing.Size(137, 43);
 			this.korporacija56.TabIndex = 34;
 			this.korporacija56.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija56.Visible = false;
@@ -3538,10 +3788,11 @@
 			this.deonice58.BackColor = System.Drawing.Color.Purple;
 			this.deonice58.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.deonice58.ForeColor = System.Drawing.SystemColors.Window;
-			this.deonice58.Location = new System.Drawing.Point(6, 119);
+			this.deonice58.Location = new System.Drawing.Point(7, 159);
+			this.deonice58.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice58.Name = "deonice58";
 			this.deonice58.ReadOnly = true;
-			this.deonice58.Size = new System.Drawing.Size(50, 36);
+			this.deonice58.Size = new System.Drawing.Size(57, 43);
 			this.deonice58.TabIndex = 0;
 			this.deonice58.Text = "0";
 			this.deonice58.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -3550,10 +3801,11 @@
 			// 
 			this.maloprodaja52.BackColor = System.Drawing.Color.Lime;
 			this.maloprodaja52.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja52.Location = new System.Drawing.Point(146, 371);
+			this.maloprodaja52.Location = new System.Drawing.Point(167, 495);
+			this.maloprodaja52.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja52.Name = "maloprodaja52";
 			this.maloprodaja52.ReadOnly = true;
-			this.maloprodaja52.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja52.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja52.TabIndex = 62;
 			this.maloprodaja52.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja52.Visible = false;
@@ -3562,10 +3814,11 @@
 			// 
 			this.korporacija57.BackColor = System.Drawing.Color.Silver;
 			this.korporacija57.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija57.Location = new System.Drawing.Point(62, 161);
+			this.korporacija57.Location = new System.Drawing.Point(71, 215);
+			this.korporacija57.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija57.Name = "korporacija57";
 			this.korporacija57.ReadOnly = true;
-			this.korporacija57.Size = new System.Drawing.Size(120, 36);
+			this.korporacija57.Size = new System.Drawing.Size(137, 43);
 			this.korporacija57.TabIndex = 33;
 			this.korporacija57.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija57.Visible = false;
@@ -3575,10 +3828,11 @@
 			this.deonice56.BackColor = System.Drawing.Color.Blue;
 			this.deonice56.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.deonice56.ForeColor = System.Drawing.SystemColors.Window;
-			this.deonice56.Location = new System.Drawing.Point(6, 203);
+			this.deonice56.Location = new System.Drawing.Point(7, 271);
+			this.deonice56.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice56.Name = "deonice56";
 			this.deonice56.ReadOnly = true;
-			this.deonice56.Size = new System.Drawing.Size(50, 36);
+			this.deonice56.Size = new System.Drawing.Size(57, 43);
 			this.deonice56.TabIndex = 2;
 			this.deonice56.Text = "0";
 			this.deonice56.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -3587,10 +3841,11 @@
 			// 
 			this.maloprodaja55.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
 			this.maloprodaja55.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja55.Location = new System.Drawing.Point(146, 245);
+			this.maloprodaja55.Location = new System.Drawing.Point(167, 327);
+			this.maloprodaja55.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja55.Name = "maloprodaja55";
 			this.maloprodaja55.ReadOnly = true;
-			this.maloprodaja55.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja55.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja55.TabIndex = 59;
 			this.maloprodaja55.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja55.Visible = false;
@@ -3599,10 +3854,11 @@
 			// 
 			this.deonice57.BackColor = System.Drawing.Color.Silver;
 			this.deonice57.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice57.Location = new System.Drawing.Point(6, 161);
+			this.deonice57.Location = new System.Drawing.Point(7, 215);
+			this.deonice57.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice57.Name = "deonice57";
 			this.deonice57.ReadOnly = true;
-			this.deonice57.Size = new System.Drawing.Size(50, 36);
+			this.deonice57.Size = new System.Drawing.Size(57, 43);
 			this.deonice57.TabIndex = 1;
 			this.deonice57.Text = "0";
 			this.deonice57.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -3611,10 +3867,11 @@
 			// 
 			this.korporacija54.BackColor = System.Drawing.Color.Red;
 			this.korporacija54.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija54.Location = new System.Drawing.Point(62, 287);
+			this.korporacija54.Location = new System.Drawing.Point(71, 383);
+			this.korporacija54.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija54.Name = "korporacija54";
 			this.korporacija54.ReadOnly = true;
-			this.korporacija54.Size = new System.Drawing.Size(120, 36);
+			this.korporacija54.Size = new System.Drawing.Size(137, 43);
 			this.korporacija54.TabIndex = 36;
 			this.korporacija54.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija54.Visible = false;
@@ -3623,10 +3880,11 @@
 			// 
 			this.maloprodaja53.BackColor = System.Drawing.Color.Yellow;
 			this.maloprodaja53.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja53.Location = new System.Drawing.Point(146, 329);
+			this.maloprodaja53.Location = new System.Drawing.Point(167, 439);
+			this.maloprodaja53.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja53.Name = "maloprodaja53";
 			this.maloprodaja53.ReadOnly = true;
-			this.maloprodaja53.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja53.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja53.TabIndex = 61;
 			this.maloprodaja53.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja53.Visible = false;
@@ -3635,10 +3893,11 @@
 			// 
 			this.deonice54.BackColor = System.Drawing.Color.Red;
 			this.deonice54.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice54.Location = new System.Drawing.Point(6, 287);
+			this.deonice54.Location = new System.Drawing.Point(7, 383);
+			this.deonice54.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice54.Name = "deonice54";
 			this.deonice54.ReadOnly = true;
-			this.deonice54.Size = new System.Drawing.Size(50, 36);
+			this.deonice54.Size = new System.Drawing.Size(57, 43);
 			this.deonice54.TabIndex = 4;
 			this.deonice54.Text = "0";
 			this.deonice54.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -3648,10 +3907,11 @@
 			this.maloprodaja58.BackColor = System.Drawing.Color.Purple;
 			this.maloprodaja58.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.maloprodaja58.ForeColor = System.Drawing.SystemColors.Window;
-			this.maloprodaja58.Location = new System.Drawing.Point(146, 119);
+			this.maloprodaja58.Location = new System.Drawing.Point(167, 159);
+			this.maloprodaja58.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja58.Name = "maloprodaja58";
 			this.maloprodaja58.ReadOnly = true;
-			this.maloprodaja58.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja58.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja58.TabIndex = 56;
 			this.maloprodaja58.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja58.Visible = false;
@@ -3661,10 +3921,11 @@
 			this.korporacija58.BackColor = System.Drawing.Color.Purple;
 			this.korporacija58.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.korporacija58.ForeColor = System.Drawing.SystemColors.Window;
-			this.korporacija58.Location = new System.Drawing.Point(62, 119);
+			this.korporacija58.Location = new System.Drawing.Point(71, 159);
+			this.korporacija58.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija58.Name = "korporacija58";
 			this.korporacija58.ReadOnly = true;
-			this.korporacija58.Size = new System.Drawing.Size(120, 36);
+			this.korporacija58.Size = new System.Drawing.Size(137, 43);
 			this.korporacija58.TabIndex = 32;
 			this.korporacija58.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija58.Visible = false;
@@ -3673,10 +3934,11 @@
 			// 
 			this.deonice53.BackColor = System.Drawing.Color.Yellow;
 			this.deonice53.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice53.Location = new System.Drawing.Point(6, 329);
+			this.deonice53.Location = new System.Drawing.Point(7, 439);
+			this.deonice53.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice53.Name = "deonice53";
 			this.deonice53.ReadOnly = true;
-			this.deonice53.Size = new System.Drawing.Size(50, 36);
+			this.deonice53.Size = new System.Drawing.Size(57, 43);
 			this.deonice53.TabIndex = 5;
 			this.deonice53.Text = "0";
 			this.deonice53.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -3685,10 +3947,11 @@
 			// 
 			this.maloprodaja54.BackColor = System.Drawing.Color.Red;
 			this.maloprodaja54.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja54.Location = new System.Drawing.Point(146, 287);
+			this.maloprodaja54.Location = new System.Drawing.Point(167, 383);
+			this.maloprodaja54.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja54.Name = "maloprodaja54";
 			this.maloprodaja54.ReadOnly = true;
-			this.maloprodaja54.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja54.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja54.TabIndex = 60;
 			this.maloprodaja54.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja54.Visible = false;
@@ -3697,10 +3960,11 @@
 			// 
 			this.korporacija53.BackColor = System.Drawing.Color.Yellow;
 			this.korporacija53.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija53.Location = new System.Drawing.Point(62, 329);
+			this.korporacija53.Location = new System.Drawing.Point(71, 439);
+			this.korporacija53.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija53.Name = "korporacija53";
 			this.korporacija53.ReadOnly = true;
-			this.korporacija53.Size = new System.Drawing.Size(120, 36);
+			this.korporacija53.Size = new System.Drawing.Size(137, 43);
 			this.korporacija53.TabIndex = 37;
 			this.korporacija53.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija53.Visible = false;
@@ -3709,10 +3973,11 @@
 			// 
 			this.deonice55.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
 			this.deonice55.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice55.Location = new System.Drawing.Point(6, 245);
+			this.deonice55.Location = new System.Drawing.Point(7, 327);
+			this.deonice55.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice55.Name = "deonice55";
 			this.deonice55.ReadOnly = true;
-			this.deonice55.Size = new System.Drawing.Size(50, 36);
+			this.deonice55.Size = new System.Drawing.Size(57, 43);
 			this.deonice55.TabIndex = 3;
 			this.deonice55.Text = "0";
 			this.deonice55.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -3721,10 +3986,11 @@
 			// 
 			this.maloprodaja57.BackColor = System.Drawing.Color.Silver;
 			this.maloprodaja57.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja57.Location = new System.Drawing.Point(146, 161);
+			this.maloprodaja57.Location = new System.Drawing.Point(167, 215);
+			this.maloprodaja57.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja57.Name = "maloprodaja57";
 			this.maloprodaja57.ReadOnly = true;
-			this.maloprodaja57.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja57.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja57.TabIndex = 57;
 			this.maloprodaja57.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja57.Visible = false;
@@ -3733,10 +3999,11 @@
 			// 
 			this.korporacija55.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
 			this.korporacija55.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija55.Location = new System.Drawing.Point(62, 245);
+			this.korporacija55.Location = new System.Drawing.Point(71, 327);
+			this.korporacija55.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija55.Name = "korporacija55";
 			this.korporacija55.ReadOnly = true;
-			this.korporacija55.Size = new System.Drawing.Size(120, 36);
+			this.korporacija55.Size = new System.Drawing.Size(137, 43);
 			this.korporacija55.TabIndex = 35;
 			this.korporacija55.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija55.Visible = false;
@@ -3745,10 +4012,11 @@
 			// 
 			this.deonice52.BackColor = System.Drawing.Color.Lime;
 			this.deonice52.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice52.Location = new System.Drawing.Point(6, 371);
+			this.deonice52.Location = new System.Drawing.Point(7, 495);
+			this.deonice52.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice52.Name = "deonice52";
 			this.deonice52.ReadOnly = true;
-			this.deonice52.Size = new System.Drawing.Size(50, 36);
+			this.deonice52.Size = new System.Drawing.Size(57, 43);
 			this.deonice52.TabIndex = 6;
 			this.deonice52.Text = "0";
 			this.deonice52.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -3757,10 +4025,11 @@
 			// 
 			this.korporacija52.BackColor = System.Drawing.Color.Lime;
 			this.korporacija52.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija52.Location = new System.Drawing.Point(62, 371);
+			this.korporacija52.Location = new System.Drawing.Point(71, 495);
+			this.korporacija52.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija52.Name = "korporacija52";
 			this.korporacija52.ReadOnly = true;
-			this.korporacija52.Size = new System.Drawing.Size(120, 36);
+			this.korporacija52.Size = new System.Drawing.Size(137, 43);
 			this.korporacija52.TabIndex = 38;
 			this.korporacija52.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija52.Visible = false;
@@ -3770,10 +4039,11 @@
 			this.maloprodaja56.BackColor = System.Drawing.Color.Blue;
 			this.maloprodaja56.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.maloprodaja56.ForeColor = System.Drawing.SystemColors.Window;
-			this.maloprodaja56.Location = new System.Drawing.Point(146, 203);
+			this.maloprodaja56.Location = new System.Drawing.Point(167, 271);
+			this.maloprodaja56.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja56.Name = "maloprodaja56";
 			this.maloprodaja56.ReadOnly = true;
-			this.maloprodaja56.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja56.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja56.TabIndex = 58;
 			this.maloprodaja56.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja56.Visible = false;
@@ -3782,10 +4052,11 @@
 			// 
 			this.korporacija51.BackColor = System.Drawing.Color.Cyan;
 			this.korporacija51.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija51.Location = new System.Drawing.Point(62, 413);
+			this.korporacija51.Location = new System.Drawing.Point(71, 551);
+			this.korporacija51.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija51.Name = "korporacija51";
 			this.korporacija51.ReadOnly = true;
-			this.korporacija51.Size = new System.Drawing.Size(120, 36);
+			this.korporacija51.Size = new System.Drawing.Size(137, 43);
 			this.korporacija51.TabIndex = 39;
 			this.korporacija51.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija51.Visible = false;
@@ -3794,10 +4065,11 @@
 			// 
 			this.deonice51.BackColor = System.Drawing.Color.Cyan;
 			this.deonice51.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice51.Location = new System.Drawing.Point(6, 413);
+			this.deonice51.Location = new System.Drawing.Point(7, 551);
+			this.deonice51.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice51.Name = "deonice51";
 			this.deonice51.ReadOnly = true;
-			this.deonice51.Size = new System.Drawing.Size(50, 36);
+			this.deonice51.Size = new System.Drawing.Size(57, 43);
 			this.deonice51.TabIndex = 7;
 			this.deonice51.Text = "0";
 			this.deonice51.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -3806,10 +4078,11 @@
 			// 
 			this.veleprodaja51.BackColor = System.Drawing.Color.Cyan;
 			this.veleprodaja51.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja51.Location = new System.Drawing.Point(104, 413);
+			this.veleprodaja51.Location = new System.Drawing.Point(119, 551);
+			this.veleprodaja51.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja51.Name = "veleprodaja51";
 			this.veleprodaja51.ReadOnly = true;
-			this.veleprodaja51.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja51.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja51.TabIndex = 55;
 			this.veleprodaja51.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja51.Visible = false;
@@ -3818,10 +4091,11 @@
 			// 
 			this.veleprodaja52.BackColor = System.Drawing.Color.Lime;
 			this.veleprodaja52.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja52.Location = new System.Drawing.Point(104, 371);
+			this.veleprodaja52.Location = new System.Drawing.Point(119, 495);
+			this.veleprodaja52.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja52.Name = "veleprodaja52";
 			this.veleprodaja52.ReadOnly = true;
-			this.veleprodaja52.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja52.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja52.TabIndex = 54;
 			this.veleprodaja52.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja52.Visible = false;
@@ -3830,10 +4104,11 @@
 			// 
 			this.veleprodaja55.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
 			this.veleprodaja55.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja55.Location = new System.Drawing.Point(104, 245);
+			this.veleprodaja55.Location = new System.Drawing.Point(119, 327);
+			this.veleprodaja55.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja55.Name = "veleprodaja55";
 			this.veleprodaja55.ReadOnly = true;
-			this.veleprodaja55.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja55.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja55.TabIndex = 51;
 			this.veleprodaja55.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja55.Visible = false;
@@ -3842,10 +4117,11 @@
 			// 
 			this.veleprodaja53.BackColor = System.Drawing.Color.Yellow;
 			this.veleprodaja53.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja53.Location = new System.Drawing.Point(104, 329);
+			this.veleprodaja53.Location = new System.Drawing.Point(119, 439);
+			this.veleprodaja53.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja53.Name = "veleprodaja53";
 			this.veleprodaja53.ReadOnly = true;
-			this.veleprodaja53.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja53.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja53.TabIndex = 53;
 			this.veleprodaja53.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja53.Visible = false;
@@ -3855,10 +4131,11 @@
 			this.veleprodaja58.BackColor = System.Drawing.Color.Purple;
 			this.veleprodaja58.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.veleprodaja58.ForeColor = System.Drawing.SystemColors.Window;
-			this.veleprodaja58.Location = new System.Drawing.Point(104, 119);
+			this.veleprodaja58.Location = new System.Drawing.Point(119, 159);
+			this.veleprodaja58.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja58.Name = "veleprodaja58";
 			this.veleprodaja58.ReadOnly = true;
-			this.veleprodaja58.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja58.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja58.TabIndex = 48;
 			this.veleprodaja58.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja58.Visible = false;
@@ -3867,10 +4144,11 @@
 			// 
 			this.veleprodaja54.BackColor = System.Drawing.Color.Red;
 			this.veleprodaja54.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja54.Location = new System.Drawing.Point(104, 287);
+			this.veleprodaja54.Location = new System.Drawing.Point(119, 383);
+			this.veleprodaja54.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja54.Name = "veleprodaja54";
 			this.veleprodaja54.ReadOnly = true;
-			this.veleprodaja54.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja54.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja54.TabIndex = 52;
 			this.veleprodaja54.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja54.Visible = false;
@@ -3879,10 +4157,11 @@
 			// 
 			this.veleprodaja57.BackColor = System.Drawing.Color.Silver;
 			this.veleprodaja57.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja57.Location = new System.Drawing.Point(104, 161);
+			this.veleprodaja57.Location = new System.Drawing.Point(119, 215);
+			this.veleprodaja57.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja57.Name = "veleprodaja57";
 			this.veleprodaja57.ReadOnly = true;
-			this.veleprodaja57.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja57.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja57.TabIndex = 49;
 			this.veleprodaja57.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja57.Visible = false;
@@ -3892,10 +4171,11 @@
 			this.veleprodaja56.BackColor = System.Drawing.Color.Blue;
 			this.veleprodaja56.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.veleprodaja56.ForeColor = System.Drawing.SystemColors.Window;
-			this.veleprodaja56.Location = new System.Drawing.Point(104, 203);
+			this.veleprodaja56.Location = new System.Drawing.Point(119, 271);
+			this.veleprodaja56.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja56.Name = "veleprodaja56";
 			this.veleprodaja56.ReadOnly = true;
-			this.veleprodaja56.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja56.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja56.TabIndex = 50;
 			this.veleprodaja56.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja56.Visible = false;
@@ -3904,10 +4184,11 @@
 			// 
 			this.proizvodnja51.BackColor = System.Drawing.Color.Cyan;
 			this.proizvodnja51.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja51.Location = new System.Drawing.Point(62, 413);
+			this.proizvodnja51.Location = new System.Drawing.Point(71, 551);
+			this.proizvodnja51.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja51.Name = "proizvodnja51";
 			this.proizvodnja51.ReadOnly = true;
-			this.proizvodnja51.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja51.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja51.TabIndex = 47;
 			this.proizvodnja51.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja51.Visible = false;
@@ -3917,10 +4198,11 @@
 			this.proizvodnja56.BackColor = System.Drawing.Color.Blue;
 			this.proizvodnja56.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.proizvodnja56.ForeColor = System.Drawing.SystemColors.Window;
-			this.proizvodnja56.Location = new System.Drawing.Point(62, 203);
+			this.proizvodnja56.Location = new System.Drawing.Point(71, 271);
+			this.proizvodnja56.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja56.Name = "proizvodnja56";
 			this.proizvodnja56.ReadOnly = true;
-			this.proizvodnja56.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja56.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja56.TabIndex = 42;
 			this.proizvodnja56.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja56.Visible = false;
@@ -3929,10 +4211,11 @@
 			// 
 			this.proizvodnja52.BackColor = System.Drawing.Color.Lime;
 			this.proizvodnja52.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja52.Location = new System.Drawing.Point(62, 371);
+			this.proizvodnja52.Location = new System.Drawing.Point(71, 495);
+			this.proizvodnja52.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja52.Name = "proizvodnja52";
 			this.proizvodnja52.ReadOnly = true;
-			this.proizvodnja52.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja52.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja52.TabIndex = 46;
 			this.proizvodnja52.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja52.Visible = false;
@@ -3941,10 +4224,11 @@
 			// 
 			this.proizvodnja57.BackColor = System.Drawing.Color.Silver;
 			this.proizvodnja57.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja57.Location = new System.Drawing.Point(62, 161);
+			this.proizvodnja57.Location = new System.Drawing.Point(71, 215);
+			this.proizvodnja57.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja57.Name = "proizvodnja57";
 			this.proizvodnja57.ReadOnly = true;
-			this.proizvodnja57.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja57.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja57.TabIndex = 41;
 			this.proizvodnja57.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja57.Visible = false;
@@ -3953,10 +4237,11 @@
 			// 
 			this.proizvodnja55.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
 			this.proizvodnja55.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja55.Location = new System.Drawing.Point(62, 245);
+			this.proizvodnja55.Location = new System.Drawing.Point(71, 327);
+			this.proizvodnja55.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja55.Name = "proizvodnja55";
 			this.proizvodnja55.ReadOnly = true;
-			this.proizvodnja55.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja55.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja55.TabIndex = 43;
 			this.proizvodnja55.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja55.Visible = false;
@@ -3965,10 +4250,11 @@
 			// 
 			this.proizvodnja54.BackColor = System.Drawing.Color.Red;
 			this.proizvodnja54.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja54.Location = new System.Drawing.Point(62, 287);
+			this.proizvodnja54.Location = new System.Drawing.Point(71, 383);
+			this.proizvodnja54.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja54.Name = "proizvodnja54";
 			this.proizvodnja54.ReadOnly = true;
-			this.proizvodnja54.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja54.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja54.TabIndex = 44;
 			this.proizvodnja54.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja54.Visible = false;
@@ -3977,10 +4263,11 @@
 			// 
 			this.proizvodnja53.BackColor = System.Drawing.Color.Yellow;
 			this.proizvodnja53.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja53.Location = new System.Drawing.Point(62, 329);
+			this.proizvodnja53.Location = new System.Drawing.Point(71, 439);
+			this.proizvodnja53.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja53.Name = "proizvodnja53";
 			this.proizvodnja53.ReadOnly = true;
-			this.proizvodnja53.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja53.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja53.TabIndex = 45;
 			this.proizvodnja53.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja53.Visible = false;
@@ -3990,10 +4277,11 @@
 			this.proizvodnja58.BackColor = System.Drawing.Color.Purple;
 			this.proizvodnja58.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.proizvodnja58.ForeColor = System.Drawing.SystemColors.Window;
-			this.proizvodnja58.Location = new System.Drawing.Point(62, 119);
+			this.proizvodnja58.Location = new System.Drawing.Point(71, 159);
+			this.proizvodnja58.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja58.Name = "proizvodnja58";
 			this.proizvodnja58.ReadOnly = true;
-			this.proizvodnja58.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja58.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja58.TabIndex = 40;
 			this.proizvodnja58.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja58.Visible = false;
@@ -4055,20 +4343,24 @@
 			this.igrac4.Controls.Add(this.proizvodnja43);
 			this.igrac4.Controls.Add(this.proizvodnja48);
 			this.igrac4.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.igrac4.Location = new System.Drawing.Point(776, 12);
+			this.igrac4.Location = new System.Drawing.Point(887, 16);
+			this.igrac4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.igrac4.Name = "igrac4";
-			this.igrac4.Size = new System.Drawing.Size(188, 767);
+			this.igrac4.Padding = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.igrac4.Size = new System.Drawing.Size(215, 1018);
 			this.igrac4.TabIndex = 71;
 			this.igrac4.TabStop = false;
+			this.igrac4.Text = "igrač 4";
 			// 
 			// kontinent46
 			// 
 			this.kontinent46.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
 			this.kontinent46.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.kontinent46.Location = new System.Drawing.Point(98, 707);
+			this.kontinent46.Location = new System.Drawing.Point(112, 943);
+			this.kontinent46.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent46.Name = "kontinent46";
 			this.kontinent46.ReadOnly = true;
-			this.kontinent46.Size = new System.Drawing.Size(84, 36);
+			this.kontinent46.Size = new System.Drawing.Size(95, 43);
 			this.kontinent46.TabIndex = 123;
 			this.kontinent46.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent46.Visible = false;
@@ -4077,9 +4369,10 @@
 			// 
 			this.dodaj_novac4.BackColor = System.Drawing.Color.White;
 			this.dodaj_novac4.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.dodaj_novac4.Location = new System.Drawing.Point(6, 581);
+			this.dodaj_novac4.Location = new System.Drawing.Point(7, 775);
+			this.dodaj_novac4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.dodaj_novac4.Name = "dodaj_novac4";
-			this.dodaj_novac4.Size = new System.Drawing.Size(176, 36);
+			this.dodaj_novac4.Size = new System.Drawing.Size(201, 43);
 			this.dodaj_novac4.TabIndex = 118;
 			this.dodaj_novac4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			// 
@@ -4087,10 +4380,11 @@
 			// 
 			this.kontinent45.BackColor = System.Drawing.Color.Lime;
 			this.kontinent45.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.kontinent45.Location = new System.Drawing.Point(6, 707);
+			this.kontinent45.Location = new System.Drawing.Point(7, 943);
+			this.kontinent45.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent45.Name = "kontinent45";
 			this.kontinent45.ReadOnly = true;
-			this.kontinent45.Size = new System.Drawing.Size(84, 36);
+			this.kontinent45.Size = new System.Drawing.Size(95, 43);
 			this.kontinent45.TabIndex = 122;
 			this.kontinent45.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent45.Visible = false;
@@ -4099,10 +4393,11 @@
 			// 
 			this.trenutna_dividenda4.BackColor = System.Drawing.Color.White;
 			this.trenutna_dividenda4.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.trenutna_dividenda4.Location = new System.Drawing.Point(6, 77);
+			this.trenutna_dividenda4.Location = new System.Drawing.Point(7, 103);
+			this.trenutna_dividenda4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.trenutna_dividenda4.Name = "trenutna_dividenda4";
 			this.trenutna_dividenda4.ReadOnly = true;
-			this.trenutna_dividenda4.Size = new System.Drawing.Size(176, 36);
+			this.trenutna_dividenda4.Size = new System.Drawing.Size(201, 43);
 			this.trenutna_dividenda4.TabIndex = 73;
 			this.trenutna_dividenda4.Text = "0";
 			this.trenutna_dividenda4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4111,10 +4406,11 @@
 			// 
 			this.kontinent44.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
 			this.kontinent44.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.kontinent44.Location = new System.Drawing.Point(98, 665);
+			this.kontinent44.Location = new System.Drawing.Point(112, 887);
+			this.kontinent44.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent44.Name = "kontinent44";
 			this.kontinent44.ReadOnly = true;
-			this.kontinent44.Size = new System.Drawing.Size(84, 36);
+			this.kontinent44.Size = new System.Drawing.Size(95, 43);
 			this.kontinent44.TabIndex = 121;
 			this.kontinent44.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent44.Visible = false;
@@ -4122,9 +4418,10 @@
 			// dividenda4
 			// 
 			this.dividenda4.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.dividenda4.Location = new System.Drawing.Point(6, 539);
+			this.dividenda4.Location = new System.Drawing.Point(7, 719);
+			this.dividenda4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.dividenda4.Name = "dividenda4";
-			this.dividenda4.Size = new System.Drawing.Size(176, 36);
+			this.dividenda4.Size = new System.Drawing.Size(201, 48);
 			this.dividenda4.TabIndex = 69;
 			this.dividenda4.Text = "Dividenda";
 			this.dividenda4.UseVisualStyleBackColor = true;
@@ -4135,20 +4432,22 @@
 			this.kontinent43.BackColor = System.Drawing.Color.Purple;
 			this.kontinent43.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.kontinent43.ForeColor = System.Drawing.Color.White;
-			this.kontinent43.Location = new System.Drawing.Point(6, 665);
+			this.kontinent43.Location = new System.Drawing.Point(7, 887);
+			this.kontinent43.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent43.Name = "kontinent43";
 			this.kontinent43.ReadOnly = true;
-			this.kontinent43.Size = new System.Drawing.Size(84, 36);
+			this.kontinent43.Size = new System.Drawing.Size(95, 43);
 			this.kontinent43.TabIndex = 120;
 			this.kontinent43.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent43.Visible = false;
 			// 
 			// izgubi4
 			// 
-			this.izgubi4.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.izgubi4.Location = new System.Drawing.Point(104, 497);
+			this.izgubi4.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+			this.izgubi4.Location = new System.Drawing.Point(119, 663);
+			this.izgubi4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.izgubi4.Name = "izgubi4";
-			this.izgubi4.Size = new System.Drawing.Size(78, 36);
+			this.izgubi4.Size = new System.Drawing.Size(89, 48);
 			this.izgubi4.TabIndex = 68;
 			this.izgubi4.Text = "Izgubi";
 			this.izgubi4.UseVisualStyleBackColor = true;
@@ -4158,10 +4457,11 @@
 			// 
 			this.kontinent42.BackColor = System.Drawing.Color.Yellow;
 			this.kontinent42.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.kontinent42.Location = new System.Drawing.Point(98, 623);
+			this.kontinent42.Location = new System.Drawing.Point(112, 831);
+			this.kontinent42.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent42.Name = "kontinent42";
 			this.kontinent42.ReadOnly = true;
-			this.kontinent42.Size = new System.Drawing.Size(84, 36);
+			this.kontinent42.Size = new System.Drawing.Size(95, 43);
 			this.kontinent42.TabIndex = 119;
 			this.kontinent42.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent42.Visible = false;
@@ -4169,9 +4469,10 @@
 			// uzmi4
 			// 
 			this.uzmi4.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.uzmi4.Location = new System.Drawing.Point(104, 455);
+			this.uzmi4.Location = new System.Drawing.Point(119, 607);
+			this.uzmi4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.uzmi4.Name = "uzmi4";
-			this.uzmi4.Size = new System.Drawing.Size(78, 36);
+			this.uzmi4.Size = new System.Drawing.Size(89, 48);
 			this.uzmi4.TabIndex = 67;
 			this.uzmi4.Text = "Uzmi";
 			this.uzmi4.UseVisualStyleBackColor = true;
@@ -4182,10 +4483,11 @@
 			this.kontinent41.BackColor = System.Drawing.Color.Blue;
 			this.kontinent41.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.kontinent41.ForeColor = System.Drawing.Color.White;
-			this.kontinent41.Location = new System.Drawing.Point(6, 623);
+			this.kontinent41.Location = new System.Drawing.Point(7, 831);
+			this.kontinent41.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent41.Name = "kontinent41";
 			this.kontinent41.ReadOnly = true;
-			this.kontinent41.Size = new System.Drawing.Size(84, 36);
+			this.kontinent41.Size = new System.Drawing.Size(95, 43);
 			this.kontinent41.TabIndex = 118;
 			this.kontinent41.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.kontinent41.Visible = false;
@@ -4193,9 +4495,10 @@
 			// prodaj4
 			// 
 			this.prodaj4.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.prodaj4.Location = new System.Drawing.Point(6, 497);
+			this.prodaj4.Location = new System.Drawing.Point(7, 663);
+			this.prodaj4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.prodaj4.Name = "prodaj4";
-			this.prodaj4.Size = new System.Drawing.Size(92, 36);
+			this.prodaj4.Size = new System.Drawing.Size(105, 48);
 			this.prodaj4.TabIndex = 66;
 			this.prodaj4.Text = "Prodaj";
 			this.prodaj4.UseVisualStyleBackColor = true;
@@ -4204,9 +4507,10 @@
 			// kupi4
 			// 
 			this.kupi4.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.kupi4.Location = new System.Drawing.Point(6, 455);
+			this.kupi4.Location = new System.Drawing.Point(7, 607);
+			this.kupi4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kupi4.Name = "kupi4";
-			this.kupi4.Size = new System.Drawing.Size(92, 36);
+			this.kupi4.Size = new System.Drawing.Size(105, 48);
 			this.kupi4.TabIndex = 65;
 			this.kupi4.Text = "Kupi";
 			this.kupi4.UseVisualStyleBackColor = true;
@@ -4216,10 +4520,11 @@
 			// 
 			this.novac4.BackColor = System.Drawing.Color.White;
 			this.novac4.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.novac4.Location = new System.Drawing.Point(6, 35);
+			this.novac4.Location = new System.Drawing.Point(7, 47);
+			this.novac4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.novac4.Name = "novac4";
 			this.novac4.ReadOnly = true;
-			this.novac4.Size = new System.Drawing.Size(176, 36);
+			this.novac4.Size = new System.Drawing.Size(201, 43);
 			this.novac4.TabIndex = 64;
 			this.novac4.Text = "100000";
 			this.novac4.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4228,10 +4533,11 @@
 			// 
 			this.maloprodaja41.BackColor = System.Drawing.Color.Cyan;
 			this.maloprodaja41.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja41.Location = new System.Drawing.Point(146, 413);
+			this.maloprodaja41.Location = new System.Drawing.Point(167, 551);
+			this.maloprodaja41.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja41.Name = "maloprodaja41";
 			this.maloprodaja41.ReadOnly = true;
-			this.maloprodaja41.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja41.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja41.TabIndex = 63;
 			this.maloprodaja41.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja41.Visible = false;
@@ -4241,10 +4547,11 @@
 			this.deonice48.BackColor = System.Drawing.Color.Purple;
 			this.deonice48.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.deonice48.ForeColor = System.Drawing.SystemColors.Window;
-			this.deonice48.Location = new System.Drawing.Point(6, 119);
+			this.deonice48.Location = new System.Drawing.Point(7, 159);
+			this.deonice48.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice48.Name = "deonice48";
 			this.deonice48.ReadOnly = true;
-			this.deonice48.Size = new System.Drawing.Size(50, 36);
+			this.deonice48.Size = new System.Drawing.Size(57, 43);
 			this.deonice48.TabIndex = 0;
 			this.deonice48.Text = "0";
 			this.deonice48.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4254,10 +4561,11 @@
 			this.korporacija46.BackColor = System.Drawing.Color.Blue;
 			this.korporacija46.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.korporacija46.ForeColor = System.Drawing.SystemColors.Window;
-			this.korporacija46.Location = new System.Drawing.Point(62, 203);
+			this.korporacija46.Location = new System.Drawing.Point(71, 271);
+			this.korporacija46.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija46.Name = "korporacija46";
 			this.korporacija46.ReadOnly = true;
-			this.korporacija46.Size = new System.Drawing.Size(120, 36);
+			this.korporacija46.Size = new System.Drawing.Size(137, 43);
 			this.korporacija46.TabIndex = 34;
 			this.korporacija46.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija46.Visible = false;
@@ -4266,10 +4574,11 @@
 			// 
 			this.maloprodaja42.BackColor = System.Drawing.Color.Lime;
 			this.maloprodaja42.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja42.Location = new System.Drawing.Point(146, 371);
+			this.maloprodaja42.Location = new System.Drawing.Point(167, 495);
+			this.maloprodaja42.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja42.Name = "maloprodaja42";
 			this.maloprodaja42.ReadOnly = true;
-			this.maloprodaja42.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja42.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja42.TabIndex = 62;
 			this.maloprodaja42.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja42.Visible = false;
@@ -4279,10 +4588,11 @@
 			this.deonice46.BackColor = System.Drawing.Color.Blue;
 			this.deonice46.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.deonice46.ForeColor = System.Drawing.SystemColors.Window;
-			this.deonice46.Location = new System.Drawing.Point(6, 203);
+			this.deonice46.Location = new System.Drawing.Point(7, 271);
+			this.deonice46.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice46.Name = "deonice46";
 			this.deonice46.ReadOnly = true;
-			this.deonice46.Size = new System.Drawing.Size(50, 36);
+			this.deonice46.Size = new System.Drawing.Size(57, 43);
 			this.deonice46.TabIndex = 2;
 			this.deonice46.Text = "0";
 			this.deonice46.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4291,10 +4601,11 @@
 			// 
 			this.maloprodaja45.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
 			this.maloprodaja45.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja45.Location = new System.Drawing.Point(146, 245);
+			this.maloprodaja45.Location = new System.Drawing.Point(167, 327);
+			this.maloprodaja45.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja45.Name = "maloprodaja45";
 			this.maloprodaja45.ReadOnly = true;
-			this.maloprodaja45.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja45.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja45.TabIndex = 59;
 			this.maloprodaja45.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja45.Visible = false;
@@ -4303,10 +4614,11 @@
 			// 
 			this.deonice47.BackColor = System.Drawing.Color.Silver;
 			this.deonice47.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice47.Location = new System.Drawing.Point(6, 161);
+			this.deonice47.Location = new System.Drawing.Point(7, 215);
+			this.deonice47.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice47.Name = "deonice47";
 			this.deonice47.ReadOnly = true;
-			this.deonice47.Size = new System.Drawing.Size(50, 36);
+			this.deonice47.Size = new System.Drawing.Size(57, 43);
 			this.deonice47.TabIndex = 1;
 			this.deonice47.Text = "0";
 			this.deonice47.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4315,10 +4627,11 @@
 			// 
 			this.korporacija47.BackColor = System.Drawing.Color.Silver;
 			this.korporacija47.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija47.Location = new System.Drawing.Point(62, 161);
+			this.korporacija47.Location = new System.Drawing.Point(71, 215);
+			this.korporacija47.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija47.Name = "korporacija47";
 			this.korporacija47.ReadOnly = true;
-			this.korporacija47.Size = new System.Drawing.Size(120, 36);
+			this.korporacija47.Size = new System.Drawing.Size(137, 43);
 			this.korporacija47.TabIndex = 33;
 			this.korporacija47.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija47.Visible = false;
@@ -4327,10 +4640,11 @@
 			// 
 			this.maloprodaja43.BackColor = System.Drawing.Color.Yellow;
 			this.maloprodaja43.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja43.Location = new System.Drawing.Point(146, 329);
+			this.maloprodaja43.Location = new System.Drawing.Point(167, 439);
+			this.maloprodaja43.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja43.Name = "maloprodaja43";
 			this.maloprodaja43.ReadOnly = true;
-			this.maloprodaja43.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja43.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja43.TabIndex = 61;
 			this.maloprodaja43.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja43.Visible = false;
@@ -4339,10 +4653,11 @@
 			// 
 			this.deonice44.BackColor = System.Drawing.Color.Red;
 			this.deonice44.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice44.Location = new System.Drawing.Point(6, 287);
+			this.deonice44.Location = new System.Drawing.Point(7, 383);
+			this.deonice44.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice44.Name = "deonice44";
 			this.deonice44.ReadOnly = true;
-			this.deonice44.Size = new System.Drawing.Size(50, 36);
+			this.deonice44.Size = new System.Drawing.Size(57, 43);
 			this.deonice44.TabIndex = 4;
 			this.deonice44.Text = "0";
 			this.deonice44.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4352,10 +4667,11 @@
 			this.maloprodaja48.BackColor = System.Drawing.Color.Purple;
 			this.maloprodaja48.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.maloprodaja48.ForeColor = System.Drawing.SystemColors.Window;
-			this.maloprodaja48.Location = new System.Drawing.Point(146, 119);
+			this.maloprodaja48.Location = new System.Drawing.Point(167, 159);
+			this.maloprodaja48.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja48.Name = "maloprodaja48";
 			this.maloprodaja48.ReadOnly = true;
-			this.maloprodaja48.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja48.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja48.TabIndex = 56;
 			this.maloprodaja48.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja48.Visible = false;
@@ -4364,10 +4680,11 @@
 			// 
 			this.deonice43.BackColor = System.Drawing.Color.Yellow;
 			this.deonice43.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice43.Location = new System.Drawing.Point(6, 329);
+			this.deonice43.Location = new System.Drawing.Point(7, 439);
+			this.deonice43.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice43.Name = "deonice43";
 			this.deonice43.ReadOnly = true;
-			this.deonice43.Size = new System.Drawing.Size(50, 36);
+			this.deonice43.Size = new System.Drawing.Size(57, 43);
 			this.deonice43.TabIndex = 5;
 			this.deonice43.Text = "0";
 			this.deonice43.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4376,10 +4693,11 @@
 			// 
 			this.maloprodaja44.BackColor = System.Drawing.Color.Red;
 			this.maloprodaja44.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja44.Location = new System.Drawing.Point(146, 287);
+			this.maloprodaja44.Location = new System.Drawing.Point(167, 383);
+			this.maloprodaja44.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja44.Name = "maloprodaja44";
 			this.maloprodaja44.ReadOnly = true;
-			this.maloprodaja44.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja44.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja44.TabIndex = 60;
 			this.maloprodaja44.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja44.Visible = false;
@@ -4388,10 +4706,11 @@
 			// 
 			this.deonice45.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
 			this.deonice45.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice45.Location = new System.Drawing.Point(6, 245);
+			this.deonice45.Location = new System.Drawing.Point(7, 327);
+			this.deonice45.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice45.Name = "deonice45";
 			this.deonice45.ReadOnly = true;
-			this.deonice45.Size = new System.Drawing.Size(50, 36);
+			this.deonice45.Size = new System.Drawing.Size(57, 43);
 			this.deonice45.TabIndex = 3;
 			this.deonice45.Text = "0";
 			this.deonice45.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4400,10 +4719,11 @@
 			// 
 			this.korporacija44.BackColor = System.Drawing.Color.Red;
 			this.korporacija44.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija44.Location = new System.Drawing.Point(62, 287);
+			this.korporacija44.Location = new System.Drawing.Point(71, 383);
+			this.korporacija44.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija44.Name = "korporacija44";
 			this.korporacija44.ReadOnly = true;
-			this.korporacija44.Size = new System.Drawing.Size(120, 36);
+			this.korporacija44.Size = new System.Drawing.Size(137, 43);
 			this.korporacija44.TabIndex = 36;
 			this.korporacija44.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija44.Visible = false;
@@ -4412,10 +4732,11 @@
 			// 
 			this.maloprodaja47.BackColor = System.Drawing.Color.Silver;
 			this.maloprodaja47.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja47.Location = new System.Drawing.Point(146, 161);
+			this.maloprodaja47.Location = new System.Drawing.Point(167, 215);
+			this.maloprodaja47.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja47.Name = "maloprodaja47";
 			this.maloprodaja47.ReadOnly = true;
-			this.maloprodaja47.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja47.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja47.TabIndex = 57;
 			this.maloprodaja47.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja47.Visible = false;
@@ -4424,10 +4745,11 @@
 			// 
 			this.deonice42.BackColor = System.Drawing.Color.Lime;
 			this.deonice42.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice42.Location = new System.Drawing.Point(6, 371);
+			this.deonice42.Location = new System.Drawing.Point(7, 495);
+			this.deonice42.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice42.Name = "deonice42";
 			this.deonice42.ReadOnly = true;
-			this.deonice42.Size = new System.Drawing.Size(50, 36);
+			this.deonice42.Size = new System.Drawing.Size(57, 43);
 			this.deonice42.TabIndex = 6;
 			this.deonice42.Text = "0";
 			this.deonice42.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4437,10 +4759,11 @@
 			this.maloprodaja46.BackColor = System.Drawing.Color.Blue;
 			this.maloprodaja46.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.maloprodaja46.ForeColor = System.Drawing.SystemColors.Window;
-			this.maloprodaja46.Location = new System.Drawing.Point(146, 203);
+			this.maloprodaja46.Location = new System.Drawing.Point(167, 271);
+			this.maloprodaja46.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja46.Name = "maloprodaja46";
 			this.maloprodaja46.ReadOnly = true;
-			this.maloprodaja46.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja46.Size = new System.Drawing.Size(41, 43);
 			this.maloprodaja46.TabIndex = 58;
 			this.maloprodaja46.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.maloprodaja46.Visible = false;
@@ -4449,10 +4772,11 @@
 			// 
 			this.deonice41.BackColor = System.Drawing.Color.Cyan;
 			this.deonice41.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice41.Location = new System.Drawing.Point(6, 413);
+			this.deonice41.Location = new System.Drawing.Point(7, 551);
+			this.deonice41.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice41.Name = "deonice41";
 			this.deonice41.ReadOnly = true;
-			this.deonice41.Size = new System.Drawing.Size(50, 36);
+			this.deonice41.Size = new System.Drawing.Size(57, 43);
 			this.deonice41.TabIndex = 7;
 			this.deonice41.Text = "0";
 			this.deonice41.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -4461,10 +4785,11 @@
 			// 
 			this.veleprodaja41.BackColor = System.Drawing.Color.Cyan;
 			this.veleprodaja41.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja41.Location = new System.Drawing.Point(104, 413);
+			this.veleprodaja41.Location = new System.Drawing.Point(119, 551);
+			this.veleprodaja41.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja41.Name = "veleprodaja41";
 			this.veleprodaja41.ReadOnly = true;
-			this.veleprodaja41.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja41.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja41.TabIndex = 55;
 			this.veleprodaja41.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja41.Visible = false;
@@ -4474,10 +4799,11 @@
 			this.korporacija48.BackColor = System.Drawing.Color.Purple;
 			this.korporacija48.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.korporacija48.ForeColor = System.Drawing.SystemColors.Window;
-			this.korporacija48.Location = new System.Drawing.Point(62, 119);
+			this.korporacija48.Location = new System.Drawing.Point(71, 159);
+			this.korporacija48.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija48.Name = "korporacija48";
 			this.korporacija48.ReadOnly = true;
-			this.korporacija48.Size = new System.Drawing.Size(120, 36);
+			this.korporacija48.Size = new System.Drawing.Size(137, 43);
 			this.korporacija48.TabIndex = 32;
 			this.korporacija48.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija48.Visible = false;
@@ -4486,10 +4812,11 @@
 			// 
 			this.veleprodaja42.BackColor = System.Drawing.Color.Lime;
 			this.veleprodaja42.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja42.Location = new System.Drawing.Point(104, 371);
+			this.veleprodaja42.Location = new System.Drawing.Point(119, 495);
+			this.veleprodaja42.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja42.Name = "veleprodaja42";
 			this.veleprodaja42.ReadOnly = true;
-			this.veleprodaja42.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja42.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja42.TabIndex = 54;
 			this.veleprodaja42.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja42.Visible = false;
@@ -4498,10 +4825,11 @@
 			// 
 			this.veleprodaja45.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
 			this.veleprodaja45.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja45.Location = new System.Drawing.Point(104, 245);
+			this.veleprodaja45.Location = new System.Drawing.Point(119, 327);
+			this.veleprodaja45.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja45.Name = "veleprodaja45";
 			this.veleprodaja45.ReadOnly = true;
-			this.veleprodaja45.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja45.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja45.TabIndex = 51;
 			this.veleprodaja45.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja45.Visible = false;
@@ -4510,10 +4838,11 @@
 			// 
 			this.korporacija43.BackColor = System.Drawing.Color.Yellow;
 			this.korporacija43.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija43.Location = new System.Drawing.Point(62, 329);
+			this.korporacija43.Location = new System.Drawing.Point(71, 439);
+			this.korporacija43.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija43.Name = "korporacija43";
 			this.korporacija43.ReadOnly = true;
-			this.korporacija43.Size = new System.Drawing.Size(120, 36);
+			this.korporacija43.Size = new System.Drawing.Size(137, 43);
 			this.korporacija43.TabIndex = 37;
 			this.korporacija43.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija43.Visible = false;
@@ -4522,10 +4851,11 @@
 			// 
 			this.veleprodaja43.BackColor = System.Drawing.Color.Yellow;
 			this.veleprodaja43.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja43.Location = new System.Drawing.Point(104, 329);
+			this.veleprodaja43.Location = new System.Drawing.Point(119, 439);
+			this.veleprodaja43.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja43.Name = "veleprodaja43";
 			this.veleprodaja43.ReadOnly = true;
-			this.veleprodaja43.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja43.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja43.TabIndex = 53;
 			this.veleprodaja43.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja43.Visible = false;
@@ -4534,10 +4864,11 @@
 			// 
 			this.korporacija41.BackColor = System.Drawing.Color.Cyan;
 			this.korporacija41.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija41.Location = new System.Drawing.Point(62, 413);
+			this.korporacija41.Location = new System.Drawing.Point(71, 551);
+			this.korporacija41.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija41.Name = "korporacija41";
 			this.korporacija41.ReadOnly = true;
-			this.korporacija41.Size = new System.Drawing.Size(120, 36);
+			this.korporacija41.Size = new System.Drawing.Size(137, 43);
 			this.korporacija41.TabIndex = 39;
 			this.korporacija41.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija41.Visible = false;
@@ -4547,10 +4878,11 @@
 			this.veleprodaja48.BackColor = System.Drawing.Color.Purple;
 			this.veleprodaja48.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.veleprodaja48.ForeColor = System.Drawing.SystemColors.Window;
-			this.veleprodaja48.Location = new System.Drawing.Point(104, 119);
+			this.veleprodaja48.Location = new System.Drawing.Point(119, 159);
+			this.veleprodaja48.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja48.Name = "veleprodaja48";
 			this.veleprodaja48.ReadOnly = true;
-			this.veleprodaja48.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja48.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja48.TabIndex = 48;
 			this.veleprodaja48.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja48.Visible = false;
@@ -4559,10 +4891,11 @@
 			// 
 			this.korporacija42.BackColor = System.Drawing.Color.Lime;
 			this.korporacija42.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija42.Location = new System.Drawing.Point(62, 371);
+			this.korporacija42.Location = new System.Drawing.Point(71, 495);
+			this.korporacija42.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija42.Name = "korporacija42";
 			this.korporacija42.ReadOnly = true;
-			this.korporacija42.Size = new System.Drawing.Size(120, 36);
+			this.korporacija42.Size = new System.Drawing.Size(137, 43);
 			this.korporacija42.TabIndex = 38;
 			this.korporacija42.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija42.Visible = false;
@@ -4571,10 +4904,11 @@
 			// 
 			this.veleprodaja44.BackColor = System.Drawing.Color.Red;
 			this.veleprodaja44.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja44.Location = new System.Drawing.Point(104, 287);
+			this.veleprodaja44.Location = new System.Drawing.Point(119, 383);
+			this.veleprodaja44.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja44.Name = "veleprodaja44";
 			this.veleprodaja44.ReadOnly = true;
-			this.veleprodaja44.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja44.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja44.TabIndex = 52;
 			this.veleprodaja44.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja44.Visible = false;
@@ -4583,10 +4917,11 @@
 			// 
 			this.korporacija45.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
 			this.korporacija45.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija45.Location = new System.Drawing.Point(62, 245);
+			this.korporacija45.Location = new System.Drawing.Point(71, 327);
+			this.korporacija45.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija45.Name = "korporacija45";
 			this.korporacija45.ReadOnly = true;
-			this.korporacija45.Size = new System.Drawing.Size(120, 36);
+			this.korporacija45.Size = new System.Drawing.Size(137, 43);
 			this.korporacija45.TabIndex = 35;
 			this.korporacija45.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.korporacija45.Visible = false;
@@ -4595,10 +4930,11 @@
 			// 
 			this.veleprodaja47.BackColor = System.Drawing.Color.Silver;
 			this.veleprodaja47.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja47.Location = new System.Drawing.Point(104, 161);
+			this.veleprodaja47.Location = new System.Drawing.Point(119, 215);
+			this.veleprodaja47.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja47.Name = "veleprodaja47";
 			this.veleprodaja47.ReadOnly = true;
-			this.veleprodaja47.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja47.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja47.TabIndex = 49;
 			this.veleprodaja47.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja47.Visible = false;
@@ -4608,10 +4944,11 @@
 			this.veleprodaja46.BackColor = System.Drawing.Color.Blue;
 			this.veleprodaja46.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.veleprodaja46.ForeColor = System.Drawing.SystemColors.Window;
-			this.veleprodaja46.Location = new System.Drawing.Point(104, 203);
+			this.veleprodaja46.Location = new System.Drawing.Point(119, 271);
+			this.veleprodaja46.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja46.Name = "veleprodaja46";
 			this.veleprodaja46.ReadOnly = true;
-			this.veleprodaja46.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja46.Size = new System.Drawing.Size(41, 43);
 			this.veleprodaja46.TabIndex = 50;
 			this.veleprodaja46.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.veleprodaja46.Visible = false;
@@ -4620,10 +4957,11 @@
 			// 
 			this.proizvodnja41.BackColor = System.Drawing.Color.Cyan;
 			this.proizvodnja41.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja41.Location = new System.Drawing.Point(62, 413);
+			this.proizvodnja41.Location = new System.Drawing.Point(71, 551);
+			this.proizvodnja41.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja41.Name = "proizvodnja41";
 			this.proizvodnja41.ReadOnly = true;
-			this.proizvodnja41.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja41.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja41.TabIndex = 47;
 			this.proizvodnja41.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja41.Visible = false;
@@ -4633,10 +4971,11 @@
 			this.proizvodnja46.BackColor = System.Drawing.Color.Blue;
 			this.proizvodnja46.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.proizvodnja46.ForeColor = System.Drawing.SystemColors.Window;
-			this.proizvodnja46.Location = new System.Drawing.Point(62, 203);
+			this.proizvodnja46.Location = new System.Drawing.Point(71, 271);
+			this.proizvodnja46.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja46.Name = "proizvodnja46";
 			this.proizvodnja46.ReadOnly = true;
-			this.proizvodnja46.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja46.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja46.TabIndex = 42;
 			this.proizvodnja46.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja46.Visible = false;
@@ -4645,10 +4984,11 @@
 			// 
 			this.proizvodnja42.BackColor = System.Drawing.Color.Lime;
 			this.proizvodnja42.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja42.Location = new System.Drawing.Point(62, 371);
+			this.proizvodnja42.Location = new System.Drawing.Point(71, 495);
+			this.proizvodnja42.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja42.Name = "proizvodnja42";
 			this.proizvodnja42.ReadOnly = true;
-			this.proizvodnja42.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja42.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja42.TabIndex = 46;
 			this.proizvodnja42.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja42.Visible = false;
@@ -4657,10 +4997,11 @@
 			// 
 			this.proizvodnja47.BackColor = System.Drawing.Color.Silver;
 			this.proizvodnja47.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja47.Location = new System.Drawing.Point(62, 161);
+			this.proizvodnja47.Location = new System.Drawing.Point(71, 215);
+			this.proizvodnja47.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja47.Name = "proizvodnja47";
 			this.proizvodnja47.ReadOnly = true;
-			this.proizvodnja47.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja47.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja47.TabIndex = 41;
 			this.proizvodnja47.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja47.Visible = false;
@@ -4669,10 +5010,11 @@
 			// 
 			this.proizvodnja45.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
 			this.proizvodnja45.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja45.Location = new System.Drawing.Point(62, 245);
+			this.proizvodnja45.Location = new System.Drawing.Point(71, 327);
+			this.proizvodnja45.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja45.Name = "proizvodnja45";
 			this.proizvodnja45.ReadOnly = true;
-			this.proizvodnja45.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja45.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja45.TabIndex = 43;
 			this.proizvodnja45.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja45.Visible = false;
@@ -4681,10 +5023,11 @@
 			// 
 			this.proizvodnja44.BackColor = System.Drawing.Color.Red;
 			this.proizvodnja44.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja44.Location = new System.Drawing.Point(62, 287);
+			this.proizvodnja44.Location = new System.Drawing.Point(71, 383);
+			this.proizvodnja44.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja44.Name = "proizvodnja44";
 			this.proizvodnja44.ReadOnly = true;
-			this.proizvodnja44.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja44.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja44.TabIndex = 44;
 			this.proizvodnja44.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja44.Visible = false;
@@ -4693,10 +5036,11 @@
 			// 
 			this.proizvodnja43.BackColor = System.Drawing.Color.Yellow;
 			this.proizvodnja43.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja43.Location = new System.Drawing.Point(62, 329);
+			this.proizvodnja43.Location = new System.Drawing.Point(71, 439);
+			this.proizvodnja43.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja43.Name = "proizvodnja43";
 			this.proizvodnja43.ReadOnly = true;
-			this.proizvodnja43.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja43.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja43.TabIndex = 45;
 			this.proizvodnja43.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja43.Visible = false;
@@ -4706,10 +5050,11 @@
 			this.proizvodnja48.BackColor = System.Drawing.Color.Purple;
 			this.proizvodnja48.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
 			this.proizvodnja48.ForeColor = System.Drawing.SystemColors.Window;
-			this.proizvodnja48.Location = new System.Drawing.Point(62, 119);
+			this.proizvodnja48.Location = new System.Drawing.Point(71, 159);
+			this.proizvodnja48.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja48.Name = "proizvodnja48";
 			this.proizvodnja48.ReadOnly = true;
-			this.proizvodnja48.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja48.Size = new System.Drawing.Size(41, 43);
 			this.proizvodnja48.TabIndex = 40;
 			this.proizvodnja48.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
 			this.proizvodnja48.Visible = false;
@@ -4719,9 +5064,10 @@
 			this.korporacija8.BackColor = System.Drawing.SystemColors.Control;
 			this.korporacija8.Enabled = false;
 			this.korporacija8.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija8.Location = new System.Drawing.Point(456, 131);
+			this.korporacija8.Location = new System.Drawing.Point(521, 175);
+			this.korporacija8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija8.Name = "korporacija8";
-			this.korporacija8.Size = new System.Drawing.Size(120, 36);
+			this.korporacija8.Size = new System.Drawing.Size(137, 48);
 			this.korporacija8.TabIndex = 74;
 			this.korporacija8.Text = "Korp.";
 			this.korporacija8.UseVisualStyleBackColor = false;
@@ -4733,9 +5079,10 @@
 			this.korporacija7.BackColor = System.Drawing.SystemColors.Control;
 			this.korporacija7.Enabled = false;
 			this.korporacija7.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija7.Location = new System.Drawing.Point(456, 173);
+			this.korporacija7.Location = new System.Drawing.Point(521, 231);
+			this.korporacija7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija7.Name = "korporacija7";
-			this.korporacija7.Size = new System.Drawing.Size(120, 36);
+			this.korporacija7.Size = new System.Drawing.Size(137, 48);
 			this.korporacija7.TabIndex = 75;
 			this.korporacija7.Text = "Korp.";
 			this.korporacija7.UseVisualStyleBackColor = false;
@@ -4747,9 +5094,10 @@
 			this.korporacija5.BackColor = System.Drawing.SystemColors.Control;
 			this.korporacija5.Enabled = false;
 			this.korporacija5.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija5.Location = new System.Drawing.Point(456, 257);
+			this.korporacija5.Location = new System.Drawing.Point(521, 343);
+			this.korporacija5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija5.Name = "korporacija5";
-			this.korporacija5.Size = new System.Drawing.Size(120, 36);
+			this.korporacija5.Size = new System.Drawing.Size(137, 48);
 			this.korporacija5.TabIndex = 77;
 			this.korporacija5.Text = "Korp.";
 			this.korporacija5.UseVisualStyleBackColor = false;
@@ -4761,9 +5109,10 @@
 			this.korporacija6.BackColor = System.Drawing.SystemColors.Control;
 			this.korporacija6.Enabled = false;
 			this.korporacija6.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija6.Location = new System.Drawing.Point(456, 215);
+			this.korporacija6.Location = new System.Drawing.Point(521, 287);
+			this.korporacija6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija6.Name = "korporacija6";
-			this.korporacija6.Size = new System.Drawing.Size(120, 36);
+			this.korporacija6.Size = new System.Drawing.Size(137, 48);
 			this.korporacija6.TabIndex = 76;
 			this.korporacija6.Text = "Korp.";
 			this.korporacija6.UseVisualStyleBackColor = false;
@@ -4775,9 +5124,10 @@
 			this.korporacija1.BackColor = System.Drawing.SystemColors.Control;
 			this.korporacija1.Enabled = false;
 			this.korporacija1.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija1.Location = new System.Drawing.Point(456, 425);
+			this.korporacija1.Location = new System.Drawing.Point(521, 567);
+			this.korporacija1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija1.Name = "korporacija1";
-			this.korporacija1.Size = new System.Drawing.Size(120, 36);
+			this.korporacija1.Size = new System.Drawing.Size(137, 48);
 			this.korporacija1.TabIndex = 81;
 			this.korporacija1.Text = "Korp.";
 			this.korporacija1.UseVisualStyleBackColor = false;
@@ -4789,9 +5139,10 @@
 			this.korporacija2.BackColor = System.Drawing.SystemColors.Control;
 			this.korporacija2.Enabled = false;
 			this.korporacija2.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija2.Location = new System.Drawing.Point(456, 383);
+			this.korporacija2.Location = new System.Drawing.Point(521, 511);
+			this.korporacija2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija2.Name = "korporacija2";
-			this.korporacija2.Size = new System.Drawing.Size(120, 36);
+			this.korporacija2.Size = new System.Drawing.Size(137, 48);
 			this.korporacija2.TabIndex = 80;
 			this.korporacija2.Text = "Korp.";
 			this.korporacija2.UseVisualStyleBackColor = false;
@@ -4803,9 +5154,10 @@
 			this.korporacija3.BackColor = System.Drawing.SystemColors.Control;
 			this.korporacija3.Enabled = false;
 			this.korporacija3.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija3.Location = new System.Drawing.Point(456, 341);
+			this.korporacija3.Location = new System.Drawing.Point(521, 455);
+			this.korporacija3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija3.Name = "korporacija3";
-			this.korporacija3.Size = new System.Drawing.Size(120, 36);
+			this.korporacija3.Size = new System.Drawing.Size(137, 48);
 			this.korporacija3.TabIndex = 79;
 			this.korporacija3.Text = "Korp.";
 			this.korporacija3.UseVisualStyleBackColor = false;
@@ -4817,9 +5169,10 @@
 			this.korporacija4.BackColor = System.Drawing.SystemColors.Control;
 			this.korporacija4.Enabled = false;
 			this.korporacija4.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.korporacija4.Location = new System.Drawing.Point(456, 299);
+			this.korporacija4.Location = new System.Drawing.Point(521, 399);
+			this.korporacija4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.korporacija4.Name = "korporacija4";
-			this.korporacija4.Size = new System.Drawing.Size(120, 36);
+			this.korporacija4.Size = new System.Drawing.Size(137, 48);
 			this.korporacija4.TabIndex = 78;
 			this.korporacija4.Text = "Korp.";
 			this.korporacija4.UseVisualStyleBackColor = false;
@@ -4831,9 +5184,10 @@
 			this.maloprodaja1.BackColor = System.Drawing.SystemColors.Control;
 			this.maloprodaja1.Enabled = false;
 			this.maloprodaja1.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja1.Location = new System.Drawing.Point(540, 425);
+			this.maloprodaja1.Location = new System.Drawing.Point(617, 567);
+			this.maloprodaja1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja1.Name = "maloprodaja1";
-			this.maloprodaja1.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja1.Size = new System.Drawing.Size(41, 48);
 			this.maloprodaja1.TabIndex = 89;
 			this.maloprodaja1.Text = "M";
 			this.maloprodaja1.UseVisualStyleBackColor = false;
@@ -4844,9 +5198,10 @@
 			this.maloprodaja2.BackColor = System.Drawing.SystemColors.Control;
 			this.maloprodaja2.Enabled = false;
 			this.maloprodaja2.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja2.Location = new System.Drawing.Point(540, 383);
+			this.maloprodaja2.Location = new System.Drawing.Point(617, 511);
+			this.maloprodaja2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja2.Name = "maloprodaja2";
-			this.maloprodaja2.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja2.Size = new System.Drawing.Size(41, 48);
 			this.maloprodaja2.TabIndex = 88;
 			this.maloprodaja2.Text = "M";
 			this.maloprodaja2.UseVisualStyleBackColor = false;
@@ -4857,9 +5212,10 @@
 			this.maloprodaja3.BackColor = System.Drawing.SystemColors.Control;
 			this.maloprodaja3.Enabled = false;
 			this.maloprodaja3.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja3.Location = new System.Drawing.Point(540, 341);
+			this.maloprodaja3.Location = new System.Drawing.Point(617, 455);
+			this.maloprodaja3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja3.Name = "maloprodaja3";
-			this.maloprodaja3.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja3.Size = new System.Drawing.Size(41, 48);
 			this.maloprodaja3.TabIndex = 87;
 			this.maloprodaja3.Text = "M";
 			this.maloprodaja3.UseVisualStyleBackColor = false;
@@ -4870,9 +5226,10 @@
 			this.maloprodaja4.BackColor = System.Drawing.SystemColors.Control;
 			this.maloprodaja4.Enabled = false;
 			this.maloprodaja4.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja4.Location = new System.Drawing.Point(540, 299);
+			this.maloprodaja4.Location = new System.Drawing.Point(617, 399);
+			this.maloprodaja4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja4.Name = "maloprodaja4";
-			this.maloprodaja4.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja4.Size = new System.Drawing.Size(41, 48);
 			this.maloprodaja4.TabIndex = 86;
 			this.maloprodaja4.Text = "M";
 			this.maloprodaja4.UseVisualStyleBackColor = false;
@@ -4883,9 +5240,10 @@
 			this.maloprodaja5.BackColor = System.Drawing.SystemColors.Control;
 			this.maloprodaja5.Enabled = false;
 			this.maloprodaja5.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja5.Location = new System.Drawing.Point(540, 257);
+			this.maloprodaja5.Location = new System.Drawing.Point(617, 343);
+			this.maloprodaja5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja5.Name = "maloprodaja5";
-			this.maloprodaja5.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja5.Size = new System.Drawing.Size(41, 48);
 			this.maloprodaja5.TabIndex = 85;
 			this.maloprodaja5.Text = "M";
 			this.maloprodaja5.UseVisualStyleBackColor = false;
@@ -4896,9 +5254,10 @@
 			this.maloprodaja6.BackColor = System.Drawing.SystemColors.Control;
 			this.maloprodaja6.Enabled = false;
 			this.maloprodaja6.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja6.Location = new System.Drawing.Point(540, 215);
+			this.maloprodaja6.Location = new System.Drawing.Point(617, 287);
+			this.maloprodaja6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja6.Name = "maloprodaja6";
-			this.maloprodaja6.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja6.Size = new System.Drawing.Size(41, 48);
 			this.maloprodaja6.TabIndex = 84;
 			this.maloprodaja6.Text = "M";
 			this.maloprodaja6.UseVisualStyleBackColor = false;
@@ -4909,9 +5268,10 @@
 			this.maloprodaja7.BackColor = System.Drawing.SystemColors.Control;
 			this.maloprodaja7.Enabled = false;
 			this.maloprodaja7.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja7.Location = new System.Drawing.Point(540, 173);
+			this.maloprodaja7.Location = new System.Drawing.Point(617, 231);
+			this.maloprodaja7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja7.Name = "maloprodaja7";
-			this.maloprodaja7.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja7.Size = new System.Drawing.Size(41, 48);
 			this.maloprodaja7.TabIndex = 83;
 			this.maloprodaja7.Text = "M";
 			this.maloprodaja7.UseVisualStyleBackColor = false;
@@ -4922,9 +5282,10 @@
 			this.maloprodaja8.BackColor = System.Drawing.SystemColors.Control;
 			this.maloprodaja8.Enabled = false;
 			this.maloprodaja8.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.maloprodaja8.Location = new System.Drawing.Point(540, 131);
+			this.maloprodaja8.Location = new System.Drawing.Point(617, 175);
+			this.maloprodaja8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.maloprodaja8.Name = "maloprodaja8";
-			this.maloprodaja8.Size = new System.Drawing.Size(36, 36);
+			this.maloprodaja8.Size = new System.Drawing.Size(41, 48);
 			this.maloprodaja8.TabIndex = 82;
 			this.maloprodaja8.Text = "M";
 			this.maloprodaja8.UseVisualStyleBackColor = false;
@@ -4935,9 +5296,10 @@
 			this.veleprodaja1.BackColor = System.Drawing.SystemColors.Control;
 			this.veleprodaja1.Enabled = false;
 			this.veleprodaja1.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja1.Location = new System.Drawing.Point(498, 425);
+			this.veleprodaja1.Location = new System.Drawing.Point(569, 567);
+			this.veleprodaja1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja1.Name = "veleprodaja1";
-			this.veleprodaja1.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja1.Size = new System.Drawing.Size(41, 48);
 			this.veleprodaja1.TabIndex = 97;
 			this.veleprodaja1.Text = "V";
 			this.veleprodaja1.UseVisualStyleBackColor = false;
@@ -4948,9 +5310,10 @@
 			this.veleprodaja2.BackColor = System.Drawing.SystemColors.Control;
 			this.veleprodaja2.Enabled = false;
 			this.veleprodaja2.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja2.Location = new System.Drawing.Point(498, 383);
+			this.veleprodaja2.Location = new System.Drawing.Point(569, 511);
+			this.veleprodaja2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja2.Name = "veleprodaja2";
-			this.veleprodaja2.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja2.Size = new System.Drawing.Size(41, 48);
 			this.veleprodaja2.TabIndex = 96;
 			this.veleprodaja2.Text = "V";
 			this.veleprodaja2.UseVisualStyleBackColor = false;
@@ -4961,9 +5324,10 @@
 			this.veleprodaja3.BackColor = System.Drawing.SystemColors.Control;
 			this.veleprodaja3.Enabled = false;
 			this.veleprodaja3.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja3.Location = new System.Drawing.Point(498, 341);
+			this.veleprodaja3.Location = new System.Drawing.Point(569, 455);
+			this.veleprodaja3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja3.Name = "veleprodaja3";
-			this.veleprodaja3.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja3.Size = new System.Drawing.Size(41, 48);
 			this.veleprodaja3.TabIndex = 95;
 			this.veleprodaja3.Text = "V";
 			this.veleprodaja3.UseVisualStyleBackColor = false;
@@ -4974,9 +5338,10 @@
 			this.veleprodaja4.BackColor = System.Drawing.SystemColors.Control;
 			this.veleprodaja4.Enabled = false;
 			this.veleprodaja4.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja4.Location = new System.Drawing.Point(498, 299);
+			this.veleprodaja4.Location = new System.Drawing.Point(569, 399);
+			this.veleprodaja4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja4.Name = "veleprodaja4";
-			this.veleprodaja4.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja4.Size = new System.Drawing.Size(41, 48);
 			this.veleprodaja4.TabIndex = 94;
 			this.veleprodaja4.Text = "V";
 			this.veleprodaja4.UseVisualStyleBackColor = false;
@@ -4987,9 +5352,10 @@
 			this.veleprodaja5.BackColor = System.Drawing.SystemColors.Control;
 			this.veleprodaja5.Enabled = false;
 			this.veleprodaja5.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja5.Location = new System.Drawing.Point(498, 257);
+			this.veleprodaja5.Location = new System.Drawing.Point(569, 343);
+			this.veleprodaja5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja5.Name = "veleprodaja5";
-			this.veleprodaja5.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja5.Size = new System.Drawing.Size(41, 48);
 			this.veleprodaja5.TabIndex = 93;
 			this.veleprodaja5.Text = "V";
 			this.veleprodaja5.UseVisualStyleBackColor = false;
@@ -5000,9 +5366,10 @@
 			this.veleprodaja6.BackColor = System.Drawing.SystemColors.Control;
 			this.veleprodaja6.Enabled = false;
 			this.veleprodaja6.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja6.Location = new System.Drawing.Point(498, 215);
+			this.veleprodaja6.Location = new System.Drawing.Point(569, 287);
+			this.veleprodaja6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja6.Name = "veleprodaja6";
-			this.veleprodaja6.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja6.Size = new System.Drawing.Size(41, 48);
 			this.veleprodaja6.TabIndex = 92;
 			this.veleprodaja6.Text = "V";
 			this.veleprodaja6.UseVisualStyleBackColor = false;
@@ -5013,9 +5380,10 @@
 			this.veleprodaja7.BackColor = System.Drawing.SystemColors.Control;
 			this.veleprodaja7.Enabled = false;
 			this.veleprodaja7.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja7.Location = new System.Drawing.Point(498, 173);
+			this.veleprodaja7.Location = new System.Drawing.Point(569, 231);
+			this.veleprodaja7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja7.Name = "veleprodaja7";
-			this.veleprodaja7.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja7.Size = new System.Drawing.Size(41, 48);
 			this.veleprodaja7.TabIndex = 91;
 			this.veleprodaja7.Text = "V";
 			this.veleprodaja7.UseVisualStyleBackColor = false;
@@ -5026,9 +5394,10 @@
 			this.veleprodaja8.BackColor = System.Drawing.SystemColors.Control;
 			this.veleprodaja8.Enabled = false;
 			this.veleprodaja8.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.veleprodaja8.Location = new System.Drawing.Point(498, 131);
+			this.veleprodaja8.Location = new System.Drawing.Point(569, 175);
+			this.veleprodaja8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.veleprodaja8.Name = "veleprodaja8";
-			this.veleprodaja8.Size = new System.Drawing.Size(36, 36);
+			this.veleprodaja8.Size = new System.Drawing.Size(41, 48);
 			this.veleprodaja8.TabIndex = 90;
 			this.veleprodaja8.Text = "V";
 			this.veleprodaja8.UseVisualStyleBackColor = false;
@@ -5039,9 +5408,10 @@
 			this.proizvodnja1.BackColor = System.Drawing.SystemColors.Control;
 			this.proizvodnja1.Enabled = false;
 			this.proizvodnja1.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja1.Location = new System.Drawing.Point(456, 425);
+			this.proizvodnja1.Location = new System.Drawing.Point(521, 567);
+			this.proizvodnja1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja1.Name = "proizvodnja1";
-			this.proizvodnja1.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja1.Size = new System.Drawing.Size(41, 48);
 			this.proizvodnja1.TabIndex = 105;
 			this.proizvodnja1.Text = "P";
 			this.proizvodnja1.UseVisualStyleBackColor = false;
@@ -5052,9 +5422,10 @@
 			this.proizvodnja2.BackColor = System.Drawing.SystemColors.Control;
 			this.proizvodnja2.Enabled = false;
 			this.proizvodnja2.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja2.Location = new System.Drawing.Point(456, 383);
+			this.proizvodnja2.Location = new System.Drawing.Point(521, 511);
+			this.proizvodnja2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja2.Name = "proizvodnja2";
-			this.proizvodnja2.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja2.Size = new System.Drawing.Size(41, 48);
 			this.proizvodnja2.TabIndex = 104;
 			this.proizvodnja2.Text = "P";
 			this.proizvodnja2.UseVisualStyleBackColor = false;
@@ -5065,9 +5436,10 @@
 			this.proizvodnja3.BackColor = System.Drawing.SystemColors.Control;
 			this.proizvodnja3.Enabled = false;
 			this.proizvodnja3.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja3.Location = new System.Drawing.Point(456, 341);
+			this.proizvodnja3.Location = new System.Drawing.Point(521, 455);
+			this.proizvodnja3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja3.Name = "proizvodnja3";
-			this.proizvodnja3.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja3.Size = new System.Drawing.Size(41, 48);
 			this.proizvodnja3.TabIndex = 103;
 			this.proizvodnja3.Text = "P";
 			this.proizvodnja3.UseVisualStyleBackColor = false;
@@ -5078,9 +5450,10 @@
 			this.proizvodnja4.BackColor = System.Drawing.SystemColors.Control;
 			this.proizvodnja4.Enabled = false;
 			this.proizvodnja4.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja4.Location = new System.Drawing.Point(456, 299);
+			this.proizvodnja4.Location = new System.Drawing.Point(521, 399);
+			this.proizvodnja4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja4.Name = "proizvodnja4";
-			this.proizvodnja4.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja4.Size = new System.Drawing.Size(41, 48);
 			this.proizvodnja4.TabIndex = 102;
 			this.proizvodnja4.Text = "P";
 			this.proizvodnja4.UseVisualStyleBackColor = false;
@@ -5091,9 +5464,10 @@
 			this.proizvodnja5.BackColor = System.Drawing.SystemColors.Control;
 			this.proizvodnja5.Enabled = false;
 			this.proizvodnja5.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja5.Location = new System.Drawing.Point(456, 257);
+			this.proizvodnja5.Location = new System.Drawing.Point(521, 343);
+			this.proizvodnja5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja5.Name = "proizvodnja5";
-			this.proizvodnja5.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja5.Size = new System.Drawing.Size(41, 48);
 			this.proizvodnja5.TabIndex = 101;
 			this.proizvodnja5.Text = "P";
 			this.proizvodnja5.UseVisualStyleBackColor = false;
@@ -5104,9 +5478,10 @@
 			this.proizvodnja6.BackColor = System.Drawing.SystemColors.Control;
 			this.proizvodnja6.Enabled = false;
 			this.proizvodnja6.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja6.Location = new System.Drawing.Point(456, 215);
+			this.proizvodnja6.Location = new System.Drawing.Point(521, 287);
+			this.proizvodnja6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja6.Name = "proizvodnja6";
-			this.proizvodnja6.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja6.Size = new System.Drawing.Size(41, 48);
 			this.proizvodnja6.TabIndex = 100;
 			this.proizvodnja6.Text = "P";
 			this.proizvodnja6.UseVisualStyleBackColor = false;
@@ -5117,9 +5492,10 @@
 			this.proizvodnja7.BackColor = System.Drawing.SystemColors.Control;
 			this.proizvodnja7.Enabled = false;
 			this.proizvodnja7.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja7.Location = new System.Drawing.Point(456, 173);
+			this.proizvodnja7.Location = new System.Drawing.Point(521, 231);
+			this.proizvodnja7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja7.Name = "proizvodnja7";
-			this.proizvodnja7.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja7.Size = new System.Drawing.Size(41, 48);
 			this.proizvodnja7.TabIndex = 99;
 			this.proizvodnja7.Text = "P";
 			this.proizvodnja7.UseVisualStyleBackColor = false;
@@ -5130,9 +5506,10 @@
 			this.proizvodnja8.BackColor = System.Drawing.SystemColors.Control;
 			this.proizvodnja8.Enabled = false;
 			this.proizvodnja8.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.proizvodnja8.Location = new System.Drawing.Point(456, 131);
+			this.proizvodnja8.Location = new System.Drawing.Point(521, 175);
+			this.proizvodnja8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.proizvodnja8.Name = "proizvodnja8";
-			this.proizvodnja8.Size = new System.Drawing.Size(36, 36);
+			this.proizvodnja8.Size = new System.Drawing.Size(41, 48);
 			this.proizvodnja8.TabIndex = 98;
 			this.proizvodnja8.Text = "P";
 			this.proizvodnja8.UseVisualStyleBackColor = false;
@@ -5143,9 +5520,10 @@
 			this.deonice1.BackColor = System.Drawing.SystemColors.Control;
 			this.deonice1.Enabled = false;
 			this.deonice1.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice1.Location = new System.Drawing.Point(400, 425);
+			this.deonice1.Location = new System.Drawing.Point(457, 567);
+			this.deonice1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice1.Name = "deonice1";
-			this.deonice1.Size = new System.Drawing.Size(50, 36);
+			this.deonice1.Size = new System.Drawing.Size(57, 48);
 			this.deonice1.TabIndex = 113;
 			this.deonice1.Text = "16";
 			this.deonice1.UseVisualStyleBackColor = false;
@@ -5156,9 +5534,10 @@
 			this.deonice2.BackColor = System.Drawing.SystemColors.Control;
 			this.deonice2.Enabled = false;
 			this.deonice2.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice2.Location = new System.Drawing.Point(400, 383);
+			this.deonice2.Location = new System.Drawing.Point(457, 511);
+			this.deonice2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice2.Name = "deonice2";
-			this.deonice2.Size = new System.Drawing.Size(50, 36);
+			this.deonice2.Size = new System.Drawing.Size(57, 48);
 			this.deonice2.TabIndex = 112;
 			this.deonice2.Text = "16";
 			this.deonice2.UseVisualStyleBackColor = false;
@@ -5169,9 +5548,10 @@
 			this.deonice3.BackColor = System.Drawing.SystemColors.Control;
 			this.deonice3.Enabled = false;
 			this.deonice3.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice3.Location = new System.Drawing.Point(400, 341);
+			this.deonice3.Location = new System.Drawing.Point(457, 455);
+			this.deonice3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice3.Name = "deonice3";
-			this.deonice3.Size = new System.Drawing.Size(50, 36);
+			this.deonice3.Size = new System.Drawing.Size(57, 48);
 			this.deonice3.TabIndex = 111;
 			this.deonice3.Text = "16";
 			this.deonice3.UseVisualStyleBackColor = false;
@@ -5182,9 +5562,10 @@
 			this.deonice4.BackColor = System.Drawing.SystemColors.Control;
 			this.deonice4.Enabled = false;
 			this.deonice4.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice4.Location = new System.Drawing.Point(400, 299);
+			this.deonice4.Location = new System.Drawing.Point(457, 399);
+			this.deonice4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice4.Name = "deonice4";
-			this.deonice4.Size = new System.Drawing.Size(50, 36);
+			this.deonice4.Size = new System.Drawing.Size(57, 48);
 			this.deonice4.TabIndex = 110;
 			this.deonice4.Text = "16";
 			this.deonice4.UseVisualStyleBackColor = false;
@@ -5195,9 +5576,10 @@
 			this.deonice5.BackColor = System.Drawing.SystemColors.Control;
 			this.deonice5.Enabled = false;
 			this.deonice5.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice5.Location = new System.Drawing.Point(400, 257);
+			this.deonice5.Location = new System.Drawing.Point(457, 343);
+			this.deonice5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice5.Name = "deonice5";
-			this.deonice5.Size = new System.Drawing.Size(50, 36);
+			this.deonice5.Size = new System.Drawing.Size(57, 48);
 			this.deonice5.TabIndex = 109;
 			this.deonice5.Text = "16";
 			this.deonice5.UseVisualStyleBackColor = false;
@@ -5208,9 +5590,10 @@
 			this.deonice6.BackColor = System.Drawing.SystemColors.Control;
 			this.deonice6.Enabled = false;
 			this.deonice6.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice6.Location = new System.Drawing.Point(400, 215);
+			this.deonice6.Location = new System.Drawing.Point(457, 287);
+			this.deonice6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice6.Name = "deonice6";
-			this.deonice6.Size = new System.Drawing.Size(50, 36);
+			this.deonice6.Size = new System.Drawing.Size(57, 48);
 			this.deonice6.TabIndex = 108;
 			this.deonice6.Text = "16";
 			this.deonice6.UseVisualStyleBackColor = false;
@@ -5221,9 +5604,10 @@
 			this.deonice7.BackColor = System.Drawing.SystemColors.Control;
 			this.deonice7.Enabled = false;
 			this.deonice7.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice7.Location = new System.Drawing.Point(400, 173);
+			this.deonice7.Location = new System.Drawing.Point(457, 231);
+			this.deonice7.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice7.Name = "deonice7";
-			this.deonice7.Size = new System.Drawing.Size(50, 36);
+			this.deonice7.Size = new System.Drawing.Size(57, 48);
 			this.deonice7.TabIndex = 107;
 			this.deonice7.Text = "16";
 			this.deonice7.UseVisualStyleBackColor = false;
@@ -5234,9 +5618,10 @@
 			this.deonice8.BackColor = System.Drawing.SystemColors.Control;
 			this.deonice8.Enabled = false;
 			this.deonice8.Font = new System.Drawing.Font("Segoe UI", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.deonice8.Location = new System.Drawing.Point(400, 131);
+			this.deonice8.Location = new System.Drawing.Point(457, 175);
+			this.deonice8.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.deonice8.Name = "deonice8";
-			this.deonice8.Size = new System.Drawing.Size(50, 36);
+			this.deonice8.Size = new System.Drawing.Size(57, 48);
 			this.deonice8.TabIndex = 106;
 			this.deonice8.Text = "16";
 			this.deonice8.UseVisualStyleBackColor = false;
@@ -5245,9 +5630,10 @@
 			// cancel
 			// 
 			this.cancel.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.cancel.Location = new System.Drawing.Point(400, 467);
+			this.cancel.Location = new System.Drawing.Point(457, 623);
+			this.cancel.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.cancel.Name = "cancel";
-			this.cancel.Size = new System.Drawing.Size(176, 120);
+			this.cancel.Size = new System.Drawing.Size(201, 160);
 			this.cancel.TabIndex = 114;
 			this.cancel.Text = "Cancel";
 			this.cancel.UseVisualStyleBackColor = true;
@@ -5257,9 +5643,10 @@
 			// brani
 			// 
 			this.brani.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.brani.Location = new System.Drawing.Point(400, 467);
+			this.brani.Location = new System.Drawing.Point(457, 623);
+			this.brani.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.brani.Name = "brani";
-			this.brani.Size = new System.Drawing.Size(176, 57);
+			this.brani.Size = new System.Drawing.Size(201, 76);
 			this.brani.TabIndex = 115;
 			this.brani.Text = "Brani\r\nkompaniju";
 			this.brani.UseVisualStyleBackColor = true;
@@ -5269,9 +5656,10 @@
 			// nebrani
 			// 
 			this.nebrani.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.nebrani.Location = new System.Drawing.Point(400, 530);
+			this.nebrani.Location = new System.Drawing.Point(457, 707);
+			this.nebrani.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.nebrani.Name = "nebrani";
-			this.nebrani.Size = new System.Drawing.Size(176, 57);
+			this.nebrani.Size = new System.Drawing.Size(201, 76);
 			this.nebrani.TabIndex = 116;
 			this.nebrani.Text = "Ne brani\r\nkompaniju";
 			this.nebrani.UseVisualStyleBackColor = true;
@@ -5281,9 +5669,10 @@
 			// dodajnovac
 			// 
 			this.dodajnovac.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.dodajnovac.Location = new System.Drawing.Point(400, 550);
+			this.dodajnovac.Location = new System.Drawing.Point(457, 733);
+			this.dodajnovac.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.dodajnovac.Name = "dodajnovac";
-			this.dodajnovac.Size = new System.Drawing.Size(176, 37);
+			this.dodajnovac.Size = new System.Drawing.Size(201, 49);
 			this.dodajnovac.TabIndex = 118;
 			this.dodajnovac.Text = "Dodaj novac";
 			this.dodajnovac.UseVisualStyleBackColor = true;
@@ -5292,9 +5681,10 @@
 			// oduzminovac
 			// 
 			this.oduzminovac.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.oduzminovac.Location = new System.Drawing.Point(400, 593);
+			this.oduzminovac.Location = new System.Drawing.Point(457, 791);
+			this.oduzminovac.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.oduzminovac.Name = "oduzminovac";
-			this.oduzminovac.Size = new System.Drawing.Size(176, 36);
+			this.oduzminovac.Size = new System.Drawing.Size(201, 43);
 			this.oduzminovac.TabIndex = 119;
 			this.oduzminovac.Text = "Oduzmi novac";
 			this.oduzminovac.UseVisualStyleBackColor = true;
@@ -5303,9 +5693,10 @@
 			// kontinent2
 			// 
 			this.kontinent2.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.kontinent2.Location = new System.Drawing.Point(490, 635);
+			this.kontinent2.Location = new System.Drawing.Point(560, 842);
+			this.kontinent2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent2.Name = "kontinent2";
-			this.kontinent2.Size = new System.Drawing.Size(86, 36);
+			this.kontinent2.Size = new System.Drawing.Size(98, 48);
 			this.kontinent2.TabIndex = 120;
 			this.kontinent2.Text = "Azija";
 			this.kontinent2.UseVisualStyleBackColor = true;
@@ -5315,9 +5706,10 @@
 			// kontinent1
 			// 
 			this.kontinent1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.kontinent1.Location = new System.Drawing.Point(400, 635);
+			this.kontinent1.Location = new System.Drawing.Point(457, 842);
+			this.kontinent1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent1.Name = "kontinent1";
-			this.kontinent1.Size = new System.Drawing.Size(84, 48);
+			this.kontinent1.Size = new System.Drawing.Size(96, 64);
 			this.kontinent1.TabIndex = 121;
 			this.kontinent1.Text = "Severna Amerika";
 			this.kontinent1.UseVisualStyleBackColor = true;
@@ -5327,9 +5719,10 @@
 			// kontinent3
 			// 
 			this.kontinent3.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.kontinent3.Location = new System.Drawing.Point(400, 689);
+			this.kontinent3.Location = new System.Drawing.Point(457, 914);
+			this.kontinent3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent3.Name = "kontinent3";
-			this.kontinent3.Size = new System.Drawing.Size(84, 36);
+			this.kontinent3.Size = new System.Drawing.Size(96, 48);
 			this.kontinent3.TabIndex = 123;
 			this.kontinent3.Text = "Evropa";
 			this.kontinent3.UseVisualStyleBackColor = true;
@@ -5338,10 +5731,11 @@
 			// 
 			// kontinent4
 			// 
-			this.kontinent4.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.kontinent4.Location = new System.Drawing.Point(490, 677);
+			this.kontinent4.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+			this.kontinent4.Location = new System.Drawing.Point(560, 898);
+			this.kontinent4.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent4.Name = "kontinent4";
-			this.kontinent4.Size = new System.Drawing.Size(86, 48);
+			this.kontinent4.Size = new System.Drawing.Size(98, 64);
 			this.kontinent4.TabIndex = 122;
 			this.kontinent4.Text = "Australija";
 			this.kontinent4.UseVisualStyleBackColor = true;
@@ -5351,9 +5745,10 @@
 			// kontinent5
 			// 
 			this.kontinent5.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.kontinent5.Location = new System.Drawing.Point(400, 731);
+			this.kontinent5.Location = new System.Drawing.Point(457, 970);
+			this.kontinent5.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent5.Name = "kontinent5";
-			this.kontinent5.Size = new System.Drawing.Size(84, 48);
+			this.kontinent5.Size = new System.Drawing.Size(96, 64);
 			this.kontinent5.TabIndex = 125;
 			this.kontinent5.Text = "Juzna Amerika";
 			this.kontinent5.UseVisualStyleBackColor = true;
@@ -5363,9 +5758,10 @@
 			// kontinent6
 			// 
 			this.kontinent6.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.kontinent6.Location = new System.Drawing.Point(490, 731);
+			this.kontinent6.Location = new System.Drawing.Point(560, 970);
+			this.kontinent6.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.kontinent6.Name = "kontinent6";
-			this.kontinent6.Size = new System.Drawing.Size(86, 48);
+			this.kontinent6.Size = new System.Drawing.Size(98, 64);
 			this.kontinent6.TabIndex = 124;
 			this.kontinent6.Text = "Afrika";
 			this.kontinent6.UseVisualStyleBackColor = true;
@@ -5375,19 +5771,59 @@
 			// nova_igra
 			// 
 			this.nova_igra.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-			this.nova_igra.Location = new System.Drawing.Point(400, 47);
+			this.nova_igra.Location = new System.Drawing.Point(457, 63);
+			this.nova_igra.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.nova_igra.Name = "nova_igra";
-			this.nova_igra.Size = new System.Drawing.Size(176, 78);
+			this.nova_igra.Size = new System.Drawing.Size(201, 104);
 			this.nova_igra.TabIndex = 126;
 			this.nova_igra.Text = "Nova igra";
 			this.nova_igra.UseVisualStyleBackColor = true;
 			this.nova_igra.Click += new System.EventHandler(this.nova_igra_Click);
 			// 
+			// skok_proizvodnje
+			// 
+			this.skok_proizvodnje.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+			this.skok_proizvodnje.Location = new System.Drawing.Point(458, 623);
+			this.skok_proizvodnje.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.skok_proizvodnje.Name = "skok_proizvodnje";
+			this.skok_proizvodnje.Size = new System.Drawing.Size(201, 49);
+			this.skok_proizvodnje.TabIndex = 127;
+			this.skok_proizvodnje.Text = "Skok proizvodnje";
+			this.skok_proizvodnje.UseVisualStyleBackColor = true;
+			this.skok_proizvodnje.Click += new System.EventHandler(this.skok_proizvodnje_Click);
+			// 
+			// lose_poslovanje
+			// 
+			this.lose_poslovanje.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+			this.lose_poslovanje.Location = new System.Drawing.Point(458, 679);
+			this.lose_poslovanje.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.lose_poslovanje.Name = "lose_poslovanje";
+			this.lose_poslovanje.Size = new System.Drawing.Size(201, 49);
+			this.lose_poslovanje.TabIndex = 128;
+			this.lose_poslovanje.Text = "Loše poslovanje";
+			this.lose_poslovanje.UseVisualStyleBackColor = true;
+			this.lose_poslovanje.Click += new System.EventHandler(this.lose_poslovanje_Click);
+			// 
+			// otvori_kontroler
+			// 
+			this.otvori_kontroler.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+			this.otvori_kontroler.Location = new System.Drawing.Point(456, 16);
+			this.otvori_kontroler.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+			this.otvori_kontroler.Name = "otvori_kontroler";
+			this.otvori_kontroler.Size = new System.Drawing.Size(201, 39);
+			this.otvori_kontroler.TabIndex = 129;
+			this.otvori_kontroler.Text = "Otvori kontroler";
+			this.otvori_kontroler.UseVisualStyleBackColor = true;
+			this.otvori_kontroler.Click += new System.EventHandler(this.otvori_kontroler_Click);
+			// 
 			// Form1
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(1364, 791);
+			this.ClientSize = new System.Drawing.Size(1557, 1044);
+			this.Controls.Add(this.otvori_kontroler);
+			this.Controls.Add(this.lose_poslovanje);
+			this.Controls.Add(this.skok_proizvodnje);
 			this.Controls.Add(this.nova_igra);
 			this.Controls.Add(this.kontinent5);
 			this.Controls.Add(this.kontinent6);
@@ -5446,8 +5882,9 @@
 			this.Controls.Add(this.igrac2);
 			this.Controls.Add(this.igrac4);
 			this.Controls.Add(this.igrac1);
+			this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.MaximizeBox = false;
-			this.MaximumSize = new System.Drawing.Size(1380, 830);
+			this.MaximumSize = new System.Drawing.Size(1575, 1091);
 			this.Name = "Form1";
 			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
 			this.Load += new System.EventHandler(this.Form1_Load);
@@ -5851,5 +6288,8 @@
 		private Button kontinent5;
 		private Button kontinent6;
 		private Button nova_igra;
+		private Button skok_proizvodnje;
+		private Button lose_poslovanje;
+		private Button otvori_kontroler;
 	}
 }

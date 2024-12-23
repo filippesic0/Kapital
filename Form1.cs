@@ -1,18 +1,19 @@
-using FormSerialisation;
+//using FormSerialisation;
 
 namespace Kapital
 {
 	public partial class Form1 : Form
 	{
-		Control[] ime;
-		Control[] novac;
+		Kontroler kontroler;
+		public Control[] ime;
+		public Control[] novac;
 		Control[] dodaj_novac;
 		Control[] trenutna_dividenda;
-		Control[,] deonice;
+		public Control[,] deonice;
 		Control[,,] kompanija;//0 proizvodnja, 1 veleprodaja, 2 maloprodaja
 		Control[,] korporacija;
 		Control[,] kontinent;
-		Control[] Bdeonice;//b znaci dugme, za razliku od textbox-ova iznad.
+		public Control[] Bdeonice;//b znaci dugme, za razliku od textbox-ova iznad.
 		Control[,] Bkompanija;
 		Control[] Bkorporacija;
 		Control[] Bkontinent;
@@ -20,13 +21,13 @@ namespace Kapital
 		Control[] prodaj;
 		Control[] uzmi;
 		Control[] izgubi;
-		Control[] dividenda;
-		int igrac_na_potezu;
+		public Control[] dividenda;
+		public int igrac_na_potezu;
 		int napadnut_igrac;
 		int pritisnuto_dugme;//0 kupi, 1 prodaj, 2 uzmi, 3 izgubi, 4 dividenda
 		bool[] kradja_kompanije;
 		bool[] kradja_korporacije;
-		int broj_igraca;
+		int broj_igraca = 6;
 		int pritisunti_kontinent = -1;
 
 		public Form1()
@@ -116,9 +117,11 @@ namespace Kapital
 				name = "kontinent" + (kont + 1);
 				Bkontinent[kont] = this.Controls.Find(name, true)[0];
 			}
-			FormSerialisor.Serialise(this, Application.StartupPath + @"\Nova_igra.xml");
-			FormSerialisor.Deserialise(this, Application.StartupPath + @"\Trenutno_stanje.xml");
+			//	FormSerialisor.Serialise(this, Application.StartupPath + @"\Nova_igra.xml");
+			//	FormSerialisor.Deserialise(this, Application.StartupPath + @"\Trenutno_stanje.xml");
 			set_width();
+
+			otvori_kontroler.PerformClick();
 		}
 
 		private void Cancel()
@@ -171,17 +174,40 @@ namespace Kapital
 			nebrani.Visible = false;
 			dodajnovac.Visible = true;
 			oduzminovac.Visible = true;
+			skok_proizvodnje.Visible = true;
+			lose_poslovanje.Visible = true;
+			pritisnuto_dugme = 0;
 			pritisunti_kontinent = -1;
 
-			FormSerialisor.Serialise(this, Application.StartupPath + @"\Trenutno_stanje.xml");
+			//	FormSerialisor.Serialise(this, Application.StartupPath + @"\Trenutno_stanje.xml");
 		}
 
 		private void Kupi(int igrac)
 		{
+			if (!uzmi[0].Visible && !uzmi[1].Visible)//kupovina deonica od igraca po izboru
+			{
+				igrac--;
+				for (int industrija = 0; industrija < 8; industrija++)
+				{
+					int sum = 0;
+					for (int igrac1 = 0; igrac1 < 6; igrac1++)
+						sum += int.Parse(deonice[igrac1, industrija].Text);
+					if (sum > 16)
+					{
+						deonice[igrac, industrija].minus(1);
+						novac[igrac].plus(cena_deonice(industrija));
+						break;
+					}
+				}
+				pritisnuto_dugme = 0;
+				Cancel();
+				return;
+			}
+
 			igrac--;
 			igrac_na_potezu = igrac;
 
-			if (pritisnuto_dugme >= 10)//Igrac bira kome ce da kupi deonicu; prva cifra broja je 1.
+			if (pritisnuto_dugme >= 10)//Igrac bira od koga ce da kupi deonicu; prva cifra broja je 1.
 			{
 				pritisnuto_dugme -= 10;//Druga cifra broja je industrija.
 				deonice[igrac_na_potezu, pritisnuto_dugme].minus(1);
@@ -225,29 +251,12 @@ namespace Kapital
 			cancel.Visible = true;
 			dodajnovac.Visible = false;
 			oduzminovac.Visible = false;
+			skok_proizvodnje.Visible = false;
+			lose_poslovanje.Visible = false;
 		}
 
 		private void Uzmi(int igrac)
 		{
-			if (!kupi[0].Visible && !kupi[1].Visible)//kupovina deonica od igraca po izboru
-			{
-				igrac--;
-				for (int industrija = 0; industrija < 8; industrija++)
-				{
-					int sum = 0;
-					for (int igrac1 = 0; igrac1 < 6; igrac1++)
-						sum += int.Parse(deonice[igrac1, industrija].Text);
-					if (sum > 16)
-					{
-						deonice[igrac, industrija].minus(1);
-						break;
-					}
-				}
-				pritisnuto_dugme = 0;
-				Cancel();
-				return;
-			}
-
 			igrac--;
 			igrac_na_potezu = igrac;
 			pritisnuto_dugme = 1;
@@ -324,11 +333,41 @@ namespace Kapital
 			cancel.Visible = true;
 			dodajnovac.Visible = false;
 			oduzminovac.Visible = false;
+			skok_proizvodnje.Visible = false;
+			lose_poslovanje.Visible = false;
 		}
 
-		private void Kupi_deonicu(int industrija)
+		public void Kupi_deonicu(int industrija)
 		{
 			industrija--;
+
+			if (pritisnuto_dugme == 100)//skok proizvodnje
+			{
+				for (int igrac = 0; igrac < 6; igrac++)
+					if (korporacija[igrac, industrija].Visible)
+						novac[igrac].plus(50000);
+					else
+						for (int i = 0; i < 3; i++)
+							if (kompanija[igrac, industrija, i].Visible)
+								novac[igrac].plus(10000);
+				Cancel();
+				return;
+			}
+			if (pritisnuto_dugme == 101)//lose poslovanje
+			{
+				Bdeonice[industrija].Text = "16";
+				for (int igrac = 0; igrac < 6; igrac++)
+				{
+					if (deonice[igrac, industrija].compare(0) > 0)
+					{
+						deonice[igrac, industrija].minus(1);
+						Bdeonice[industrija].minus(int.Parse(deonice[igrac, industrija].Text));
+					}
+				}
+				Cancel();
+				return;
+			}
+
 			if (deonice[igrac_na_potezu, industrija].compare(16) >= 0)
 				Cancel();
 
@@ -361,14 +400,22 @@ namespace Kapital
 					{
 						pritisnuto_dugme = 10 + industrija;
 						for (industrija = 0; industrija < 8; industrija++)
-						{
 							Bdeonice[industrija].Enabled = false;
+						for (int igrac = 0; igrac < 6; igrac++)
+						{
+							kupi[igrac].Visible = false;
+							uzmi[igrac].Visible = false;
+							prodaj[igrac].Visible = false;
+							izgubi[igrac].Visible = false;
+							dividenda[igrac].Visible = false;
 						}
 						cancel.Visible = false;
+						skok_proizvodnje.Visible = false;
+						lose_poslovanje.Visible = false;
+						dodajnovac.Visible = false;
+						oduzminovac.Visible = false;
 						foreach (int igrac in ind)
-						{
-							uzmi[igrac].Visible = true;
-						}
+							kupi[igrac].Visible = true;
 						return;
 					}
 				}
@@ -387,7 +434,7 @@ namespace Kapital
 			}
 		}
 
-		private int cena_deonice(int industrija)
+		public int cena_deonice(int industrija)
 		{
 			int cena = 0;
 			int igrac;
@@ -569,9 +616,52 @@ namespace Kapital
 			Cancel();
 		}
 
+		private void skok_proizvodnje_Click(object sender, EventArgs e)
+		{
+			lose_poslovanje.Visible = false;
+			skok_proizvodnje.Visible = false;
+			oduzminovac.Visible = false;
+			dodajnovac.Visible = false;
+			cancel.Visible = true;
+			pritisnuto_dugme = 100;
+
+			for (int industrija = 0; industrija < 8; industrija++)
+				Bdeonice[industrija].Enabled = true;
+		}
+
+		private void lose_poslovanje_Click(object sender, EventArgs e)
+		{
+			lose_poslovanje.Visible = false;
+			skok_proizvodnje.Visible = false;
+			oduzminovac.Visible = false;
+			dodajnovac.Visible = false;
+			cancel.Visible = true;
+			pritisnuto_dugme = 101;
+			//za elementarne nepogode:
+			for (int kont = 0; kont < 6; kont++)
+			{
+				for (int igrac = 0; igrac < 6; igrac++)
+					if (kontinent[igrac, kont].Text.Length > 0)
+						Bkontinent[kont].Visible = true;
+			}
+
+			for (int industrija = 0; industrija < 8; industrija++)
+				Bdeonice[industrija].Enabled = true;
+		}
+
 		private void Kupi_kontinent(int kont)
 		{
 			kont--;
+
+			if (pritisnuto_dugme >= 100)//elementarna nepogoda
+			{
+				for (int igrac = 0; igrac < 6; igrac++)
+					if (kontinent[igrac, kont].Text.Length > 0)
+						novac[igrac].minus(kontinent[igrac, kont].Text.Length / 2 * (6 - kont) * 5000);
+				Cancel();
+				return;
+			}
+
 			int broj_korporacija = 0;
 			int industrija = 0;
 			for (int i = 0; i < 8; i++)
@@ -711,6 +801,8 @@ namespace Kapital
 			cancel.Visible = true;
 			dodajnovac.Visible = false;
 			oduzminovac.Visible = false;
+			skok_proizvodnje.Visible = false;
+			lose_poslovanje.Visible = false;
 		}
 
 		private void Izgubi(int igrac)
@@ -735,6 +827,8 @@ namespace Kapital
 			cancel.Visible = true;
 			dodajnovac.Visible = false;
 			oduzminovac.Visible = false;
+			skok_proizvodnje.Visible = false;
+			lose_poslovanje.Visible = false;
 		}
 
 		private void Izracunaj_dividendu(int igrac)
@@ -758,7 +852,7 @@ namespace Kapital
 			trenutna_dividenda[igrac].Text = dividenda.ToString();
 		}
 
-		private void Dividenda(int igrac)
+		public void Dividenda(int igrac)
 		{
 			igrac--;
 			novac[igrac].plus(int.Parse(trenutna_dividenda[igrac].Text));
@@ -1187,13 +1281,14 @@ namespace Kapital
 
 		private void Form1_FormClosing(object sender, FormClosingEventArgs e)
 		{
-			FormSerialisor.Serialise(this, Application.StartupPath + @"\Trenutno_stanje.xml");
+			//	FormSerialisor.Serialise(this, Application.StartupPath + @"\Trenutno_stanje.xml");
 		}
 
 		private void nova_igra_Click(object sender, EventArgs e)
 		{
-			FormSerialisor.Serialise(this, Application.StartupPath + @"\Trenutno_stanje.xml");
-			Pocetak pocetak = new(this, ime);
+			//	FormSerialisor.Serialise(this, Application.StartupPath + @"\Trenutno_stanje.xml");
+			kontroler = new();
+			Pocetak pocetak = new(this, kontroler, ime);
 			Cancel();
 			pocetak.Show();
 			this.Hide();
@@ -1219,13 +1314,23 @@ namespace Kapital
 
 		private void set_width()
 		{
-			this.MaximumSize = new System.Drawing.Size(0, 0);
-			this.MinimumSize = new System.Drawing.Size(0, 0);
-			this.Width = 1380;
+			MaximumSize = new System.Drawing.Size(0, 0);
+			MinimumSize = new System.Drawing.Size(0, 0);
+			Width = 1575;
 			for (int igrac = 5; ime[igrac].Text.Equals("") && igrac >= 2; igrac--)
-				this.Width -= 194;
-			this.MaximumSize = new System.Drawing.Size(this.Width, this.Height);
-			this.MinimumSize = new System.Drawing.Size(this.Width, this.Height);
+				Width -= 222;
+			MaximumSize = new System.Drawing.Size(Width, Height);
+			MinimumSize = new System.Drawing.Size(Width, Height);
+		}
+
+		private void otvori_kontroler_Click(object sender, EventArgs e)
+		{
+			if (kontroler == null)
+			{
+				kontroler = new Kontroler();
+				kontroler.Nova_igra(this, broj_igraca);
+			}
+			kontroler.Show();
 		}
 	}
 }
